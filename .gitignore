@@ -1,7 +1,19 @@
 node_modules/
 dist/
+build/
+.next/
+coverage/
+.cache/
+.vite/
+*.log
+logs/
 *.tsbuildinfo
 vite.config.js
 vite.config.d.ts
 .DS_Store
 .vercel
+
+# 本地环境变量；可提交的示例文件除外
+.env
+.env.*
+!.env.example

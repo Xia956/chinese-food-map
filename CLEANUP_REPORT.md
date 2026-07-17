@@ -41,7 +41,7 @@
 - `.vercel/`：Vercel CLI 生成的本地项目关联状态，包含项目/组织标识但未发现密钥。它已被 Git 忽略；删除会解除本地关联，因此本轮不自动删除。
 - `data/food-removal-candidates.json` 与 `data/food-removal-candidates.xlsx`：名称表明它们是候选清单，但属于人工审计成果，不能仅凭文件名判断为废弃。
 
-## 项目文件完整性
+## 扫描时的项目文件完整性
 
 - `.gitignore`：已存在；需要补充 `.env*`（保留 `.env.example`）、日志、缓存、`build/`、`.next/` 等规则。
 - `README.md`：缺少，建议补充项目说明和开发命令。
@@ -58,3 +58,13 @@
 
 - TypeScript 检查与 Vite 构建成功。
 - Vite 提示主 JavaScript 包约 2.88 MB（gzip 约 813 KB），超过默认 500 kB 提示阈值。地图与 ECharts 是主要可能来源；建议另立性能优化任务处理，不在本轮清理中改动运行逻辑。
+
+## 本轮执行结果
+
+- 删除并重新生成：`node_modules/`、`dist/`。
+- 已删除：根目录与 `public/` 中的 `.DS_Store`，以及空目录 `build/`、`worker/`。
+- 明确保留：`.vercel/`、未引用图片 `public/food-images/fujian-xiapu-seaweed.png`、两份 removal candidates 审计文件。
+- 已补充：根目录 `README.md`，以及 `.gitignore` 中的环境文件、日志、缓存和常见构建目录规则。
+- 未创建 `.env.example`：项目没有环境变量名可供示例化；原因已记录在 `README.md`。
+- `npm install` 成功：安装 33 个包，审计 34 个包，发现 0 个漏洞。
+- `npm run build` 成功；仍有主 JavaScript 包超过 500 kB 的非阻塞性能提示。
