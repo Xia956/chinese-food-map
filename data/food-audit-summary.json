@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-07-17T03:04:58.734Z",
+  "total": 232,
+  "auditRows": 232,
+  "locationAuditRows": 53,
+  "missingProvince": 0,
+  "missingCity": 53,
+  "missingIngredients": 0,
+  "missingImage": 0,
+  "officialSourceRows": 50,
+  "githubSupplementRows": 11,
+  "verifiedRows": 174,
+  "pendingRows": 58,
+  "byPriority": {
+    "P1-补城市": 53,
+    "P2-补内容": 179
+  }
+}

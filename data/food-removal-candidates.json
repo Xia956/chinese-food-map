@@ -1,0 +1,1449 @@
+[
+  {
+    "id": "bite-2-14",
+    "name": "年夜饭饺子",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "主食点心",
+    "ingredients": [
+      "小麦面粉",
+      "肉馅或素馅"
+    ],
+    "flavorProfile": "面皮或米皮承托馅料鲜香，口感兼有柔韧、软糯与汁水感。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第一季第2集 主食的故事。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第一季",
+    "episode": "第2集 主食的故事",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "待核实"
+  },
+  {
+    "id": "bite-4-1",
+    "name": "朝鲜泡菜",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "发酵腌制",
+    "ingredients": [
+      "白菜或萝卜",
+      "辣椒",
+      "蒜"
+    ],
+    "flavorProfile": "发酵酸香突出，咸鲜开胃，时间带来的醇厚气息留在回味中。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第一季第4集 时间的味道。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第一季",
+    "episode": "第4集 时间的味道",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "待核实"
+  },
+  {
+    "id": "bite-5-15",
+    "name": "香港家常妈妈菜",
+    "province": "香港",
+    "city": "待核实",
+    "region": "港澳台",
+    "longitude": 114.1694,
+    "latitude": 22.3193,
+    "category": "蔬果山珍",
+    "ingredients": [
+      "肉类或海鲜",
+      "时令蔬菜",
+      "米饭或面食"
+    ],
+    "flavorProfile": "这是家常菜集合，风味随菜式变化，整体侧重自然咸鲜与温和熟香。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第一季第5集 厨房的秘密。地点信息已补充对应的央视网节目页或片段页来源。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "按公开条目中的地名、菜名或官方节目页线索归入香港，用于地图浏览；更细的地域背景仍待人工校订。",
+    "season": "第一季",
+    "episode": "第5集 厨房的秘密",
+    "sources": [
+      {
+        "title": "省份占位：香港家常妈妈菜（菜名含“香港”，先进入香港页）",
+        "author": "项目人工整理",
+        "license": "仅作省份页占位，待外部来源复核",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      },
+      {
+        "title": "人工复核：香港家常妈妈菜（用户决定删除该美食条目并移出正式地图）",
+        "author": "用户人工审核",
+        "license": "项目内人工复核记录",
+        "url": "manual-review://food-location-audit/%E9%A6%99%E6%B8%AF%E5%AE%B6%E5%B8%B8%E5%A6%88%E5%A6%88%E8%8F%9C"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "人工审核：删除，不在网页显示"
+  },
+  {
+    "id": "bite-7-9",
+    "name": "都市屋顶种菜",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "蔬果山珍",
+    "ingredients": [
+      "时令蔬菜",
+      "香草"
+    ],
+    "flavorProfile": "这是蔬菜食材主题，风味随品种而异，整体强调新鲜、清脆与植物清香。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第一季第7集 我们的田野。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第一季",
+    "episode": "第7集 我们的田野",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "待核实"
+  },
+  {
+    "id": "bite-8-4",
+    "name": "榆钱饭",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "小吃与食材",
+    "ingredients": [
+      "榆钱",
+      "面粉或谷物"
+    ],
+    "flavorProfile": "米麦香朴实，口感软糯、筋实或松软，咀嚼后带自然回甜。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第二季第1集 时节。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第二季",
+    "episode": "第1集 时节",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "待核实"
+  },
+  {
+    "id": "bite-9-2",
+    "name": "蜂蜜鳗鱼",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "水产海鲜",
+    "ingredients": [
+      "鳗鱼",
+      "蜂蜜"
+    ],
+    "flavorProfile": "甜味饱满而不失原料香气，常伴果香、坚果香或谷物回味。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第二季第2集 脚步。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第二季",
+    "episode": "第2集 脚步",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "待核实"
+  },
+  {
+    "id": "bite-9-3",
+    "name": "蜜制酒心冰激凌",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "发酵腌制",
+    "ingredients": [
+      "牛奶或奶油",
+      "蜂蜜",
+      "酒"
+    ],
+    "flavorProfile": "酒香柔和，带米粮发酵的甜润与微酸，入口醇和并有回甘。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第二季第2集 脚步。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第二季",
+    "episode": "第2集 脚步",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "待核实"
+  },
+  {
+    "id": "bite-9-16",
+    "name": "鱼酱炖稻花鱼",
+    "province": "贵州",
+    "city": "雷山",
+    "region": "西南",
+    "longitude": 108.0775,
+    "latitude": 26.3817,
+    "category": "水产海鲜",
+    "ingredients": [
+      "稻花鱼",
+      "鱼酱"
+    ],
+    "flavorProfile": "发酵带来浓缩咸鲜与酱香，鲜味饱满，回味较长。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第二季第2集 脚步。地点信息已补充对应的央视网节目页或片段页来源。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "按公开条目中的地名、菜名或官方节目页线索归入贵州 · 雷山，用于地图浏览；更细的地域背景仍待人工校订。",
+    "image": {
+      "url": "/food-images/guizhou-leishan-fish-sauce-rice-fish.png?v=1",
+      "alt": "贵州雷山鱼酱炖稻花鱼摄影级生成图",
+      "source": {
+        "title": "项目生成摄影图",
+        "author": "OpenAI 图像生成",
+        "license": "项目内生成素材",
+        "url": "/food-images/guizhou-leishan-fish-sauce-rice-fish.png?v=1"
+      }
+    },
+    "season": "第二季",
+    "episode": "第2集 脚步",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      },
+      {
+        "title": "央视网《舌尖上的中国 第二季》糯米稻花鱼和雷山鱼酱",
+        "author": "央视网",
+        "license": "央视网节目页",
+        "url": "https://tv.cctv.com/v/v1/VIDE1397836280706642.html"
+      }
+    ],
+    "confidence": "已核实",
+    "reviewNote": "人工审核：隐藏，不在网页显示"
+  },
+  {
+    "id": "bite-11-1",
+    "name": "芋头饭",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "蔬果山珍",
+    "ingredients": [
+      "大米",
+      "芋头"
+    ],
+    "flavorProfile": "米麦香朴实，口感软糯、筋实或松软，咀嚼后带自然回甜。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第二季第4集 秘境。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第二季",
+    "episode": "第4集 秘境",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "待核实"
+  },
+  {
+    "id": "bite-11-5",
+    "name": "鱼子酱",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "水产海鲜",
+    "ingredients": [
+      "鱼卵",
+      "食盐"
+    ],
+    "flavorProfile": "咸鲜集中，颗粒轻弹，入口带海水般的矿物感与脂香。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第二季第4集 秘境。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第二季",
+    "episode": "第4集 秘境",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "待核实"
+  },
+  {
+    "id": "bite-11-6",
+    "name": "烤鱼",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "水产海鲜",
+    "ingredients": [
+      "鱼",
+      "香辛料"
+    ],
+    "flavorProfile": "烤制或烟熏香气突出，表层焦香，内里保留肉汁、鲜味与油脂香。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第二季第4集 秘境。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第二季",
+    "episode": "第4集 秘境",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "待核实"
+  },
+  {
+    "id": "bite-11-8",
+    "name": "油茶",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "小吃与食材",
+    "ingredients": [
+      "茶叶",
+      "姜",
+      "炒米或花生"
+    ],
+    "flavorProfile": "炒米、茶与配料形成烘烤香和咸鲜味，汤感温厚，回味略带茶香。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第二季第4集 秘境。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第二季",
+    "episode": "第4集 秘境",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "待核实"
+  },
+  {
+    "id": "bite-11-10",
+    "name": "糯米饭",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "小吃与食材",
+    "ingredients": [
+      "糯米"
+    ],
+    "flavorProfile": "米麦香朴实，口感软糯、筋实或松软，咀嚼后带自然回甜。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第二季第4集 秘境。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第二季",
+    "episode": "第4集 秘境",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "待核实"
+  },
+  {
+    "id": "bite-11-11",
+    "name": "腌鱼",
+    "province": "贵州",
+    "city": "待核实",
+    "region": "西南",
+    "longitude": 107.9775,
+    "latitude": 26.5834,
+    "category": "水产海鲜",
+    "ingredients": [
+      "鱼",
+      "食盐或糯米腌料"
+    ],
+    "flavorProfile": "发酵酸香突出，咸鲜开胃，时间带来的醇厚气息留在回味中。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第二季第4集 秘境。地点信息已补充对应的央视网节目页或片段页来源。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "按公开条目中的地名、菜名或官方节目页线索归入贵州，用于地图浏览；更细的地域背景仍待人工校订。",
+    "image": {
+      "url": "/food-images/guizhou-pickled-fish.png?v=1",
+      "alt": "贵州腌鱼摄影级生成图",
+      "source": {
+        "title": "项目生成摄影图",
+        "author": "OpenAI 图像生成",
+        "license": "项目内生成素材",
+        "url": "/food-images/guizhou-pickled-fish.png?v=1"
+      }
+    },
+    "season": "第二季",
+    "episode": "第4集 秘境",
+    "sources": [
+      {
+        "title": "省份占位：腌鱼（第二季秘境酸食语境，先进入贵州省份页）",
+        "author": "项目人工整理",
+        "license": "仅作省份页占位，待外部来源复核",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "人工审核：隐藏，不在网页显示"
+  },
+  {
+    "id": "bite-12-9",
+    "name": "小凹馍",
+    "province": "山西",
+    "city": "待核实",
+    "region": "华北",
+    "longitude": 112.5489,
+    "latitude": 37.8706,
+    "category": "主食点心",
+    "ingredients": [
+      "小麦面粉"
+    ],
+    "flavorProfile": "米麦香朴实，口感软糯、筋实或松软，咀嚼后带自然回甜。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第二季第5集 家常。地点信息已补充对应的央视网节目页或片段页来源。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "按公开条目中的地名、菜名或官方节目页线索归入山西，用于地图浏览；更细的地域背景仍待人工校订。",
+    "season": "第二季",
+    "episode": "第5集 家常",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      },
+      {
+        "title": "人工复核：小凹馍（省份人工审核为山西；外观和具体形态不明确，暂时隐藏）",
+        "author": "用户人工审核",
+        "license": "项目内人工复核记录",
+        "url": "manual-review://food-location-audit/%E5%B0%8F%E5%87%B9%E9%A6%8D"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "人工审核：隐藏，不在网页显示"
+  },
+  {
+    "id": "bite-15-1",
+    "name": "荞麦粑粑",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "主食点心",
+    "ingredients": [
+      "荞麦粉"
+    ],
+    "flavorProfile": "米麦香朴实，口感软糯、筋实或松软，咀嚼后带自然回甜。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第三季第1集 器。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第三季",
+    "episode": "第1集 器",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "待核实"
+  },
+  {
+    "id": "bite-17-7",
+    "name": "茄鲞",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "小吃与食材",
+    "ingredients": [
+      "茄子",
+      "鸡肉或鸡汤",
+      "果仁"
+    ],
+    "flavorProfile": "植物清香与自然清甜为主，口感在爽脆、粉糯或柔嫩之间展开。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第三季第3集 宴。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第三季",
+    "episode": "第3集 宴",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "待核实"
+  },
+  {
+    "id": "bite-17-10",
+    "name": "雪霞羹",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "小吃与食材",
+    "ingredients": [
+      "豆腐",
+      "木芙蓉花",
+      "清汤"
+    ],
+    "flavorProfile": "羹体细滑柔润，滋味清鲜淡雅，强调食材本味与温和汤香。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第三季第3集 宴。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第三季",
+    "episode": "第3集 宴",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "待核实"
+  },
+  {
+    "id": "bite-18-3",
+    "name": "蓑衣黄瓜",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "蔬果山珍",
+    "ingredients": [
+      "黄瓜",
+      "醋与辣椒"
+    ],
+    "flavorProfile": "口感爽脆或柔韧，蒜香、醋香与咸鲜调味清爽开胃。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第三季第4集 养。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第三季",
+    "episode": "第4集 养",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "待核实"
+  },
+  {
+    "id": "bite-18-6",
+    "name": "百合莲子",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "蔬果山珍",
+    "ingredients": [
+      "百合",
+      "莲子"
+    ],
+    "flavorProfile": "植物清香与自然清甜为主，口感在爽脆、粉糯或柔嫩之间展开。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第三季第4集 养。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第三季",
+    "episode": "第4集 养",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "待核实"
+  },
+  {
+    "id": "bite-18-7",
+    "name": "艾叶豆腐",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "蔬果山珍",
+    "ingredients": [
+      "豆腐",
+      "艾叶"
+    ],
+    "flavorProfile": "豆香清雅，质地细嫩、柔韧或绵密，调味以温和咸鲜衬托本味。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第三季第4集 养。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第三季",
+    "episode": "第4集 养",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "待核实"
+  },
+  {
+    "id": "bite-18-8",
+    "name": "老酒炖鸡子",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "发酵腌制",
+    "ingredients": [
+      "鸡肉",
+      "黄酒"
+    ],
+    "flavorProfile": "汤味温润鲜醇，慢火使食材的鲜甜、肉香或植物清香彼此融合。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第三季第4集 养。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第三季",
+    "episode": "第4集 养",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "待核实"
+  },
+  {
+    "id": "bite-18-11",
+    "name": "三草炖鹅",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "小吃与食材",
+    "ingredients": [
+      "鹅肉",
+      "三种草本植物"
+    ],
+    "flavorProfile": "汤味温润鲜醇，慢火使食材的鲜甜、肉香或植物清香彼此融合。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第三季第4集 养。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第三季",
+    "episode": "第4集 养",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "待核实"
+  },
+  {
+    "id": "bite-18-13",
+    "name": "山苍子根炖猪蹄",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "肉禽",
+    "ingredients": [
+      "猪蹄",
+      "山苍子根"
+    ],
+    "flavorProfile": "汤味温润鲜醇，慢火使食材的鲜甜、肉香或植物清香彼此融合。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第三季第4集 养。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第三季",
+    "episode": "第4集 养",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "待核实"
+  },
+  {
+    "id": "bite-18-15",
+    "name": "败酱草小肠汤",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "发酵腌制",
+    "ingredients": [
+      "猪小肠",
+      "败酱草"
+    ],
+    "flavorProfile": "汤味温润鲜醇，慢火使食材的鲜甜、肉香或植物清香彼此融合。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第三季第4集 养。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第三季",
+    "episode": "第4集 养",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "待核实"
+  },
+  {
+    "id": "bite-19-8",
+    "name": "薄饼鸡块",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "主食点心",
+    "ingredients": [
+      "鸡肉",
+      "小麦薄饼"
+    ],
+    "flavorProfile": "甜香与谷物香为主，口感或酥松、或软糯，回味温和。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第三季第5集 食。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第三季",
+    "episode": "第5集 食",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      },
+      {
+        "title": "人工复核：薄饼鸡块（人工审核决定移出正式地图：视频未提及该菜品）",
+        "author": "用户人工审核",
+        "license": "项目内人工复核记录",
+        "url": "manual-review://food-location-audit/%E8%96%84%E9%A5%BC%E9%B8%A1%E5%9D%97"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "人工审核：删除，不在网页显示"
+  },
+  {
+    "id": "bite-19-10",
+    "name": "红烧牛肉面",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "主食点心",
+    "ingredients": [
+      "小麦面条",
+      "牛肉",
+      "牛骨汤"
+    ],
+    "flavorProfile": "酱香与肉香醇厚，咸鲜中带柔和回甜，慢火使口感软润入味。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第三季第5集 食。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第三季",
+    "episode": "第5集 食",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      },
+      {
+        "title": "人工复核：红烧牛肉面（人工审核决定移出正式地图：无稳定地域归属）",
+        "author": "用户人工审核",
+        "license": "项目内人工复核记录",
+        "url": "manual-review://food-location-audit/%E7%BA%A2%E7%83%A7%E7%89%9B%E8%82%89%E9%9D%A2"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "人工审核：删除，不在网页显示"
+  },
+  {
+    "id": "bite-19-11",
+    "name": "南瓜煎饺",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "主食点心",
+    "ingredients": [
+      "小麦面粉",
+      "南瓜馅"
+    ],
+    "flavorProfile": "面皮或米皮承托馅料鲜香，口感兼有柔韧、软糯与汁水感。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第三季第5集 食。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第三季",
+    "episode": "第5集 食",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      },
+      {
+        "title": "人工复核：南瓜煎饺（人工审核决定移出正式地图：视频未提及该菜品）",
+        "author": "用户人工审核",
+        "license": "项目内人工复核记录",
+        "url": "manual-review://food-location-audit/%E5%8D%97%E7%93%9C%E7%85%8E%E9%A5%BA"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "人工审核：删除，不在网页显示"
+  },
+  {
+    "id": "bite-19-13",
+    "name": "黑椒藕饼",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "主食点心",
+    "ingredients": [
+      "莲藕",
+      "黑胡椒",
+      "肉馅或淀粉"
+    ],
+    "flavorProfile": "甜香与谷物香为主，口感或酥松、或软糯，回味温和。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第三季第5集 食。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第三季",
+    "episode": "第5集 食",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      },
+      {
+        "title": "人工复核：黑椒藕饼（人工审核决定移出正式地图：无稳定地域归属）",
+        "author": "用户人工审核",
+        "license": "项目内人工复核记录",
+        "url": "manual-review://food-location-audit/%E9%BB%91%E6%A4%92%E8%97%95%E9%A5%BC"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "人工审核：删除，不在网页显示"
+  },
+  {
+    "id": "bite-19-14",
+    "name": "胡萝卜丝鸡蛋饼",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "主食点心",
+    "ingredients": [
+      "胡萝卜",
+      "鸡蛋",
+      "小麦面粉"
+    ],
+    "flavorProfile": "甜香与谷物香为主，口感或酥松、或软糯，回味温和。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第三季第5集 食。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第三季",
+    "episode": "第5集 食",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      },
+      {
+        "title": "人工复核：胡萝卜丝鸡蛋饼（人工审核决定移出正式地图：无稳定地域归属）",
+        "author": "用户人工审核",
+        "license": "项目内人工复核记录",
+        "url": "manual-review://food-location-audit/%E8%83%A1%E8%90%9D%E5%8D%9C%E4%B8%9D%E9%B8%A1%E8%9B%8B%E9%A5%BC"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "人工审核：删除，不在网页显示"
+  },
+  {
+    "id": "bite-19-15",
+    "name": "麻酱荞麦油麦菜",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "发酵腌制",
+    "ingredients": [
+      "油麦菜",
+      "芝麻酱",
+      "荞麦"
+    ],
+    "flavorProfile": "咸鲜经过发酵或熟成变得醇厚，伴随微酸、酱香或陈香。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第三季第5集 食。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第三季",
+    "episode": "第5集 食",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      },
+      {
+        "title": "人工复核：麻酱荞麦油麦菜（人工审核决定移出正式地图：无稳定地域归属）",
+        "author": "用户人工审核",
+        "license": "项目内人工复核记录",
+        "url": "manual-review://food-location-audit/%E9%BA%BB%E9%85%B1%E8%8D%9E%E9%BA%A6%E6%B2%B9%E9%BA%A6%E8%8F%9C"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "人工审核：删除，不在网页显示"
+  },
+  {
+    "id": "bite-20-1",
+    "name": "寿包",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "主食点心",
+    "ingredients": [
+      "小麦面粉",
+      "莲蓉或豆沙馅"
+    ],
+    "flavorProfile": "面皮或米皮承托馅料鲜香，口感兼有柔韧、软糯与汁水感。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第三季第6集 酥。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第三季",
+    "episode": "第6集 酥",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      },
+      {
+        "title": "人工复核：寿包（人工审核决定移出正式地图：视频未出现该菜品）",
+        "author": "用户人工审核",
+        "license": "项目内人工复核记录",
+        "url": "manual-review://food-location-audit/%E5%AF%BF%E5%8C%85"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "人工审核：删除，不在网页显示"
+  },
+  {
+    "id": "bite-20-4",
+    "name": "九桃一手",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "小吃与食材",
+    "ingredients": [
+      "小麦面粉或米粉",
+      "甜馅"
+    ],
+    "flavorProfile": "以面点的麦香和柔和甜味为主，造型之外重在松软或细腻口感。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第三季第6集 酥。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第三季",
+    "episode": "第6集 酥",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      },
+      {
+        "title": "人工复核：九桃一手（人工审核决定移出正式地图：视频未出现该菜品）",
+        "author": "用户人工审核",
+        "license": "项目内人工复核记录",
+        "url": "manual-review://food-location-audit/%E4%B9%9D%E6%A1%83%E4%B8%80%E6%89%8B"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "人工审核：删除，不在网页显示"
+  },
+  {
+    "id": "bite-20-10",
+    "name": "金鱼饺",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "主食点心",
+    "ingredients": [
+      "小麦面粉",
+      "肉馅或素馅"
+    ],
+    "flavorProfile": "面皮或米皮承托馅料鲜香，口感兼有柔韧、软糯与汁水感。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第三季第6集 酥。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第三季",
+    "episode": "第6集 酥",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      },
+      {
+        "title": "人工复核：金鱼饺（人工审核决定移出正式地图：视频未出现该菜品）",
+        "author": "用户人工审核",
+        "license": "项目内人工复核记录",
+        "url": "manual-review://food-location-audit/%E9%87%91%E9%B1%BC%E9%A5%BA"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "人工审核：删除，不在网页显示"
+  },
+  {
+    "id": "bite-20-11",
+    "name": "花卷",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "小吃与食材",
+    "ingredients": [
+      "小麦面粉",
+      "酵母"
+    ],
+    "flavorProfile": "面皮或米皮承托馅料鲜香，口感兼有柔韧、软糯与汁水感。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第三季第6集 酥。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第三季",
+    "episode": "第6集 酥",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      },
+      {
+        "title": "人工复核：花卷（人工审核决定移出正式地图：视频未出现该菜品）",
+        "author": "用户人工审核",
+        "license": "项目内人工复核记录",
+        "url": "manual-review://food-location-audit/%E8%8A%B1%E5%8D%B7"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "人工审核：删除，不在网页显示"
+  },
+  {
+    "id": "bite-20-12",
+    "name": "琵琶结",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "小吃与食材",
+    "ingredients": [
+      "小麦面粉或米粉",
+      "甜馅或咸馅"
+    ],
+    "flavorProfile": "面香清晰，口感筋韧或松软，具体甜咸风味随制法变化。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第三季第6集 酥。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第三季",
+    "episode": "第6集 酥",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      },
+      {
+        "title": "人工复核：琵琶结（人工审核决定移出正式地图：视频未出现该菜品）",
+        "author": "用户人工审核",
+        "license": "项目内人工复核记录",
+        "url": "manual-review://food-location-audit/%E7%90%B5%E7%90%B6%E7%BB%93"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "人工审核：删除，不在网页显示"
+  },
+  {
+    "id": "bite-21-3",
+    "name": "野菜宴",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "宴饮",
+    "ingredients": [
+      "多种时令野菜"
+    ],
+    "flavorProfile": "多种野菜带来清鲜、微苦、回甘等植物风味，口感随品种与做法变化。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第三季第7集 生。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第三季",
+    "episode": "第7集 生",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "待核实"
+  },
+  {
+    "id": "bite-21-18",
+    "name": "五彩饭",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "小吃与食材",
+    "ingredients": [
+      "糯米",
+      "天然植物染料"
+    ],
+    "flavorProfile": "米麦香朴实，口感软糯、筋实或松软，咀嚼后带自然回甜。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第三季第7集 生。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第三季",
+    "episode": "第7集 生",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "待核实"
+  },
+  {
+    "id": "bite-21-20",
+    "name": "海鲜饺子",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "主食点心",
+    "ingredients": [
+      "小麦面粉",
+      "海鲜馅"
+    ],
+    "flavorProfile": "面皮或米皮承托馅料鲜香，口感兼有柔韧、软糯与汁水感。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第三季第7集 生。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第三季",
+    "episode": "第7集 生",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "待核实"
+  },
+  {
+    "id": "bite-21-21",
+    "name": "三鲜虾仁水饺",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "主食点心",
+    "ingredients": [
+      "小麦面粉",
+      "虾仁",
+      "鸡蛋与蔬菜"
+    ],
+    "flavorProfile": "面皮或米皮承托馅料鲜香，口感兼有柔韧、软糯与汁水感。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第三季第7集 生。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第三季",
+    "episode": "第7集 生",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "待核实"
+  },
+  {
+    "id": "bite-21-24",
+    "name": "芋饺",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "主食点心",
+    "ingredients": [
+      "芋头",
+      "淀粉",
+      "肉馅"
+    ],
+    "flavorProfile": "面皮或米皮承托馅料鲜香，口感兼有柔韧、软糯与汁水感。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第三季第7集 生。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第三季",
+    "episode": "第7集 生",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "待核实"
+  },
+  {
+    "id": "bite-21-25",
+    "name": "汤圆",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "小吃与食材",
+    "ingredients": [
+      "糯米粉",
+      "甜馅或咸馅"
+    ],
+    "flavorProfile": "汤味温润鲜醇，慢火使食材的鲜甜、肉香或植物清香彼此融合。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第三季第7集 生。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第三季",
+    "episode": "第7集 生",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "待核实"
+  },
+  {
+    "id": "bite-21-28",
+    "name": "素静饺子",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "主食点心",
+    "ingredients": [
+      "小麦面粉",
+      "蔬菜与豆制品"
+    ],
+    "flavorProfile": "面皮或米皮承托馅料鲜香，口感兼有柔韧、软糯与汁水感。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第三季第7集 生。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第三季",
+    "episode": "第7集 生",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "待核实"
+  },
+  {
+    "id": "bite-22-3",
+    "name": "糖醋排骨",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "发酵腌制",
+    "ingredients": [
+      "猪排骨",
+      "糖",
+      "醋"
+    ],
+    "flavorProfile": "酸甜明快，糖与醋形成平衡，包裹食材本身的鲜味与熟香。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第三季第8集 合。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第三季",
+    "episode": "第8集 合",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "待核实"
+  },
+  {
+    "id": "bite-22-6",
+    "name": "白菜炒白菜",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "蔬果山珍",
+    "ingredients": [
+      "白菜"
+    ],
+    "flavorProfile": "植物清香与自然清甜为主，口感在爽脆、粉糯或柔嫩之间展开。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第三季第8集 合。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第三季",
+    "episode": "第8集 合",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "待核实"
+  },
+  {
+    "id": "bite-22-7",
+    "name": "白菜饺子",
+    "province": "待核实",
+    "city": "待核实",
+    "region": "待核实",
+    "longitude": 104.1954,
+    "latitude": 35.8617,
+    "category": "主食点心",
+    "ingredients": [
+      "小麦面粉",
+      "白菜",
+      "肉馅或其他素馅"
+    ],
+    "flavorProfile": "面皮或米皮承托馅料鲜香，口感兼有柔韧、软糯与汁水感。",
+    "story": "公开分集资料将该条目列入《舌尖上的中国》第三季第8集 合。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
+    "culturalContext": "公开资料未稳定给出明确拍摄地点，暂不绑定到具体省份，避免把地域信息写成未经核实的事实。",
+    "season": "第三季",
+    "episode": "第8集 合",
+    "sources": [
+      {
+        "title": "维基百科《舌尖上的中国》分集表",
+        "author": "Wikipedia contributors",
+        "license": "CC BY-SA",
+        "url": "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+      }
+    ],
+    "confidence": "待核实",
+    "reviewNote": "待核实"
+  }
+]

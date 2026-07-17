@@ -1,0 +1,5994 @@
+[
+  {
+    "id": "bite-9-12",
+    "name": "烤鸭卷饼",
+    "season": "第二季",
+    "episode": "第2集 脚步",
+    "province": "北京",
+    "city": "待核实",
+    "region": "华北",
+    "category": "主食点心",
+    "confidence": "待核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第2集 脚步 烤鸭卷饼",
+    "mediaSearch": "舌尖上的中国 烤鸭卷饼 北京 地点",
+    "localSearch": "烤鸭卷饼 北京 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 烤鸭卷饼 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-10-11",
+    "name": "饸饹",
+    "season": "第二季",
+    "episode": "第3集 心传",
+    "province": "山西",
+    "city": "待核实",
+    "region": "华北",
+    "category": "小吃与食材",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第3集 心传 饸饹",
+    "mediaSearch": "舌尖上的中国 饸饹 山西 地点",
+    "localSearch": "饸饹 山西 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 饸饹 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-10-7",
+    "name": "空心挂面",
+    "season": "第二季",
+    "episode": "第3集 心传",
+    "province": "陕西",
+    "city": "待核实",
+    "region": "西北",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第3集 心传 空心挂面",
+    "mediaSearch": "舌尖上的中国 空心挂面 陕西 地点",
+    "localSearch": "空心挂面 陕西 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 空心挂面 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://big5.cctv.com/gate/big5/shejian2.cntv.cn/2014/04/27/ARTI1398606701533908.shtml"
+    ]
+  },
+  {
+    "id": "bite-10-9",
+    "name": "手擀面",
+    "season": "第二季",
+    "episode": "第3集 心传",
+    "province": "宁夏",
+    "city": "待核实",
+    "region": "西北",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第3集 心传 手擀面",
+    "mediaSearch": "舌尖上的中国 手擀面 宁夏 地点",
+    "localSearch": "手擀面 宁夏 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 手擀面 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-10-10",
+    "name": "甜水面",
+    "season": "第二季",
+    "episode": "第3集 心传",
+    "province": "四川",
+    "city": "待核实",
+    "region": "西南",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第3集 心传 甜水面",
+    "mediaSearch": "舌尖上的中国 甜水面 四川 地点",
+    "localSearch": "甜水面 四川 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 甜水面 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-11-14",
+    "name": "侗族大歌宴",
+    "season": "第二季",
+    "episode": "第4集 秘境",
+    "province": "贵州",
+    "city": "待核实",
+    "region": "西南",
+    "category": "宴饮",
+    "confidence": "待核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第4集 秘境 侗族大歌宴",
+    "mediaSearch": "舌尖上的中国 侗族大歌宴 贵州 地点",
+    "localSearch": "侗族大歌宴 贵州 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 侗族大歌宴 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-11-3",
+    "name": "黄馍馍",
+    "season": "第二季",
+    "episode": "第4集 秘境",
+    "province": "陕西",
+    "city": "待核实",
+    "region": "西北",
+    "category": "主食点心",
+    "confidence": "待核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第4集 秘境 黄馍馍",
+    "mediaSearch": "舌尖上的中国 黄馍馍 陕西 地点",
+    "localSearch": "黄馍馍 陕西 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 黄馍馍 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-11-7",
+    "name": "螺蛳粉",
+    "season": "第二季",
+    "episode": "第4集 秘境",
+    "province": "广西",
+    "city": "待核实",
+    "region": "华南",
+    "category": "主食点心",
+    "confidence": "待核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第4集 秘境 螺蛳粉",
+    "mediaSearch": "舌尖上的中国 螺蛳粉 广西 地点",
+    "localSearch": "螺蛳粉 广西 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 螺蛳粉 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-11-2",
+    "name": "手抓羊肉",
+    "season": "第二季",
+    "episode": "第4集 秘境",
+    "province": "宁夏",
+    "city": "待核实",
+    "region": "西北",
+    "category": "肉禽",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第4集 秘境 手抓羊肉",
+    "mediaSearch": "舌尖上的中国 手抓羊肉 宁夏 地点",
+    "localSearch": "手抓羊肉 宁夏 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 手抓羊肉 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://shejian2.cntv.cn/shipin/index.shtml"
+    ]
+  },
+  {
+    "id": "bite-11-9",
+    "name": "酸肉",
+    "season": "第二季",
+    "episode": "第4集 秘境",
+    "province": "湖南",
+    "city": "待核实",
+    "region": "华中",
+    "category": "肉禽",
+    "confidence": "待核实",
+    "sourceTier": "GitHub辅助",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第4集 秘境 酸肉",
+    "mediaSearch": "舌尖上的中国 酸肉 湖南 地点",
+    "localSearch": "酸肉 湖南 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 酸肉 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://github.com/zhuyuxiao/Chinese-cuisine/blob/master/dataset/recipe_id/xiangcai_recipe_id.txt"
+    ]
+  },
+  {
+    "id": "bite-11-13",
+    "name": "腌菜",
+    "season": "第二季",
+    "episode": "第4集 秘境",
+    "province": "贵州",
+    "city": "待核实",
+    "region": "西南",
+    "category": "发酵腌制",
+    "confidence": "待核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第4集 秘境 腌菜",
+    "mediaSearch": "舌尖上的中国 腌菜 贵州 地点",
+    "localSearch": "腌菜 贵州 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 腌菜 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-11-12",
+    "name": "腌肉",
+    "season": "第二季",
+    "episode": "第4集 秘境",
+    "province": "贵州",
+    "city": "待核实",
+    "region": "西南",
+    "category": "发酵腌制",
+    "confidence": "待核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第4集 秘境 腌肉",
+    "mediaSearch": "舌尖上的中国 腌肉 贵州 地点",
+    "localSearch": "腌肉 贵州 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 腌肉 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-12-14",
+    "name": "抻面",
+    "season": "第二季",
+    "episode": "第5集 家常",
+    "province": "河南",
+    "city": "待核实",
+    "region": "华中",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第5集 家常 抻面",
+    "mediaSearch": "舌尖上的中国 抻面 河南 地点",
+    "localSearch": "抻面 河南 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 抻面 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-12-10",
+    "name": "饸饹",
+    "season": "第二季",
+    "episode": "第5集 家常",
+    "province": "山西",
+    "city": "待核实",
+    "region": "华北",
+    "category": "小吃与食材",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第5集 家常 饸饹",
+    "mediaSearch": "舌尖上的中国 饸饹 山西 地点",
+    "localSearch": "饸饹 山西 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 饸饹 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-12-16",
+    "name": "泡菜",
+    "season": "第二季",
+    "episode": "第5集 家常",
+    "province": "四川",
+    "city": "待核实",
+    "region": "西南",
+    "category": "发酵腌制",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第5集 家常 泡菜",
+    "mediaSearch": "舌尖上的中国 泡菜 四川 地点",
+    "localSearch": "泡菜 四川 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 泡菜 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-12-15",
+    "name": "泡菜鱼",
+    "season": "第二季",
+    "episode": "第5集 家常",
+    "province": "四川",
+    "city": "待核实",
+    "region": "西南",
+    "category": "水产海鲜",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第5集 家常 泡菜鱼",
+    "mediaSearch": "舌尖上的中国 泡菜鱼 四川 地点",
+    "localSearch": "泡菜鱼 四川 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 泡菜鱼 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-12-11",
+    "name": "枣花馍",
+    "season": "第二季",
+    "episode": "第5集 家常",
+    "province": "山西",
+    "city": "待核实",
+    "region": "华北",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第5集 家常 枣花馍",
+    "mediaSearch": "舌尖上的中国 枣花馍 山西 地点",
+    "localSearch": "枣花馍 山西 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 枣花馍 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-13-11",
+    "name": "大盘鸡",
+    "season": "第二季",
+    "episode": "第6集 相逢",
+    "province": "新疆",
+    "city": "待核实",
+    "region": "西北",
+    "category": "肉禽",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第6集 相逢 大盘鸡",
+    "mediaSearch": "舌尖上的中国 大盘鸡 新疆 地点",
+    "localSearch": "大盘鸡 新疆 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 大盘鸡 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://shejian2.cntv.cn/shipin/index.shtml"
+    ]
+  },
+  {
+    "id": "bite-13-3",
+    "name": "菌子火锅",
+    "season": "第二季",
+    "episode": "第6集 相逢",
+    "province": "云南",
+    "city": "待核实",
+    "region": "西南",
+    "category": "锅物",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第6集 相逢 菌子火锅",
+    "mediaSearch": "舌尖上的中国 菌子火锅 云南 地点",
+    "localSearch": "菌子火锅 云南 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 菌子火锅 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-13-12",
+    "name": "烤包子",
+    "season": "第二季",
+    "episode": "第6集 相逢",
+    "province": "新疆",
+    "city": "待核实",
+    "region": "西北",
+    "category": "主食点心",
+    "confidence": "待核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第6集 相逢 烤包子",
+    "mediaSearch": "舌尖上的中国 烤包子 新疆 地点",
+    "localSearch": "烤包子 新疆 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 烤包子 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-13-13",
+    "name": "拉条子",
+    "season": "第二季",
+    "episode": "第6集 相逢",
+    "province": "新疆",
+    "city": "待核实",
+    "region": "西北",
+    "category": "小吃与食材",
+    "confidence": "待核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第6集 相逢 拉条子",
+    "mediaSearch": "舌尖上的中国 拉条子 新疆 地点",
+    "localSearch": "拉条子 新疆 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 拉条子 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-13-10",
+    "name": "纳仁",
+    "season": "第二季",
+    "episode": "第6集 相逢",
+    "province": "新疆",
+    "city": "待核实",
+    "region": "西北",
+    "category": "小吃与食材",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第6集 相逢 纳仁",
+    "mediaSearch": "舌尖上的中国 纳仁 新疆 地点",
+    "localSearch": "纳仁 新疆 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 纳仁 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-13-14",
+    "name": "烧牛肉",
+    "season": "第二季",
+    "episode": "第6集 相逢",
+    "province": "河南",
+    "city": "待核实",
+    "region": "华中",
+    "category": "肉禽",
+    "confidence": "待核实",
+    "sourceTier": "GitHub辅助",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第6集 相逢 烧牛肉",
+    "mediaSearch": "舌尖上的中国 烧牛肉 河南 地点",
+    "localSearch": "烧牛肉 河南 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 烧牛肉 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://github.com/zhuyuxiao/Chinese-cuisine/blob/master/dataset/recipe_id/yucai_recipe_id.txt"
+    ]
+  },
+  {
+    "id": "bite-13-5",
+    "name": "涮黄喉",
+    "season": "第二季",
+    "episode": "第6集 相逢",
+    "province": "重庆",
+    "city": "待核实",
+    "region": "西南",
+    "category": "小吃与食材",
+    "confidence": "待核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第6集 相逢 涮黄喉",
+    "mediaSearch": "舌尖上的中国 涮黄喉 重庆 地点",
+    "localSearch": "涮黄喉 重庆 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 涮黄喉 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-13-6",
+    "name": "鸭肠",
+    "season": "第二季",
+    "episode": "第6集 相逢",
+    "province": "重庆",
+    "city": "待核实",
+    "region": "西南",
+    "category": "肉禽",
+    "confidence": "待核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第6集 相逢 鸭肠",
+    "mediaSearch": "舌尖上的中国 鸭肠 重庆 地点",
+    "localSearch": "鸭肠 重庆 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 鸭肠 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-15-8",
+    "name": "爆炒腰花",
+    "season": "第三季",
+    "episode": "第1集 器",
+    "province": "山东",
+    "city": "待核实",
+    "region": "华东",
+    "category": "肉禽",
+    "confidence": "待核实",
+    "sourceTier": "GitHub辅助",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第1集 器 爆炒腰花",
+    "mediaSearch": "舌尖上的中国 爆炒腰花 山东 地点",
+    "localSearch": "爆炒腰花 山东 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 爆炒腰花 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://github.com/zhuyuxiao/Chinese-cuisine/blob/master/dataset/recipe_id/lucai_recipe_id.txt"
+    ]
+  },
+  {
+    "id": "bite-15-10",
+    "name": "金边白菜",
+    "season": "第三季",
+    "episode": "第1集 器",
+    "province": "陕西",
+    "city": "待核实",
+    "region": "西北",
+    "category": "蔬果山珍",
+    "confidence": "待核实",
+    "sourceTier": "GitHub辅助",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第1集 器 金边白菜",
+    "mediaSearch": "舌尖上的中国 金边白菜 陕西 地点",
+    "localSearch": "金边白菜 陕西 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 金边白菜 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://github.com/zhuyuxiao/Chinese-cuisine/blob/master/dataset/recipe_id/xibeicai_recipe_id.txt"
+    ]
+  },
+  {
+    "id": "bite-15-11",
+    "name": "泡菜",
+    "season": "第三季",
+    "episode": "第1集 器",
+    "province": "四川",
+    "city": "待核实",
+    "region": "西南",
+    "category": "发酵腌制",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第1集 器 泡菜",
+    "mediaSearch": "舌尖上的中国 泡菜 四川 地点",
+    "localSearch": "泡菜 四川 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 泡菜 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-15-2",
+    "name": "石锅松茸",
+    "season": "第三季",
+    "episode": "第1集 器",
+    "province": "云南",
+    "city": "待核实",
+    "region": "西南",
+    "category": "锅物",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第1集 器 石锅松茸",
+    "mediaSearch": "舌尖上的中国 石锅松茸 云南 地点",
+    "localSearch": "石锅松茸 云南 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 石锅松茸 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://tv.cctv.com/2018/02/19/VIDEjYljEfF9dRGUpwnbBLvt180219.shtml"
+    ]
+  },
+  {
+    "id": "bite-16-5",
+    "name": "胡辣汤",
+    "season": "第三季",
+    "episode": "第2集 香",
+    "province": "河南",
+    "city": "待核实",
+    "region": "华中",
+    "category": "小吃与食材",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第2集 香 胡辣汤",
+    "mediaSearch": "舌尖上的中国 胡辣汤 河南 地点",
+    "localSearch": "胡辣汤 河南 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 胡辣汤 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://tv.cctv.com/2018/02/20/VIDE7boI03q5tohkFMkAW4gG180220.shtml"
+    ]
+  },
+  {
+    "id": "bite-17-1",
+    "name": "全藕宴",
+    "season": "第三季",
+    "episode": "第3集 宴",
+    "province": "湖北",
+    "city": "待核实",
+    "region": "华中",
+    "category": "宴饮",
+    "confidence": "待核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第3集 宴 全藕宴",
+    "mediaSearch": "舌尖上的中国 全藕宴 湖北 地点",
+    "localSearch": "全藕宴 湖北 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 全藕宴 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-18-4",
+    "name": "枸杞羊肉",
+    "season": "第三季",
+    "episode": "第4集 养",
+    "province": "宁夏",
+    "city": "待核实",
+    "region": "西北",
+    "category": "肉禽",
+    "confidence": "待核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第4集 养 枸杞羊肉",
+    "mediaSearch": "舌尖上的中国 枸杞羊肉 宁夏 地点",
+    "localSearch": "枸杞羊肉 宁夏 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 枸杞羊肉 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-19-16",
+    "name": "酱香饼",
+    "season": "第三季",
+    "episode": "第5集 食",
+    "province": "湖北",
+    "city": "待核实",
+    "region": "华中",
+    "category": "主食点心",
+    "confidence": "待核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第5集 食 酱香饼",
+    "mediaSearch": "舌尖上的中国 酱香饼 湖北 地点",
+    "localSearch": "酱香饼 湖北 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 酱香饼 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-19-9",
+    "name": "津味豆腐脑",
+    "season": "第三季",
+    "episode": "第5集 食",
+    "province": "天津",
+    "city": "待核实",
+    "region": "华北",
+    "category": "蔬果山珍",
+    "confidence": "待核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第5集 食 津味豆腐脑",
+    "mediaSearch": "舌尖上的中国 津味豆腐脑 天津 地点",
+    "localSearch": "津味豆腐脑 天津 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 津味豆腐脑 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-19-12",
+    "name": "卤肉饭",
+    "season": "第三季",
+    "episode": "第5集 食",
+    "province": "台湾",
+    "city": "待核实",
+    "region": "港澳台",
+    "category": "肉禽",
+    "confidence": "待核实",
+    "sourceTier": "GitHub辅助",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第5集 食 卤肉饭",
+    "mediaSearch": "舌尖上的中国 卤肉饭 台湾 地点",
+    "localSearch": "卤肉饭 台湾 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 卤肉饭 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://github.com/zhuyuxiao/Chinese-cuisine/blob/master/dataset/recipe_id/gangtai_recipe_id.txt"
+    ]
+  },
+  {
+    "id": "bite-21-1",
+    "name": "春饼",
+    "season": "第三季",
+    "episode": "第7集 生",
+    "province": "北京",
+    "city": "待核实",
+    "region": "华北",
+    "category": "主食点心",
+    "confidence": "待核实",
+    "sourceTier": "GitHub辅助",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第7集 生 春饼",
+    "mediaSearch": "舌尖上的中国 春饼 北京 地点",
+    "localSearch": "春饼 北京 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 春饼 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://github.com/zhuyuxiao/Chinese-cuisine/blob/master/dataset/recipe_id/jingcai_recipe_id.txt"
+    ]
+  },
+  {
+    "id": "bite-21-9",
+    "name": "春卷",
+    "season": "第三季",
+    "episode": "第7集 生",
+    "province": "上海",
+    "city": "待核实",
+    "region": "华东",
+    "category": "小吃与食材",
+    "confidence": "待核实",
+    "sourceTier": "GitHub辅助",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第7集 生 春卷",
+    "mediaSearch": "舌尖上的中国 春卷 上海 地点",
+    "localSearch": "春卷 上海 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 春卷 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://github.com/zhuyuxiao/Chinese-cuisine/blob/master/dataset/recipe_id/hucai_recipe_id.txt"
+    ]
+  },
+  {
+    "id": "bite-21-12",
+    "name": "喃咪酱",
+    "season": "第三季",
+    "episode": "第7集 生",
+    "province": "云南",
+    "city": "待核实",
+    "region": "西南",
+    "category": "发酵腌制",
+    "confidence": "待核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第7集 生 喃咪酱",
+    "mediaSearch": "舌尖上的中国 喃咪酱 云南 地点",
+    "localSearch": "喃咪酱 云南 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 喃咪酱 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-21-13",
+    "name": "潜江全荷宴",
+    "season": "第三季",
+    "episode": "第7集 生",
+    "province": "湖北",
+    "city": "待核实",
+    "region": "华中",
+    "category": "宴饮",
+    "confidence": "待核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第7集 生 潜江全荷宴",
+    "mediaSearch": "舌尖上的中国 潜江全荷宴 湖北 地点",
+    "localSearch": "潜江全荷宴 湖北 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 潜江全荷宴 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-21-23",
+    "name": "甜晒鱼",
+    "season": "第三季",
+    "episode": "第7集 生",
+    "province": "山东",
+    "city": "待核实",
+    "region": "华东",
+    "category": "水产海鲜",
+    "confidence": "待核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第7集 生 甜晒鱼",
+    "mediaSearch": "舌尖上的中国 甜晒鱼 山东 地点",
+    "localSearch": "甜晒鱼 山东 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 甜晒鱼 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-21-11",
+    "name": "西双版纳绿叶宴",
+    "season": "第三季",
+    "episode": "第7集 生",
+    "province": "云南",
+    "city": "待核实",
+    "region": "西南",
+    "category": "宴饮",
+    "confidence": "待核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第7集 生 西双版纳绿叶宴",
+    "mediaSearch": "舌尖上的中国 西双版纳绿叶宴 云南 地点",
+    "localSearch": "西双版纳绿叶宴 云南 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 西双版纳绿叶宴 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-22-8",
+    "name": "火锅",
+    "season": "第三季",
+    "episode": "第8集 合",
+    "province": "山西",
+    "city": "待核实",
+    "region": "华北",
+    "category": "锅物",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第8集 合 火锅",
+    "mediaSearch": "舌尖上的中国 火锅 山西 地点",
+    "localSearch": "火锅 山西 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 火锅 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-22-2",
+    "name": "羊肉粉",
+    "season": "第三季",
+    "episode": "第8集 合",
+    "province": "贵州",
+    "city": "待核实",
+    "region": "西南",
+    "category": "主食点心",
+    "confidence": "待核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第8集 合 羊肉粉",
+    "mediaSearch": "舌尖上的中国 羊肉粉 贵州 地点",
+    "localSearch": "羊肉粉 贵州 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 羊肉粉 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-1-3",
+    "name": "黄豆酸笋小黄鱼",
+    "season": "第一季",
+    "episode": "第1集 自然的馈赠",
+    "province": "广西",
+    "city": "待核实",
+    "region": "华南",
+    "category": "水产海鲜",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第1集 自然的馈赠 黄豆酸笋小黄鱼",
+    "mediaSearch": "舌尖上的中国 黄豆酸笋小黄鱼 广西 地点",
+    "localSearch": "黄豆酸笋小黄鱼 广西 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 黄豆酸笋小黄鱼 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-4-2",
+    "name": "煲仔饭",
+    "season": "第一季",
+    "episode": "第4集 时间的味道",
+    "province": "广东",
+    "city": "待核实",
+    "region": "华南",
+    "category": "小吃与食材",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第4集 时间的味道 煲仔饭",
+    "mediaSearch": "舌尖上的中国 煲仔饭 广东 地点",
+    "localSearch": "煲仔饭 广东 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 煲仔饭 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-5-13",
+    "name": "葱烧海参",
+    "season": "第一季",
+    "episode": "第5集 厨房的秘密",
+    "province": "山东",
+    "city": "待核实",
+    "region": "华东",
+    "category": "水产海鲜",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第5集 厨房的秘密 葱烧海参",
+    "mediaSearch": "舌尖上的中国 葱烧海参 山东 地点",
+    "localSearch": "葱烧海参 山东 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 葱烧海参 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-6-14",
+    "name": "豆瓣酱",
+    "season": "第一季",
+    "episode": "第6集 五味的调和",
+    "province": "四川",
+    "city": "待核实",
+    "region": "西南",
+    "category": "发酵腌制",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第6集 五味的调和 豆瓣酱",
+    "mediaSearch": "舌尖上的中国 豆瓣酱 四川 地点",
+    "localSearch": "豆瓣酱 四川 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 豆瓣酱 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-6-15",
+    "name": "麻婆豆腐",
+    "season": "第一季",
+    "episode": "第6集 五味的调和",
+    "province": "四川",
+    "city": "待核实",
+    "region": "西南",
+    "category": "蔬果山珍",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第6集 五味的调和 麻婆豆腐",
+    "mediaSearch": "舌尖上的中国 麻婆豆腐 四川 地点",
+    "localSearch": "麻婆豆腐 四川 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 麻婆豆腐 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-6-12",
+    "name": "泡椒",
+    "season": "第一季",
+    "episode": "第6集 五味的调和",
+    "province": "四川",
+    "city": "待核实",
+    "region": "西南",
+    "category": "小吃与食材",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第6集 五味的调和 泡椒",
+    "mediaSearch": "舌尖上的中国 泡椒 四川 地点",
+    "localSearch": "泡椒 四川 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 泡椒 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-6-16",
+    "name": "藤椒鱼",
+    "season": "第一季",
+    "episode": "第6集 五味的调和",
+    "province": "四川",
+    "city": "待核实",
+    "region": "西南",
+    "category": "水产海鲜",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第6集 五味的调和 藤椒鱼",
+    "mediaSearch": "舌尖上的中国 藤椒鱼 四川 地点",
+    "localSearch": "藤椒鱼 四川 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 藤椒鱼 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-6-13",
+    "name": "鱼香肉丝",
+    "season": "第一季",
+    "episode": "第6集 五味的调和",
+    "province": "四川",
+    "city": "待核实",
+    "region": "西南",
+    "category": "水产海鲜",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第6集 五味的调和 鱼香肉丝",
+    "mediaSearch": "舌尖上的中国 鱼香肉丝 四川 地点",
+    "localSearch": "鱼香肉丝 四川 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 鱼香肉丝 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-7-8",
+    "name": "青稞",
+    "season": "第一季",
+    "episode": "第7集 我们的田野",
+    "province": "西藏",
+    "city": "待核实",
+    "region": "西南",
+    "category": "小吃与食材",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第7集 我们的田野 青稞",
+    "mediaSearch": "舌尖上的中国 青稞 西藏 地点",
+    "localSearch": "青稞 西藏 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 青稞 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-7-7",
+    "name": "蟹黄汪豆腐",
+    "season": "第一季",
+    "episode": "第7集 我们的田野",
+    "province": "安徽",
+    "city": "待核实",
+    "region": "华东",
+    "category": "水产海鲜",
+    "confidence": "待核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "city",
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P1-补城市",
+    "recommendedAction": "优先确认节目拍摄地或菜名标题中的城市；不能确认时保留省份，城市继续待核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第7集 我们的田野 蟹黄汪豆腐",
+    "mediaSearch": "舌尖上的中国 蟹黄汪豆腐 安徽 地点",
+    "localSearch": "蟹黄汪豆腐 安徽 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 蟹黄汪豆腐 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-8-5",
+    "name": "九层皮",
+    "season": "第二季",
+    "episode": "第1集 时节",
+    "province": "江西",
+    "city": "赣州",
+    "region": "华东",
+    "category": "小吃与食材",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第1集 时节 九层皮",
+    "mediaSearch": "舌尖上的中国 九层皮 江西 地点",
+    "localSearch": "九层皮 江西 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 九层皮 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://tv.cctv.com/2014/05/02/VIDE1399037064005528.shtml"
+    ]
+  },
+  {
+    "id": "bite-8-7",
+    "name": "玛仁糖",
+    "season": "第二季",
+    "episode": "第1集 时节",
+    "province": "新疆",
+    "city": "和田",
+    "region": "西北",
+    "category": "小吃与食材",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第1集 时节 玛仁糖",
+    "mediaSearch": "舌尖上的中国 玛仁糖 新疆 地点",
+    "localSearch": "玛仁糖 新疆 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 玛仁糖 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://tv.cctv.com/2014/05/02/VIDE1399037950491769.shtml"
+    ]
+  },
+  {
+    "id": "bite-8-8",
+    "name": "切糕",
+    "season": "第二季",
+    "episode": "第1集 时节",
+    "province": "新疆",
+    "city": "和田",
+    "region": "西北",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第1集 时节 切糕",
+    "mediaSearch": "舌尖上的中国 切糕 新疆 地点",
+    "localSearch": "切糕 新疆 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 切糕 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://tv.cctv.com/2014/05/02/VIDE1399037950491769.shtml"
+    ]
+  },
+  {
+    "id": "bite-8-2",
+    "name": "铁锅炖鱼",
+    "season": "第二季",
+    "episode": "第1集 时节",
+    "province": "黑龙江",
+    "city": "东北地区",
+    "region": "东北",
+    "category": "锅物",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第1集 时节 铁锅炖鱼",
+    "mediaSearch": "舌尖上的中国 铁锅炖鱼 黑龙江 地点",
+    "localSearch": "铁锅炖鱼 黑龙江 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 铁锅炖鱼 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://tv.cctv.com/2014/05/02/VIDE1399036157494265.shtml"
+    ]
+  },
+  {
+    "id": "bite-8-10",
+    "name": "虾子小刀面",
+    "season": "第二季",
+    "episode": "第1集 时节",
+    "province": "安徽",
+    "city": "芜湖",
+    "region": "华东",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第1集 时节 虾子小刀面",
+    "mediaSearch": "舌尖上的中国 虾子小刀面 安徽 地点",
+    "localSearch": "虾子小刀面 安徽 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 虾子小刀面 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://tv.cctv.com/2014/05/02/VIDE1399038317428306.shtml"
+    ]
+  },
+  {
+    "id": "bite-8-9",
+    "name": "抓饭",
+    "season": "第二季",
+    "episode": "第1集 时节",
+    "province": "新疆",
+    "city": "吐鲁番",
+    "region": "西北",
+    "category": "小吃与食材",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第1集 时节 抓饭",
+    "mediaSearch": "舌尖上的中国 抓饭 新疆 地点",
+    "localSearch": "抓饭 新疆 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 抓饭 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://tv.cctv.com/2014/05/02/VIDE1399038132402993.shtml"
+    ]
+  },
+  {
+    "id": "bite-9-10",
+    "name": "煎饼卷大葱",
+    "season": "第二季",
+    "episode": "第2集 脚步",
+    "province": "山东",
+    "city": "临沂沂蒙山",
+    "region": "华东",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第2集 脚步 煎饼卷大葱",
+    "mediaSearch": "舌尖上的中国 煎饼卷大葱 山东 地点",
+    "localSearch": "煎饼卷大葱 山东 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 煎饼卷大葱 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://tv.cctv.com/2014/04/18/VIDE1397835557566956.shtml"
+    ]
+  },
+  {
+    "id": "bite-9-7",
+    "name": "裤带面",
+    "season": "第二季",
+    "episode": "第2集 脚步",
+    "province": "陕西",
+    "city": "蓝田",
+    "region": "西北",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第2集 脚步 裤带面",
+    "mediaSearch": "舌尖上的中国 裤带面 陕西 地点",
+    "localSearch": "裤带面 陕西 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 裤带面 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-9-17",
+    "name": "萝卜饭",
+    "season": "第二季",
+    "episode": "第2集 脚步",
+    "province": "福建",
+    "city": "泉州",
+    "region": "华东",
+    "category": "小吃与食材",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第2集 脚步 萝卜饭",
+    "mediaSearch": "舌尖上的中国 萝卜饭 福建 地点",
+    "localSearch": "萝卜饭 福建 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 萝卜饭 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://big5.cctv.com/gate/big5/shejian2.cntv.cn/2014/04/24/ARTI1398312814850408.shtml"
+    ]
+  },
+  {
+    "id": "bite-9-6",
+    "name": "嫩豆花",
+    "season": "第二季",
+    "episode": "第2集 脚步",
+    "province": "四川",
+    "city": "乐山",
+    "region": "西南",
+    "category": "小吃与食材",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第2集 脚步 嫩豆花",
+    "mediaSearch": "舌尖上的中国 嫩豆花 四川 地点",
+    "localSearch": "嫩豆花 四川 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 嫩豆花 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-9-14",
+    "name": "牛冻春",
+    "season": "第二季",
+    "episode": "第2集 脚步",
+    "province": "贵州",
+    "city": "黔东南州",
+    "region": "西南",
+    "category": "肉禽",
+    "confidence": "待核实",
+    "sourceTier": "人工审核",
+    "missingFields": [
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第2集 脚步 牛冻春",
+    "mediaSearch": "舌尖上的中国 牛冻春 贵州 地点",
+    "localSearch": "牛冻春 贵州 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 牛冻春 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "manual-review://food-location-audit/%E7%89%9B%E5%86%BB%E6%98%A5"
+    ]
+  },
+  {
+    "id": "bite-9-11",
+    "name": "丝娃娃",
+    "season": "第二季",
+    "episode": "第2集 脚步",
+    "province": "贵州",
+    "city": "贵阳",
+    "region": "西南",
+    "category": "小吃与食材",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第2集 脚步 丝娃娃",
+    "mediaSearch": "舌尖上的中国 丝娃娃 贵州 地点",
+    "localSearch": "丝娃娃 贵州 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 丝娃娃 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://big5.cctv.com/gate/big5/shejian2.cntv.cn/2014/04/24/ARTI1398312814850408.shtml"
+    ]
+  },
+  {
+    "id": "bite-9-1",
+    "name": "酥油蜂蜜",
+    "season": "第二季",
+    "episode": "第2集 脚步",
+    "province": "西藏",
+    "city": "林芝波密",
+    "region": "西南",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第2集 脚步 酥油蜂蜜",
+    "mediaSearch": "舌尖上的中国 酥油蜂蜜 西藏 地点",
+    "localSearch": "酥油蜂蜜 西藏 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 酥油蜂蜜 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://big5.cctv.com/gate/big5/shejian2.cntv.cn/2014/04/24/ARTI1398312814850408.shtml"
+    ]
+  },
+  {
+    "id": "bite-9-15",
+    "name": "鱼酱",
+    "season": "第二季",
+    "episode": "第2集 脚步",
+    "province": "贵州",
+    "city": "雷山",
+    "region": "西南",
+    "category": "水产海鲜",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第2集 脚步 鱼酱",
+    "mediaSearch": "舌尖上的中国 鱼酱 贵州 地点",
+    "localSearch": "鱼酱 贵州 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 鱼酱 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://tv.cctv.com/v/v1/VIDE1397836280706642.html"
+    ]
+  },
+  {
+    "id": "bite-10-25",
+    "name": "蚝烙",
+    "season": "第二季",
+    "episode": "第3集 心传",
+    "province": "广东",
+    "city": "汕头澄海",
+    "region": "华南",
+    "category": "小吃与食材",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第3集 心传 蚝烙",
+    "mediaSearch": "舌尖上的中国 蚝烙 广东 地点",
+    "localSearch": "蚝烙 广东 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 蚝烙 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-10-3",
+    "name": "徽州臭豆腐",
+    "season": "第二季",
+    "episode": "第3集 心传",
+    "province": "安徽",
+    "city": "徽州",
+    "region": "华东",
+    "category": "蔬果山珍",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第3集 心传 徽州臭豆腐",
+    "mediaSearch": "舌尖上的中国 徽州臭豆腐 安徽 地点",
+    "localSearch": "徽州臭豆腐 安徽 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 徽州臭豆腐 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://big5.cctv.com/gate/big5/shejian2.cntv.cn/2014/04/27/ARTI1398606701533908.shtml"
+    ]
+  },
+  {
+    "id": "bite-10-17",
+    "name": "蕨根糍粑",
+    "season": "第二季",
+    "episode": "第3集 心传",
+    "province": "湖南",
+    "city": "郴州宜章莽山",
+    "region": "华中",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第3集 心传 蕨根糍粑",
+    "mediaSearch": "舌尖上的中国 蕨根糍粑 湖南 地点",
+    "localSearch": "蕨根糍粑 湖南 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 蕨根糍粑 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://tv.cctv.com/2014/04/25/VIDE1398433151711148.shtml"
+    ]
+  },
+  {
+    "id": "bite-10-30",
+    "name": "扣三丝",
+    "season": "第二季",
+    "episode": "第3集 心传",
+    "province": "上海",
+    "city": "上海",
+    "region": "华东",
+    "category": "小吃与食材",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第3集 心传 扣三丝",
+    "mediaSearch": "舌尖上的中国 扣三丝 上海 地点",
+    "localSearch": "扣三丝 上海 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 扣三丝 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://big5.cctv.com/gate/big5/shejian2.cntv.cn/2014/04/27/ARTI1398606701533908.shtml"
+    ]
+  },
+  {
+    "id": "bite-10-8",
+    "name": "面皮",
+    "season": "第二季",
+    "episode": "第3集 心传",
+    "province": "陕西",
+    "city": "汉中",
+    "region": "西北",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第3集 心传 面皮",
+    "mediaSearch": "舌尖上的中国 面皮 陕西 地点",
+    "localSearch": "面皮 陕西 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 面皮 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-10-12",
+    "name": "热干面",
+    "season": "第二季",
+    "episode": "第3集 心传",
+    "province": "湖北",
+    "city": "武汉",
+    "region": "华中",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第3集 心传 热干面",
+    "mediaSearch": "舌尖上的中国 热干面 湖北 地点",
+    "localSearch": "热干面 湖北 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 热干面 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-10-14",
+    "name": "头汤面",
+    "season": "第二季",
+    "episode": "第3集 心传",
+    "province": "江苏",
+    "city": "苏州",
+    "region": "华东",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第3集 心传 头汤面",
+    "mediaSearch": "舌尖上的中国 头汤面 江苏 地点",
+    "localSearch": "头汤面 江苏 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 头汤面 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-10-13",
+    "name": "小面",
+    "season": "第二季",
+    "episode": "第3集 心传",
+    "province": "重庆",
+    "city": "重庆",
+    "region": "西南",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第3集 心传 小面",
+    "mediaSearch": "舌尖上的中国 小面 重庆 地点",
+    "localSearch": "小面 重庆 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 小面 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-10-31",
+    "name": "油爆河虾",
+    "season": "第二季",
+    "episode": "第3集 心传",
+    "province": "上海",
+    "city": "上海",
+    "region": "华东",
+    "category": "水产海鲜",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第3集 心传 油爆河虾",
+    "mediaSearch": "舌尖上的中国 油爆河虾 上海 地点",
+    "localSearch": "油爆河虾 上海 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 油爆河虾 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://tv.cctv.com/2014/04/25/VIDE1398435493261249.shtml"
+    ]
+  },
+  {
+    "id": "bite-10-4",
+    "name": "油炸锅巴",
+    "season": "第二季",
+    "episode": "第3集 心传",
+    "province": "安徽",
+    "city": "黄山",
+    "region": "华东",
+    "category": "锅物",
+    "confidence": "待核实",
+    "sourceTier": "人工审核",
+    "missingFields": [
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第3集 心传 油炸锅巴",
+    "mediaSearch": "舌尖上的中国 油炸锅巴 安徽 地点",
+    "localSearch": "油炸锅巴 安徽 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 油炸锅巴 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "manual-review://food-location-audit/%E6%B2%B9%E7%82%B8%E9%94%85%E5%B7%B4"
+    ]
+  },
+  {
+    "id": "bite-11-4",
+    "name": "鲑鱼",
+    "season": "第二季",
+    "episode": "第4集 秘境",
+    "province": "黑龙江",
+    "city": "待核实",
+    "region": "东北",
+    "category": "水产海鲜",
+    "confidence": "待核实",
+    "sourceTier": "人工审核",
+    "missingFields": [
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第4集 秘境 鲑鱼",
+    "mediaSearch": "舌尖上的中国 鲑鱼 黑龙江 地点",
+    "localSearch": "鲑鱼 黑龙江 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 鲑鱼 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "manual-review://food-location-audit/%E9%B2%91%E9%B1%BC"
+    ]
+  },
+  {
+    "id": "bite-12-7",
+    "name": "陈皮红豆沙",
+    "season": "第二季",
+    "episode": "第5集 家常",
+    "province": "澳门",
+    "city": "澳门",
+    "region": "港澳台",
+    "category": "发酵腌制",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第5集 家常 陈皮红豆沙",
+    "mediaSearch": "舌尖上的中国 陈皮红豆沙 澳门 地点",
+    "localSearch": "陈皮红豆沙 澳门 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 陈皮红豆沙 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-12-13",
+    "name": "红烧肉",
+    "season": "第二季",
+    "episode": "第5集 家常",
+    "province": "上海",
+    "city": "上海",
+    "region": "华东",
+    "category": "肉禽",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第5集 家常 红烧肉",
+    "mediaSearch": "舌尖上的中国 红烧肉 上海 地点",
+    "localSearch": "红烧肉 上海 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 红烧肉 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://tv.cctv.com/2014/05/09/VIDE1399643465504417.shtml"
+    ]
+  },
+  {
+    "id": "bite-12-8",
+    "name": "姜撞奶",
+    "season": "第二季",
+    "episode": "第5集 家常",
+    "province": "澳门",
+    "city": "澳门",
+    "region": "港澳台",
+    "category": "小吃与食材",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第5集 家常 姜撞奶",
+    "mediaSearch": "舌尖上的中国 姜撞奶 澳门 地点",
+    "localSearch": "姜撞奶 澳门 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 姜撞奶 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-12-5",
+    "name": "奶汤蒲菜",
+    "season": "第二季",
+    "episode": "第5集 家常",
+    "province": "山东",
+    "city": "济南",
+    "region": "华东",
+    "category": "蔬果山珍",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第5集 家常 奶汤蒲菜",
+    "mediaSearch": "舌尖上的中国 奶汤蒲菜 山东 地点",
+    "localSearch": "奶汤蒲菜 山东 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 奶汤蒲菜 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-12-6",
+    "name": "蒲菜水饺",
+    "season": "第二季",
+    "episode": "第5集 家常",
+    "province": "江苏",
+    "city": "淮安",
+    "region": "华东",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第5集 家常 蒲菜水饺",
+    "mediaSearch": "舌尖上的中国 蒲菜水饺 江苏 地点",
+    "localSearch": "蒲菜水饺 江苏 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 蒲菜水饺 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-12-1",
+    "name": "燃面",
+    "season": "第二季",
+    "episode": "第5集 家常",
+    "province": "四川",
+    "city": "宜宾",
+    "region": "西南",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第5集 家常 燃面",
+    "mediaSearch": "舌尖上的中国 燃面 四川 地点",
+    "localSearch": "燃面 四川 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 燃面 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://shejian2.cntv.cn/shipin/index.shtml"
+    ]
+  },
+  {
+    "id": "bite-12-3",
+    "name": "西瓜酱",
+    "season": "第二季",
+    "episode": "第5集 家常",
+    "province": "山东",
+    "city": "郓城",
+    "region": "华东",
+    "category": "发酵腌制",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第5集 家常 西瓜酱",
+    "mediaSearch": "舌尖上的中国 西瓜酱 山东 地点",
+    "localSearch": "西瓜酱 山东 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 西瓜酱 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-12-4",
+    "name": "虾子焖茭白",
+    "season": "第二季",
+    "episode": "第5集 家常",
+    "province": "辽宁",
+    "city": "盘锦大洼",
+    "region": "东北",
+    "category": "水产海鲜",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第5集 家常 虾子焖茭白",
+    "mediaSearch": "舌尖上的中国 虾子焖茭白 辽宁 地点",
+    "localSearch": "虾子焖茭白 辽宁 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 虾子焖茭白 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-12-2",
+    "name": "宜宾腌菜",
+    "season": "第二季",
+    "episode": "第5集 家常",
+    "province": "四川",
+    "city": "宜宾",
+    "region": "西南",
+    "category": "发酵腌制",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第5集 家常 宜宾腌菜",
+    "mediaSearch": "舌尖上的中国 宜宾腌菜 四川 地点",
+    "localSearch": "宜宾腌菜 四川 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 宜宾腌菜 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://shejian2.cntv.cn/shipin/index.shtml"
+    ]
+  },
+  {
+    "id": "bite-12-12",
+    "name": "蒸菜",
+    "season": "第二季",
+    "episode": "第5集 家常",
+    "province": "湖北",
+    "city": "天门",
+    "region": "华中",
+    "category": "蔬果山珍",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第5集 家常 蒸菜",
+    "mediaSearch": "舌尖上的中国 蒸菜 湖北 地点",
+    "localSearch": "蒸菜 湖北 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 蒸菜 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-13-8",
+    "name": "灌汤包",
+    "season": "第二季",
+    "episode": "第6集 相逢",
+    "province": "河南",
+    "city": "开封",
+    "region": "华中",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第6集 相逢 灌汤包",
+    "mediaSearch": "舌尖上的中国 灌汤包 河南 地点",
+    "localSearch": "灌汤包 河南 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 灌汤包 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://shejian2.cntv.cn/shipin/index.shtml"
+    ]
+  },
+  {
+    "id": "bite-13-4",
+    "name": "牛肉火锅",
+    "season": "第二季",
+    "episode": "第6集 相逢",
+    "province": "广东",
+    "city": "潮汕",
+    "region": "华南",
+    "category": "锅物",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第6集 相逢 牛肉火锅",
+    "mediaSearch": "舌尖上的中国 牛肉火锅 广东 地点",
+    "localSearch": "牛肉火锅 广东 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 牛肉火锅 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-13-2",
+    "name": "涮肉火锅",
+    "season": "第二季",
+    "episode": "第6集 相逢",
+    "province": "北京",
+    "city": "北京",
+    "region": "华北",
+    "category": "锅物",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第6集 相逢 涮肉火锅",
+    "mediaSearch": "舌尖上的中国 涮肉火锅 北京 地点",
+    "localSearch": "涮肉火锅 北京 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 涮肉火锅 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-13-7",
+    "name": "西湖醋鱼",
+    "season": "第二季",
+    "episode": "第6集 相逢",
+    "province": "浙江",
+    "city": "杭州",
+    "region": "华东",
+    "category": "水产海鲜",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第6集 相逢 西湖醋鱼",
+    "mediaSearch": "舌尖上的中国 西湖醋鱼 浙江 地点",
+    "localSearch": "西湖醋鱼 浙江 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 西湖醋鱼 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://tv.cctv.com/2014/05/16/VIDE1400246661249791.shtml"
+    ]
+  },
+  {
+    "id": "bite-13-1",
+    "name": "小鸡炖蘑菇",
+    "season": "第二季",
+    "episode": "第6集 相逢",
+    "province": "黑龙江",
+    "city": "东北地区",
+    "region": "东北",
+    "category": "肉禽",
+    "confidence": "待核实",
+    "sourceTier": "GitHub辅助",
+    "missingFields": [
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "用央视网、人民网、新华网或地方政府/文旅页面复核后，才能从待核实改为已核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第6集 相逢 小鸡炖蘑菇",
+    "mediaSearch": "舌尖上的中国 小鸡炖蘑菇 黑龙江 地点",
+    "localSearch": "小鸡炖蘑菇 黑龙江 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 小鸡炖蘑菇 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://github.com/zhuyuxiao/Chinese-cuisine/blob/master/dataset/recipe_id/dongbeicai_recipe_id.txt"
+    ]
+  },
+  {
+    "id": "bite-14-9",
+    "name": "冰皮月饼",
+    "season": "第二季",
+    "episode": "第7集 三餐",
+    "province": "上海",
+    "city": "上海",
+    "region": "华东",
+    "category": "主食点心",
+    "confidence": "待核实",
+    "sourceTier": "人工审核",
+    "missingFields": [
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第7集 三餐 冰皮月饼",
+    "mediaSearch": "舌尖上的中国 冰皮月饼 上海 地点",
+    "localSearch": "冰皮月饼 上海 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 冰皮月饼 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "manual-review://food-location-audit/%E5%86%B0%E7%9A%AE%E6%9C%88%E9%A5%BC"
+    ]
+  },
+  {
+    "id": "bite-14-1",
+    "name": "煎饼果子",
+    "season": "第二季",
+    "episode": "第7集 三餐",
+    "province": "天津",
+    "city": "天津",
+    "region": "华北",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第7集 三餐 煎饼果子",
+    "mediaSearch": "舌尖上的中国 煎饼果子 天津 地点",
+    "localSearch": "煎饼果子 天津 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 煎饼果子 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-14-2",
+    "name": "热干面",
+    "season": "第二季",
+    "episode": "第7集 三餐",
+    "province": "湖北",
+    "city": "武汉",
+    "region": "华中",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第7集 三餐 热干面",
+    "mediaSearch": "舌尖上的中国 热干面 湖北 地点",
+    "localSearch": "热干面 湖北 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 热干面 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-14-8",
+    "name": "素食",
+    "season": "第二季",
+    "episode": "第7集 三餐",
+    "province": "上海",
+    "city": "上海",
+    "region": "华东",
+    "category": "小吃与食材",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第7集 三餐 素食",
+    "mediaSearch": "舌尖上的中国 素食 上海 地点",
+    "localSearch": "素食 上海 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 素食 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-14-5",
+    "name": "咸鸭蛋",
+    "season": "第二季",
+    "episode": "第7集 三餐",
+    "province": "湖南",
+    "city": "湘乡",
+    "region": "华中",
+    "category": "发酵腌制",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第7集 三餐 咸鸭蛋",
+    "mediaSearch": "舌尖上的中国 咸鸭蛋 湖南 地点",
+    "localSearch": "咸鸭蛋 湖南 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 咸鸭蛋 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-14-6",
+    "name": "洋芋",
+    "season": "第二季",
+    "episode": "第7集 三餐",
+    "province": "四川",
+    "city": "凉山",
+    "region": "西南",
+    "category": "蔬果山珍",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第7集 三餐 洋芋",
+    "mediaSearch": "舌尖上的中国 洋芋 四川 地点",
+    "localSearch": "洋芋 四川 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 洋芋 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://shejian2.cntv.cn/shipin/index.shtml"
+    ]
+  },
+  {
+    "id": "bite-14-7",
+    "name": "彝族坨坨肉",
+    "season": "第二季",
+    "episode": "第7集 三餐",
+    "province": "四川",
+    "city": "凉山",
+    "region": "西南",
+    "category": "肉禽",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第7集 三餐 彝族坨坨肉",
+    "mediaSearch": "舌尖上的中国 彝族坨坨肉 四川 地点",
+    "localSearch": "彝族坨坨肉 四川 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 彝族坨坨肉 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://shejian2.cntv.cn/shipin/index.shtml"
+    ]
+  },
+  {
+    "id": "bite-14-3",
+    "name": "早茶",
+    "season": "第二季",
+    "episode": "第7集 三餐",
+    "province": "广东",
+    "city": "广州",
+    "region": "华南",
+    "category": "宴饮",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第7集 三餐 早茶",
+    "mediaSearch": "舌尖上的中国 早茶 广东 地点",
+    "localSearch": "早茶 广东 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 早茶 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-14-4",
+    "name": "蒸腊鱼",
+    "season": "第二季",
+    "episode": "第7集 三餐",
+    "province": "湖南",
+    "city": "待核实",
+    "region": "华中",
+    "category": "水产海鲜",
+    "confidence": "待核实",
+    "sourceTier": "人工审核",
+    "missingFields": [
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第二季 第7集 三餐 蒸腊鱼",
+    "mediaSearch": "舌尖上的中国 蒸腊鱼 湖南 地点",
+    "localSearch": "蒸腊鱼 湖南 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 蒸腊鱼 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "manual-review://food-location-audit/%E8%92%B8%E8%85%8A%E9%B1%BC"
+    ]
+  },
+  {
+    "id": "bite-15-5",
+    "name": "瓜雕",
+    "season": "第三季",
+    "episode": "第1集 器",
+    "province": "江苏",
+    "city": "扬州",
+    "region": "华东",
+    "category": "蔬果山珍",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第1集 器 瓜雕",
+    "mediaSearch": "舌尖上的中国 瓜雕 江苏 地点",
+    "localSearch": "瓜雕 江苏 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 瓜雕 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-15-7",
+    "name": "九转大肠",
+    "season": "第三季",
+    "episode": "第1集 器",
+    "province": "山东",
+    "city": "济南章丘",
+    "region": "华东",
+    "category": "肉禽",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第1集 器 九转大肠",
+    "mediaSearch": "舌尖上的中国 九转大肠 山东 地点",
+    "localSearch": "九转大肠 山东 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 九转大肠 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://tv.cctv.com/2018/02/19/VIDEagL3Y6D9yDWpHU6dzfh1180219.shtml"
+    ]
+  },
+  {
+    "id": "bite-15-6",
+    "name": "清水炒蛋",
+    "season": "第三季",
+    "episode": "第1集 器",
+    "province": "山东",
+    "city": "济南章丘",
+    "region": "华东",
+    "category": "小吃与食材",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第1集 器 清水炒蛋",
+    "mediaSearch": "舌尖上的中国 清水炒蛋 山东 地点",
+    "localSearch": "清水炒蛋 山东 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 清水炒蛋 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://tv.cctv.com/2018/02/19/VIDEagL3Y6D9yDWpHU6dzfh1180219.shtml"
+    ]
+  },
+  {
+    "id": "bite-15-3",
+    "name": "陕州十碗席",
+    "season": "第三季",
+    "episode": "第1集 器",
+    "province": "河南",
+    "city": "三门峡陕州",
+    "region": "华中",
+    "category": "小吃与食材",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第1集 器 陕州十碗席",
+    "mediaSearch": "舌尖上的中国 陕州十碗席 河南 地点",
+    "localSearch": "陕州十碗席 河南 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 陕州十碗席 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://tv.cctv.com/2018/02/19/VIDEhW48fZdY3VQ5myfMJAFj180219.shtml"
+    ]
+  },
+  {
+    "id": "bite-15-4",
+    "name": "蒸点",
+    "season": "第三季",
+    "episode": "第1集 器",
+    "province": "江苏",
+    "city": "扬州",
+    "region": "华东",
+    "category": "小吃与食材",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第1集 器 蒸点",
+    "mediaSearch": "舌尖上的中国 蒸点 江苏 地点",
+    "localSearch": "蒸点 江苏 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 蒸点 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-16-6",
+    "name": "煎饼果子",
+    "season": "第三季",
+    "episode": "第2集 香",
+    "province": "天津",
+    "city": "天津",
+    "region": "华北",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第2集 香 煎饼果子",
+    "mediaSearch": "舌尖上的中国 煎饼果子 天津 地点",
+    "localSearch": "煎饼果子 天津 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 煎饼果子 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://tv.cctv.com/2018/02/20/VIDEf83WDZvkmc2xHm36Q6O1180220.shtml"
+    ]
+  },
+  {
+    "id": "bite-16-4",
+    "name": "凉糕",
+    "season": "第三季",
+    "episode": "第2集 香",
+    "province": "四川",
+    "city": "乐山",
+    "region": "西南",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第2集 香 凉糕",
+    "mediaSearch": "舌尖上的中国 凉糕 四川 地点",
+    "localSearch": "凉糕 四川 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 凉糕 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://tv.cctv.com/2018/02/20/VIDETmObZ8hvAAtET2wkP1eD180220.shtml"
+    ]
+  },
+  {
+    "id": "bite-16-8",
+    "name": "面线糊",
+    "season": "第三季",
+    "episode": "第2集 香",
+    "province": "福建",
+    "city": "泉州",
+    "region": "华东",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第2集 香 面线糊",
+    "mediaSearch": "舌尖上的中国 面线糊 福建 地点",
+    "localSearch": "面线糊 福建 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 面线糊 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://tv.cctv.com/2018/02/20/VIDEO3qaUoDTJ29vFGtoyEcj180220.shtml"
+    ]
+  },
+  {
+    "id": "bite-16-7",
+    "name": "石花膏",
+    "season": "第三季",
+    "episode": "第2集 香",
+    "province": "福建",
+    "city": "泉州",
+    "region": "华东",
+    "category": "小吃与食材",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第2集 香 石花膏",
+    "mediaSearch": "舌尖上的中国 石花膏 福建 地点",
+    "localSearch": "石花膏 福建 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 石花膏 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://tv.cctv.com/2018/02/20/VIDEODqFL4X2PnFNP9ddKaOd180220.shtml"
+    ]
+  },
+  {
+    "id": "bite-16-2",
+    "name": "手打鱼丸",
+    "season": "第三季",
+    "episode": "第2集 香",
+    "province": "广东",
+    "city": "汕头",
+    "region": "华南",
+    "category": "水产海鲜",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第2集 香 手打鱼丸",
+    "mediaSearch": "舌尖上的中国 手打鱼丸 广东 地点",
+    "localSearch": "手打鱼丸 广东 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 手打鱼丸 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-16-9",
+    "name": "水盆羊肉",
+    "season": "第三季",
+    "episode": "第2集 香",
+    "province": "陕西",
+    "city": "西安",
+    "region": "西北",
+    "category": "肉禽",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第2集 香 水盆羊肉",
+    "mediaSearch": "舌尖上的中国 水盆羊肉 陕西 地点",
+    "localSearch": "水盆羊肉 陕西 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 水盆羊肉 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://tv.cctv.com/2018/02/10/ARTIZ4Wsm02wlUqoaImL1aoR180210.shtml"
+    ]
+  },
+  {
+    "id": "bite-16-1",
+    "name": "稀豆粉",
+    "season": "第三季",
+    "episode": "第2集 香",
+    "province": "云南",
+    "city": "腾冲",
+    "region": "西南",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第2集 香 稀豆粉",
+    "mediaSearch": "舌尖上的中国 稀豆粉 云南 地点",
+    "localSearch": "稀豆粉 云南 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 稀豆粉 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://tv.cctv.com/2018/02/20/VIDENfj6vyhXfJo0NSWk38ym180220.shtml"
+    ]
+  },
+  {
+    "id": "bite-17-6",
+    "name": "封肉",
+    "season": "第三季",
+    "episode": "第3集 宴",
+    "province": "福建",
+    "city": "厦门",
+    "region": "华东",
+    "category": "肉禽",
+    "confidence": "待核实",
+    "sourceTier": "人工审核",
+    "missingFields": [
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第3集 宴 封肉",
+    "mediaSearch": "舌尖上的中国 封肉 福建 地点",
+    "localSearch": "封肉 福建 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 封肉 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "manual-review://food-location-audit/%E5%B0%81%E8%82%89"
+    ]
+  },
+  {
+    "id": "bite-17-9",
+    "name": "金齑玉脍",
+    "season": "第三季",
+    "episode": "第3集 宴",
+    "province": "陕西",
+    "city": "西安",
+    "region": "西北",
+    "category": "小吃与食材",
+    "confidence": "待核实",
+    "sourceTier": "人工审核",
+    "missingFields": [
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第3集 宴 金齑玉脍",
+    "mediaSearch": "舌尖上的中国 金齑玉脍 陕西 地点",
+    "localSearch": "金齑玉脍 陕西 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 金齑玉脍 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "manual-review://food-location-audit/%E9%87%91%E9%BD%91%E7%8E%89%E8%84%8D"
+    ]
+  },
+  {
+    "id": "bite-17-8",
+    "name": "玲珑牡丹鲊",
+    "season": "第三季",
+    "episode": "第3集 宴",
+    "province": "陕西",
+    "city": "西安",
+    "region": "西北",
+    "category": "小吃与食材",
+    "confidence": "待核实",
+    "sourceTier": "人工审核",
+    "missingFields": [
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第3集 宴 玲珑牡丹鲊",
+    "mediaSearch": "舌尖上的中国 玲珑牡丹鲊 陕西 地点",
+    "localSearch": "玲珑牡丹鲊 陕西 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 玲珑牡丹鲊 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "manual-review://food-location-audit/%E7%8E%B2%E7%8F%91%E7%89%A1%E4%B8%B9%E9%B2%8A"
+    ]
+  },
+  {
+    "id": "bite-17-11",
+    "name": "平江十大碗",
+    "season": "第三季",
+    "episode": "第3集 宴",
+    "province": "湖南",
+    "city": "平江",
+    "region": "华中",
+    "category": "小吃与食材",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第3集 宴 平江十大碗",
+    "mediaSearch": "舌尖上的中国 平江十大碗 湖南 地点",
+    "localSearch": "平江十大碗 湖南 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 平江十大碗 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://tv.cctv.com/2018/02/21/VIDErIj3H0V9BxeHbC0UU9Aj180221.shtml"
+    ]
+  },
+  {
+    "id": "bite-17-5",
+    "name": "沙茶焖牛肉",
+    "season": "第三季",
+    "episode": "第3集 宴",
+    "province": "福建",
+    "city": "厦门",
+    "region": "华东",
+    "category": "肉禽",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第3集 宴 沙茶焖牛肉",
+    "mediaSearch": "舌尖上的中国 沙茶焖牛肉 福建 地点",
+    "localSearch": "沙茶焖牛肉 福建 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 沙茶焖牛肉 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://tv.cctv.com/2018/02/21/VIDEolrxwyhxCGC5XECqYCv9180221.shtml"
+    ]
+  },
+  {
+    "id": "bite-17-3",
+    "name": "水八仙",
+    "season": "第三季",
+    "episode": "第3集 宴",
+    "province": "安徽",
+    "city": "芜湖",
+    "region": "华东",
+    "category": "小吃与食材",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第3集 宴 水八仙",
+    "mediaSearch": "舌尖上的中国 水八仙 安徽 地点",
+    "localSearch": "水八仙 安徽 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 水八仙 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://tv.cctv.com/2018/02/21/VIDEvMfDPEi8sJSNSOTPrWmP180221.shtml"
+    ]
+  },
+  {
+    "id": "bite-18-12",
+    "name": "酒糟芋头面",
+    "season": "第三季",
+    "episode": "第4集 养",
+    "province": "福建",
+    "city": "待核实",
+    "region": "华东",
+    "category": "主食点心",
+    "confidence": "待核实",
+    "sourceTier": "人工审核",
+    "missingFields": [
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第4集 养 酒糟芋头面",
+    "mediaSearch": "舌尖上的中国 酒糟芋头面 福建 地点",
+    "localSearch": "酒糟芋头面 福建 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 酒糟芋头面 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "manual-review://food-location-audit/%E9%85%92%E7%B3%9F%E8%8A%8B%E5%A4%B4%E9%9D%A2"
+    ]
+  },
+  {
+    "id": "bite-18-14",
+    "name": "牡蒿蒸嫩鸭",
+    "season": "第三季",
+    "episode": "第4集 养",
+    "province": "福建",
+    "city": "宁德",
+    "region": "华东",
+    "category": "肉禽",
+    "confidence": "待核实",
+    "sourceTier": "人工审核",
+    "missingFields": [
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第4集 养 牡蒿蒸嫩鸭",
+    "mediaSearch": "舌尖上的中国 牡蒿蒸嫩鸭 福建 地点",
+    "localSearch": "牡蒿蒸嫩鸭 福建 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 牡蒿蒸嫩鸭 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "manual-review://food-location-audit/%E7%89%A1%E8%92%BF%E8%92%B8%E5%AB%A9%E9%B8%AD"
+    ]
+  },
+  {
+    "id": "bite-19-7",
+    "name": "江边辣",
+    "season": "第三季",
+    "episode": "第5集 食",
+    "province": "云南",
+    "city": "待核实",
+    "region": "西南",
+    "category": "小吃与食材",
+    "confidence": "待核实",
+    "sourceTier": "人工审核",
+    "missingFields": [
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第5集 食 江边辣",
+    "mediaSearch": "舌尖上的中国 江边辣 云南 地点",
+    "localSearch": "江边辣 云南 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 江边辣 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "manual-review://food-location-audit/%E6%B1%9F%E8%BE%B9%E8%BE%A3"
+    ]
+  },
+  {
+    "id": "bite-19-6",
+    "name": "扣茄花",
+    "season": "第三季",
+    "episode": "第5集 食",
+    "province": "云南",
+    "city": "待核实",
+    "region": "西南",
+    "category": "小吃与食材",
+    "confidence": "待核实",
+    "sourceTier": "人工审核",
+    "missingFields": [
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第5集 食 扣茄花",
+    "mediaSearch": "舌尖上的中国 扣茄花 云南 地点",
+    "localSearch": "扣茄花 云南 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 扣茄花 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "manual-review://food-location-audit/%E6%89%A3%E8%8C%84%E8%8A%B1"
+    ]
+  },
+  {
+    "id": "bite-19-4",
+    "name": "摔面",
+    "season": "第三季",
+    "episode": "第5集 食",
+    "province": "山东",
+    "city": "胶州",
+    "region": "华东",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第5集 食 摔面",
+    "mediaSearch": "舌尖上的中国 摔面 山东 地点",
+    "localSearch": "摔面 山东 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 摔面 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-19-5",
+    "name": "香橼蜜制梨",
+    "season": "第三季",
+    "episode": "第5集 食",
+    "province": "云南",
+    "city": "丽江",
+    "region": "西南",
+    "category": "小吃与食材",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第5集 食 香橼蜜制梨",
+    "mediaSearch": "舌尖上的中国 香橼蜜制梨 云南 地点",
+    "localSearch": "香橼蜜制梨 云南 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 香橼蜜制梨 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://tv.cctv.com/2018/02/23/VIDE9w9hJsS2rcXGFlbn1xGn180223.shtml"
+    ]
+  },
+  {
+    "id": "bite-19-1",
+    "name": "蟹粉豆腐",
+    "season": "第三季",
+    "episode": "第5集 食",
+    "province": "上海",
+    "city": "上海",
+    "region": "华东",
+    "category": "主食点心",
+    "confidence": "待核实",
+    "sourceTier": "GitHub辅助",
+    "missingFields": [
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "用央视网、人民网、新华网或地方政府/文旅页面复核后，才能从待核实改为已核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第5集 食 蟹粉豆腐",
+    "mediaSearch": "舌尖上的中国 蟹粉豆腐 上海 地点",
+    "localSearch": "蟹粉豆腐 上海 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 蟹粉豆腐 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://github.com/zhuyuxiao/Chinese-cuisine/blob/master/dataset/recipe_id/hucai_recipe_id.txt"
+    ]
+  },
+  {
+    "id": "bite-20-13",
+    "name": "刺猬包",
+    "season": "第三季",
+    "episode": "第6集 酥",
+    "province": "上海",
+    "city": "上海",
+    "region": "华东",
+    "category": "主食点心",
+    "confidence": "待核实",
+    "sourceTier": "GitHub辅助",
+    "missingFields": [
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "用央视网、人民网、新华网或地方政府/文旅页面复核后，才能从待核实改为已核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第6集 酥 刺猬包",
+    "mediaSearch": "舌尖上的中国 刺猬包 上海 地点",
+    "localSearch": "刺猬包 上海 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 刺猬包 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://github.com/zhuyuxiao/Chinese-cuisine/blob/master/dataset/recipe_id/hucai_recipe_id.txt"
+    ]
+  },
+  {
+    "id": "bite-20-5",
+    "name": "贵妃饼",
+    "season": "第三季",
+    "episode": "第6集 酥",
+    "province": "天津",
+    "city": "待核实",
+    "region": "华北",
+    "category": "主食点心",
+    "confidence": "待核实",
+    "sourceTier": "人工审核",
+    "missingFields": [
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第6集 酥 贵妃饼",
+    "mediaSearch": "舌尖上的中国 贵妃饼 天津 地点",
+    "localSearch": "贵妃饼 天津 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 贵妃饼 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "manual-review://food-location-audit/%E8%B4%B5%E5%A6%83%E9%A5%BC"
+    ]
+  },
+  {
+    "id": "bite-20-14",
+    "name": "嵌字豆糖",
+    "season": "第三季",
+    "episode": "第6集 酥",
+    "province": "安徽",
+    "city": "徽州",
+    "region": "华东",
+    "category": "小吃与食材",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第6集 酥 嵌字豆糖",
+    "mediaSearch": "舌尖上的中国 嵌字豆糖 安徽 地点",
+    "localSearch": "嵌字豆糖 安徽 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 嵌字豆糖 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://tv.cctv.com/2018/02/24/VIDEFOgf9halpAezv77m4AoX180224.shtml"
+    ]
+  },
+  {
+    "id": "bite-20-6",
+    "name": "萨其马",
+    "season": "第三季",
+    "episode": "第6集 酥",
+    "province": "北京",
+    "city": "待核实",
+    "region": "华北",
+    "category": "小吃与食材",
+    "confidence": "待核实",
+    "sourceTier": "人工审核",
+    "missingFields": [
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第6集 酥 萨其马",
+    "mediaSearch": "舌尖上的中国 萨其马 北京 地点",
+    "localSearch": "萨其马 北京 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 萨其马 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "manual-review://food-location-audit/%E8%90%A8%E5%85%B6%E9%A9%AC"
+    ]
+  },
+  {
+    "id": "bite-20-15",
+    "name": "渔亭糕",
+    "season": "第三季",
+    "episode": "第6集 酥",
+    "province": "安徽",
+    "city": "徽州",
+    "region": "华东",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第6集 酥 渔亭糕",
+    "mediaSearch": "舌尖上的中国 渔亭糕 安徽 地点",
+    "localSearch": "渔亭糕 安徽 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 渔亭糕 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://tv.cctv.com/2018/02/24/VIDEHIUgL9FsDM37ZsE3L92o180224.shtml"
+    ]
+  },
+  {
+    "id": "bite-21-27",
+    "name": "鲅鱼饺子",
+    "season": "第三季",
+    "episode": "第7集 生",
+    "province": "山东",
+    "city": "胶东地区",
+    "region": "华东",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第7集 生 鲅鱼饺子",
+    "mediaSearch": "舌尖上的中国 鲅鱼饺子 山东 地点",
+    "localSearch": "鲅鱼饺子 山东 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 鲅鱼饺子 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://tv.cctv.com/v/v1/VIDEAXHMmfuRZd3DiWvWIdXd180225.html"
+    ]
+  },
+  {
+    "id": "bite-21-7",
+    "name": "茶聊鸡",
+    "season": "第三季",
+    "episode": "第7集 生",
+    "province": "江西",
+    "city": "庐山",
+    "region": "华东",
+    "category": "肉禽",
+    "confidence": "待核实",
+    "sourceTier": "人工审核",
+    "missingFields": [
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第7集 生 茶聊鸡",
+    "mediaSearch": "舌尖上的中国 茶聊鸡 江西 地点",
+    "localSearch": "茶聊鸡 江西 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 茶聊鸡 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "manual-review://food-location-audit/%E8%8C%B6%E8%81%8A%E9%B8%A1"
+    ]
+  },
+  {
+    "id": "bite-21-4",
+    "name": "茶香饭",
+    "season": "第三季",
+    "episode": "第7集 生",
+    "province": "江西",
+    "city": "庐山",
+    "region": "华东",
+    "category": "小吃与食材",
+    "confidence": "待核实",
+    "sourceTier": "人工审核",
+    "missingFields": [
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第7集 生 茶香饭",
+    "mediaSearch": "舌尖上的中国 茶香饭 江西 地点",
+    "localSearch": "茶香饭 江西 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 茶香饭 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "manual-review://food-location-audit/%E8%8C%B6%E9%A6%99%E9%A5%AD"
+    ]
+  },
+  {
+    "id": "bite-21-5",
+    "name": "茶鱼饺",
+    "season": "第三季",
+    "episode": "第7集 生",
+    "province": "江西",
+    "city": "庐山",
+    "region": "华东",
+    "category": "主食点心",
+    "confidence": "待核实",
+    "sourceTier": "人工审核",
+    "missingFields": [
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第7集 生 茶鱼饺",
+    "mediaSearch": "舌尖上的中国 茶鱼饺 江西 地点",
+    "localSearch": "茶鱼饺 江西 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 茶鱼饺 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "manual-review://food-location-audit/%E8%8C%B6%E9%B1%BC%E9%A5%BA"
+    ]
+  },
+  {
+    "id": "bite-21-22",
+    "name": "七彩饺子",
+    "season": "第三季",
+    "episode": "第7集 生",
+    "province": "山东",
+    "city": "胶东地区",
+    "region": "华东",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第7集 生 七彩饺子",
+    "mediaSearch": "舌尖上的中国 七彩饺子 山东 地点",
+    "localSearch": "七彩饺子 山东 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 七彩饺子 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://tv.cctv.com/2018/02/25/VIDEnNuDLHMlApD0YOMXx1fC180225.shtml"
+    ]
+  },
+  {
+    "id": "bite-21-15",
+    "name": "柿饼",
+    "season": "第三季",
+    "episode": "第7集 生",
+    "province": "陕西",
+    "city": "富平",
+    "region": "西北",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第7集 生 柿饼",
+    "mediaSearch": "舌尖上的中国 柿饼 陕西 地点",
+    "localSearch": "柿饼 陕西 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 柿饼 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-21-17",
+    "name": "柿饼",
+    "season": "第三季",
+    "episode": "第7集 生",
+    "province": "台湾",
+    "city": "新竹",
+    "region": "港澳台",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第7集 生 柿饼",
+    "mediaSearch": "舌尖上的中国 柿饼 台湾 地点",
+    "localSearch": "柿饼 台湾 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 柿饼 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-21-16",
+    "name": "柿子糊塌",
+    "season": "第三季",
+    "episode": "第7集 生",
+    "province": "陕西",
+    "city": "富平",
+    "region": "西北",
+    "category": "蔬果山珍",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第7集 生 柿子糊塌",
+    "mediaSearch": "舌尖上的中国 柿子糊塌 陕西 地点",
+    "localSearch": "柿子糊塌 陕西 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 柿子糊塌 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://tv.cctv.com/2018/02/25/VIDELPfZzAaGv0di7pnf9jWe180225.shtml"
+    ]
+  },
+  {
+    "id": "bite-21-14",
+    "name": "酸汤鱼",
+    "season": "第三季",
+    "episode": "第7集 生",
+    "province": "贵州",
+    "city": "黔东南",
+    "region": "西南",
+    "category": "水产海鲜",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第7集 生 酸汤鱼",
+    "mediaSearch": "舌尖上的中国 酸汤鱼 贵州 地点",
+    "localSearch": "酸汤鱼 贵州 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 酸汤鱼 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "https://tv.cctv.com/2018/02/25/VIDEeoPX6TV8ml3Mepejv2PO180225.shtml"
+    ]
+  },
+  {
+    "id": "bite-21-19",
+    "name": "咸肉",
+    "season": "第三季",
+    "episode": "第7集 生",
+    "province": "安徽",
+    "city": "黄山",
+    "region": "华东",
+    "category": "发酵腌制",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第7集 生 咸肉",
+    "mediaSearch": "舌尖上的中国 咸肉 安徽 地点",
+    "localSearch": "咸肉 安徽 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 咸肉 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-21-6",
+    "name": "钻林欢喜丸",
+    "season": "第三季",
+    "episode": "第7集 生",
+    "province": "江西",
+    "city": "庐山",
+    "region": "华东",
+    "category": "小吃与食材",
+    "confidence": "待核实",
+    "sourceTier": "人工审核",
+    "missingFields": [
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第7集 生 钻林欢喜丸",
+    "mediaSearch": "舌尖上的中国 钻林欢喜丸 江西 地点",
+    "localSearch": "钻林欢喜丸 江西 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 钻林欢喜丸 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD",
+      "manual-review://food-location-audit/%E9%92%BB%E6%9E%97%E6%AC%A2%E5%96%9C%E4%B8%B8"
+    ]
+  },
+  {
+    "id": "bite-22-9",
+    "name": "盆菜",
+    "season": "第三季",
+    "episode": "第8集 合",
+    "province": "广东",
+    "city": "客家地区",
+    "region": "华南",
+    "category": "蔬果山珍",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第三季 第8集 合 盆菜",
+    "mediaSearch": "舌尖上的中国 盆菜 广东 地点",
+    "localSearch": "盆菜 广东 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 盆菜 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-23-5",
+    "name": "凉拌海蜇",
+    "season": "第四季",
+    "episode": "第1集 绝活",
+    "province": "上海",
+    "city": "上海",
+    "region": "华东",
+    "category": "水产海鲜",
+    "confidence": "待核实",
+    "sourceTier": "GitHub辅助",
+    "missingFields": [
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "用央视网、人民网、新华网或地方政府/文旅页面复核后，才能从待核实改为已核实。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第四季 第1集 绝活 凉拌海蜇",
+    "mediaSearch": "舌尖上的中国 凉拌海蜇 上海 地点",
+    "localSearch": "凉拌海蜇 上海 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 凉拌海蜇 中国菜 数据",
+    "sourceUrls": [
+      "https://m.cflac.org.cn/sylb/202502/t20250219_1339027.html",
+      "https://github.com/zhuyuxiao/Chinese-cuisine/blob/master/dataset/recipe_id/hucai_recipe_id.txt"
+    ]
+  },
+  {
+    "id": "bite-23-3",
+    "name": "虱目鱼腹粥",
+    "season": "第四季",
+    "episode": "第1集 绝活",
+    "province": "台湾",
+    "city": "台南",
+    "region": "港澳台",
+    "category": "水产海鲜",
+    "confidence": "已核实",
+    "sourceTier": "待扩展",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第四季 第1集 绝活 虱目鱼腹粥",
+    "mediaSearch": "舌尖上的中国 虱目鱼腹粥 台湾 地点",
+    "localSearch": "虱目鱼腹粥 台湾 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 虱目鱼腹粥 中国菜 数据",
+    "sourceUrls": [
+      "https://m.cflac.org.cn/sylb/202502/t20250219_1339027.html",
+      "https://www.i-media.tw/Article/Detail/38187"
+    ]
+  },
+  {
+    "id": "bite-24-5",
+    "name": "拌面",
+    "season": "第四季",
+    "episode": "第2集 烟火",
+    "province": "福建",
+    "city": "三明沙县",
+    "region": "华东",
+    "category": "主食点心",
+    "confidence": "待核实",
+    "sourceTier": "待扩展",
+    "missingFields": [
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第四季 第2集 烟火 拌面",
+    "mediaSearch": "舌尖上的中国 拌面 福建 地点",
+    "localSearch": "拌面 福建 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 拌面 中国菜 数据",
+    "sourceUrls": [
+      "https://m.cflac.org.cn/sylb/202502/t20250219_1339027.html"
+    ]
+  },
+  {
+    "id": "bite-24-6",
+    "name": "炖罐",
+    "season": "第四季",
+    "episode": "第2集 烟火",
+    "province": "福建",
+    "city": "三明沙县",
+    "region": "华东",
+    "category": "小吃与食材",
+    "confidence": "待核实",
+    "sourceTier": "待扩展",
+    "missingFields": [
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第四季 第2集 烟火 炖罐",
+    "mediaSearch": "舌尖上的中国 炖罐 福建 地点",
+    "localSearch": "炖罐 福建 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 炖罐 中国菜 数据",
+    "sourceUrls": [
+      "https://m.cflac.org.cn/sylb/202502/t20250219_1339027.html"
+    ]
+  },
+  {
+    "id": "bite-24-3",
+    "name": "烧麦",
+    "season": "第四季",
+    "episode": "第2集 烟火",
+    "province": "福建",
+    "city": "三明沙县",
+    "region": "华东",
+    "category": "主食点心",
+    "confidence": "待核实",
+    "sourceTier": "待扩展",
+    "missingFields": [
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第四季 第2集 烟火 烧麦",
+    "mediaSearch": "舌尖上的中国 烧麦 福建 地点",
+    "localSearch": "烧麦 福建 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 烧麦 中国菜 数据",
+    "sourceUrls": [
+      "https://m.cflac.org.cn/sylb/202502/t20250219_1339027.html"
+    ]
+  },
+  {
+    "id": "bite-24-2",
+    "name": "早酒",
+    "season": "第四季",
+    "episode": "第2集 烟火",
+    "province": "江西",
+    "city": "泰和",
+    "region": "华东",
+    "category": "发酵腌制",
+    "confidence": "待核实",
+    "sourceTier": "待扩展",
+    "missingFields": [
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第四季 第2集 烟火 早酒",
+    "mediaSearch": "舌尖上的中国 早酒 江西 地点",
+    "localSearch": "早酒 江西 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 早酒 中国菜 数据",
+    "sourceUrls": [
+      "https://m.cflac.org.cn/sylb/202502/t20250219_1339027.html"
+    ]
+  },
+  {
+    "id": "bite-24-4",
+    "name": "蒸饺",
+    "season": "第四季",
+    "episode": "第2集 烟火",
+    "province": "福建",
+    "city": "三明沙县",
+    "region": "华东",
+    "category": "主食点心",
+    "confidence": "待核实",
+    "sourceTier": "待扩展",
+    "missingFields": [
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第四季 第2集 烟火 蒸饺",
+    "mediaSearch": "舌尖上的中国 蒸饺 福建 地点",
+    "localSearch": "蒸饺 福建 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 蒸饺 中国菜 数据",
+    "sourceUrls": [
+      "https://m.cflac.org.cn/sylb/202502/t20250219_1339027.html"
+    ]
+  },
+  {
+    "id": "bite-25-2",
+    "name": "红霉豆腐渣",
+    "season": "第四季",
+    "episode": "第3集 焕发",
+    "province": "湖南",
+    "city": "临湘",
+    "region": "华中",
+    "category": "蔬果山珍",
+    "confidence": "待核实",
+    "sourceTier": "待扩展",
+    "missingFields": [
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第四季 第3集 焕发 红霉豆腐渣",
+    "mediaSearch": "舌尖上的中国 红霉豆腐渣 湖南 地点",
+    "localSearch": "红霉豆腐渣 湖南 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 红霉豆腐渣 中国菜 数据",
+    "sourceUrls": [
+      "https://m.cflac.org.cn/sylb/202502/t20250219_1339027.html"
+    ]
+  },
+  {
+    "id": "bite-25-1",
+    "name": "柿子醋",
+    "season": "第四季",
+    "episode": "第3集 焕发",
+    "province": "河南",
+    "city": "三门峡陕州",
+    "region": "华中",
+    "category": "发酵腌制",
+    "confidence": "待核实",
+    "sourceTier": "待扩展",
+    "missingFields": [
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第四季 第3集 焕发 柿子醋",
+    "mediaSearch": "舌尖上的中国 柿子醋 河南 地点",
+    "localSearch": "柿子醋 河南 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 柿子醋 中国菜 数据",
+    "sourceUrls": [
+      "https://m.cflac.org.cn/sylb/202502/t20250219_1339027.html"
+    ]
+  },
+  {
+    "id": "bite-26-1",
+    "name": "鲜花椒红烧肉",
+    "season": "第四季",
+    "episode": "第4集 天作",
+    "province": "河北",
+    "city": "邯郸涉县",
+    "region": "华北",
+    "category": "肉禽",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第四季 第4集 天作 鲜花椒红烧肉",
+    "mediaSearch": "舌尖上的中国 鲜花椒红烧肉 河北 地点",
+    "localSearch": "鲜花椒红烧肉 河北 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 鲜花椒红烧肉 中国菜 数据",
+    "sourceUrls": [
+      "https://tv.cctv.com/2025/01/26/VIDA07Nw5uxdnXkPe4e8yfe7250126.shtml",
+      "https://www.visitbeijing.com.cn/article/4LRaU6ErmA7"
+    ]
+  },
+  {
+    "id": "bite-26-3",
+    "name": "油酥烧饼",
+    "season": "第四季",
+    "episode": "第4集 天作",
+    "province": "天津",
+    "city": "天津",
+    "region": "华北",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第四季 第4集 天作 油酥烧饼",
+    "mediaSearch": "舌尖上的中国 油酥烧饼 天津 地点",
+    "localSearch": "油酥烧饼 天津 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 油酥烧饼 中国菜 数据",
+    "sourceUrls": [
+      "https://tv.cctv.com/2025/01/26/VIDA07Nw5uxdnXkPe4e8yfe7250126.shtml",
+      "https://www.visitbeijing.com.cn/article/4LRalvYO9I6"
+    ]
+  },
+  {
+    "id": "bite-27-2",
+    "name": "粉蒸芋头",
+    "season": "第四季",
+    "episode": "第5集 风物",
+    "province": "湖北",
+    "city": "仙桃",
+    "region": "华中",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第四季 第5集 风物 粉蒸芋头",
+    "mediaSearch": "舌尖上的中国 粉蒸芋头 湖北 地点",
+    "localSearch": "粉蒸芋头 湖北 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 粉蒸芋头 中国菜 数据",
+    "sourceUrls": [
+      "https://tv.cctv.com/2025/01/26/VIDA07Nw5uxdnXkPe4e8yfe7250126.shtml",
+      "https://www.chaozhoudaily.com/content/202502/25/c26025336.html"
+    ]
+  },
+  {
+    "id": "bite-27-3",
+    "name": "炭烤帝王蟹",
+    "season": "第四季",
+    "episode": "第5集 风物",
+    "province": "吉林",
+    "city": "珲春",
+    "region": "东北",
+    "category": "水产海鲜",
+    "confidence": "已核实",
+    "sourceTier": "官方节目页",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第四季 第5集 风物 炭烤帝王蟹",
+    "mediaSearch": "舌尖上的中国 炭烤帝王蟹 吉林 地点",
+    "localSearch": "炭烤帝王蟹 吉林 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 炭烤帝王蟹 中国菜 数据",
+    "sourceUrls": [
+      "https://tv.cctv.com/2025/01/26/VIDA07Nw5uxdnXkPe4e8yfe7250126.shtml",
+      "https://www.chaozhoudaily.com/content/202502/25/c26025336.html"
+    ]
+  },
+  {
+    "id": "bite-29-3",
+    "name": "刀削面",
+    "season": "第四季",
+    "episode": "第7集 华流",
+    "province": "山西",
+    "city": "大同",
+    "region": "华北",
+    "category": "主食点心",
+    "confidence": "待核实",
+    "sourceTier": "待扩展",
+    "missingFields": [
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第四季 第7集 华流 刀削面",
+    "mediaSearch": "舌尖上的中国 刀削面 山西 地点",
+    "localSearch": "刀削面 山西 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 刀削面 中国菜 数据",
+    "sourceUrls": [
+      "https://m.cflac.org.cn/sylb/202502/t20250219_1339027.html"
+    ]
+  },
+  {
+    "id": "bite-29-5",
+    "name": "左宗棠鸡",
+    "season": "第四季",
+    "episode": "第7集 华流",
+    "province": "湖南",
+    "city": "待核实",
+    "region": "华中",
+    "category": "肉禽",
+    "confidence": "待核实",
+    "sourceTier": "人工审核",
+    "missingFields": [
+      "story",
+      "culturalContext",
+      "confidence"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第四季 第7集 华流 左宗棠鸡",
+    "mediaSearch": "舌尖上的中国 左宗棠鸡 湖南 地点",
+    "localSearch": "左宗棠鸡 湖南 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 左宗棠鸡 中国菜 数据",
+    "sourceUrls": [
+      "https://m.cflac.org.cn/sylb/202502/t20250219_1339027.html",
+      "manual-review://food-location-audit/%E5%B7%A6%E5%AE%97%E6%A3%A0%E9%B8%A1"
+    ]
+  },
+  {
+    "id": "bite-1-6",
+    "name": "冬季捕鱼",
+    "season": "第一季",
+    "episode": "第1集 自然的馈赠",
+    "province": "吉林",
+    "city": "松原",
+    "region": "东北",
+    "category": "水产海鲜",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第1集 自然的馈赠 冬季捕鱼",
+    "mediaSearch": "舌尖上的中国 冬季捕鱼 吉林 地点",
+    "localSearch": "冬季捕鱼 吉林 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 冬季捕鱼 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-1-2",
+    "name": "冬笋",
+    "season": "第一季",
+    "episode": "第1集 自然的馈赠",
+    "province": "浙江",
+    "city": "遂昌",
+    "region": "华东",
+    "category": "蔬果山珍",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第1集 自然的馈赠 冬笋",
+    "mediaSearch": "舌尖上的中国 冬笋 浙江 地点",
+    "localSearch": "冬笋 浙江 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 冬笋 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-1-5",
+    "name": "莲藕",
+    "season": "第一季",
+    "episode": "第1集 自然的馈赠",
+    "province": "湖北",
+    "city": "嘉鱼",
+    "region": "华中",
+    "category": "水产海鲜",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第1集 自然的馈赠 莲藕",
+    "mediaSearch": "舌尖上的中国 莲藕 湖北 地点",
+    "localSearch": "莲藕 湖北 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 莲藕 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-1-4",
+    "name": "诺邓火腿",
+    "season": "第一季",
+    "episode": "第1集 自然的馈赠",
+    "province": "云南",
+    "city": "大理",
+    "region": "西南",
+    "category": "发酵腌制",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第1集 自然的馈赠 诺邓火腿",
+    "mediaSearch": "舌尖上的中国 诺邓火腿 云南 地点",
+    "localSearch": "诺邓火腿 云南 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 诺邓火腿 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-1-1",
+    "name": "松茸",
+    "season": "第一季",
+    "episode": "第1集 自然的馈赠",
+    "province": "云南",
+    "city": "香格里拉",
+    "region": "西南",
+    "category": "小吃与食材",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第1集 自然的馈赠 松茸",
+    "mediaSearch": "舌尖上的中国 松茸 云南 地点",
+    "localSearch": "松茸 云南 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 松茸 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-1-7",
+    "name": "远洋打渔",
+    "season": "第一季",
+    "episode": "第1集 自然的馈赠",
+    "province": "海南",
+    "city": "南海海域",
+    "region": "华南",
+    "category": "小吃与食材",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第1集 自然的馈赠 远洋打渔",
+    "mediaSearch": "舌尖上的中国 远洋打渔 海南 地点",
+    "localSearch": "远洋打渔 海南 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 远洋打渔 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-2-2",
+    "name": "黄馍馍",
+    "season": "第一季",
+    "episode": "第2集 主食的故事",
+    "province": "陕西",
+    "city": "绥德",
+    "region": "西北",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第2集 主食的故事 黄馍馍",
+    "mediaSearch": "舌尖上的中国 黄馍馍 陕西 地点",
+    "localSearch": "黄馍馍 陕西 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 黄馍馍 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-2-4",
+    "name": "米粉",
+    "season": "第一季",
+    "episode": "第2集 主食的故事",
+    "province": "贵州",
+    "city": "黎平",
+    "region": "西南",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第2集 主食的故事 米粉",
+    "mediaSearch": "舌尖上的中国 米粉 贵州 地点",
+    "localSearch": "米粉 贵州 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 米粉 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-2-1",
+    "name": "面食",
+    "season": "第一季",
+    "episode": "第2集 主食的故事",
+    "province": "山西",
+    "city": "襄汾",
+    "region": "华北",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第2集 主食的故事 面食",
+    "mediaSearch": "舌尖上的中国 面食 山西 地点",
+    "localSearch": "面食 山西 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 面食 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-2-13",
+    "name": "年糕",
+    "season": "第一季",
+    "episode": "第2集 主食的故事",
+    "province": "浙江",
+    "city": "宁波",
+    "region": "华东",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第2集 主食的故事 年糕",
+    "mediaSearch": "舌尖上的中国 年糕 浙江 地点",
+    "localSearch": "年糕 浙江 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 年糕 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-2-8",
+    "name": "牛肉面",
+    "season": "第一季",
+    "episode": "第2集 主食的故事",
+    "province": "甘肃",
+    "city": "兰州",
+    "region": "西北",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第2集 主食的故事 牛肉面",
+    "mediaSearch": "舌尖上的中国 牛肉面 甘肃 地点",
+    "localSearch": "牛肉面 甘肃 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 牛肉面 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-2-7",
+    "name": "泡馍",
+    "season": "第一季",
+    "episode": "第2集 主食的故事",
+    "province": "陕西",
+    "city": "西安",
+    "region": "西北",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第2集 主食的故事 泡馍",
+    "mediaSearch": "舌尖上的中国 泡馍 陕西 地点",
+    "localSearch": "泡馍 陕西 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 泡馍 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-2-6",
+    "name": "肉夹馍",
+    "season": "第一季",
+    "episode": "第2集 主食的故事",
+    "province": "陕西",
+    "city": "西安",
+    "region": "西北",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第2集 主食的故事 肉夹馍",
+    "mediaSearch": "舌尖上的中国 肉夹馍 陕西 地点",
+    "localSearch": "肉夹馍 陕西 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 肉夹馍 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-2-11",
+    "name": "臊子面",
+    "season": "第一季",
+    "episode": "第2集 主食的故事",
+    "province": "陕西",
+    "city": "岐山",
+    "region": "西北",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第2集 主食的故事 臊子面",
+    "mediaSearch": "舌尖上的中国 臊子面 陕西 地点",
+    "localSearch": "臊子面 陕西 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 臊子面 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-2-5",
+    "name": "沙河粉",
+    "season": "第一季",
+    "episode": "第2集 主食的故事",
+    "province": "广东",
+    "city": "广州",
+    "region": "华南",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第2集 主食的故事 沙河粉",
+    "mediaSearch": "舌尖上的中国 沙河粉 广东 地点",
+    "localSearch": "沙河粉 广东 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 沙河粉 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-2-3",
+    "name": "新疆库车馕",
+    "season": "第一季",
+    "episode": "第2集 主食的故事",
+    "province": "新疆",
+    "city": "库车",
+    "region": "西北",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第2集 主食的故事 新疆库车馕",
+    "mediaSearch": "舌尖上的中国 新疆库车馕 新疆 地点",
+    "localSearch": "新疆库车馕 新疆 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 新疆库车馕 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-2-10",
+    "name": "云吞捞面",
+    "season": "第一季",
+    "episode": "第2集 主食的故事",
+    "province": "广东",
+    "city": "广州",
+    "region": "华南",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第2集 主食的故事 云吞捞面",
+    "mediaSearch": "舌尖上的中国 云吞捞面 广东 地点",
+    "localSearch": "云吞捞面 广东 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 云吞捞面 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-2-9",
+    "name": "竹升面",
+    "season": "第一季",
+    "episode": "第2集 主食的故事",
+    "province": "广东",
+    "city": "广州",
+    "region": "华南",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第2集 主食的故事 竹升面",
+    "mediaSearch": "舌尖上的中国 竹升面 广东 地点",
+    "localSearch": "竹升面 广东 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 竹升面 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-2-12",
+    "name": "粽子",
+    "season": "第一季",
+    "episode": "第2集 主食的故事",
+    "province": "浙江",
+    "city": "嘉兴",
+    "region": "华东",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第2集 主食的故事 粽子",
+    "mediaSearch": "舌尖上的中国 粽子 浙江 地点",
+    "localSearch": "粽子 浙江 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 粽子 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-3-10",
+    "name": "大酱",
+    "season": "第一季",
+    "episode": "第3集 转化的灵感",
+    "province": "黑龙江",
+    "city": "依兰",
+    "region": "东北",
+    "category": "发酵腌制",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第3集 转化的灵感 大酱",
+    "mediaSearch": "舌尖上的中国 大酱 黑龙江 地点",
+    "localSearch": "大酱 黑龙江 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 大酱 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-3-2",
+    "name": "豆腐",
+    "season": "第一季",
+    "episode": "第3集 转化的灵感",
+    "province": "云南",
+    "city": "石屏",
+    "region": "西南",
+    "category": "蔬果山珍",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第3集 转化的灵感 豆腐",
+    "mediaSearch": "舌尖上的中国 豆腐 云南 地点",
+    "localSearch": "豆腐 云南 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 豆腐 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-3-8",
+    "name": "黄酒",
+    "season": "第一季",
+    "episode": "第3集 转化的灵感",
+    "province": "浙江",
+    "city": "绍兴",
+    "region": "华东",
+    "category": "发酵腌制",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第3集 转化的灵感 黄酒",
+    "mediaSearch": "舌尖上的中国 黄酒 浙江 地点",
+    "localSearch": "黄酒 浙江 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 黄酒 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-3-9",
+    "name": "酱油",
+    "season": "第一季",
+    "episode": "第3集 转化的灵感",
+    "province": "浙江",
+    "city": "绍兴",
+    "region": "华东",
+    "category": "发酵腌制",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第3集 转化的灵感 酱油",
+    "mediaSearch": "舌尖上的中国 酱油 浙江 地点",
+    "localSearch": "酱油 浙江 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 酱油 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-3-6",
+    "name": "毛豆腐",
+    "season": "第一季",
+    "episode": "第3集 转化的灵感",
+    "province": "安徽",
+    "city": "休宁",
+    "region": "华东",
+    "category": "蔬果山珍",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第3集 转化的灵感 毛豆腐",
+    "mediaSearch": "舌尖上的中国 毛豆腐 安徽 地点",
+    "localSearch": "毛豆腐 安徽 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 毛豆腐 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-3-7",
+    "name": "米酒",
+    "season": "第一季",
+    "episode": "第3集 转化的灵感",
+    "province": "安徽",
+    "city": "休宁",
+    "region": "华东",
+    "category": "发酵腌制",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第3集 转化的灵感 米酒",
+    "mediaSearch": "舌尖上的中国 米酒 安徽 地点",
+    "localSearch": "米酒 安徽 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 米酒 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-3-5",
+    "name": "奶茶",
+    "season": "第一季",
+    "episode": "第3集 转化的灵感",
+    "province": "内蒙古",
+    "city": "锡林郭勒",
+    "region": "华北",
+    "category": "小吃与食材",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第3集 转化的灵感 奶茶",
+    "mediaSearch": "舌尖上的中国 奶茶 内蒙古 地点",
+    "localSearch": "奶茶 内蒙古 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 奶茶 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-3-4",
+    "name": "奶豆腐",
+    "season": "第一季",
+    "episode": "第3集 转化的灵感",
+    "province": "内蒙古",
+    "city": "锡林郭勒",
+    "region": "华北",
+    "category": "蔬果山珍",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第3集 转化的灵感 奶豆腐",
+    "mediaSearch": "舌尖上的中国 奶豆腐 内蒙古 地点",
+    "localSearch": "奶豆腐 内蒙古 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 奶豆腐 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-3-3",
+    "name": "嫩豆腐",
+    "season": "第一季",
+    "episode": "第3集 转化的灵感",
+    "province": "安徽",
+    "city": "寿县",
+    "region": "华东",
+    "category": "蔬果山珍",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第3集 转化的灵感 嫩豆腐",
+    "mediaSearch": "舌尖上的中国 嫩豆腐 安徽 地点",
+    "localSearch": "嫩豆腐 安徽 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 嫩豆腐 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-3-1",
+    "name": "烧豆腐",
+    "season": "第一季",
+    "episode": "第3集 转化的灵感",
+    "province": "云南",
+    "city": "建水",
+    "region": "西南",
+    "category": "蔬果山珍",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第3集 转化的灵感 烧豆腐",
+    "mediaSearch": "舌尖上的中国 烧豆腐 云南 地点",
+    "localSearch": "烧豆腐 云南 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 烧豆腐 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-3-11",
+    "name": "酸菜",
+    "season": "第一季",
+    "episode": "第3集 转化的灵感",
+    "province": "黑龙江",
+    "city": "依兰",
+    "region": "东北",
+    "category": "发酵腌制",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第3集 转化的灵感 酸菜",
+    "mediaSearch": "舌尖上的中国 酸菜 黑龙江 地点",
+    "localSearch": "酸菜 黑龙江 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 酸菜 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-4-6",
+    "name": "臭鳜鱼",
+    "season": "第一季",
+    "episode": "第4集 时间的味道",
+    "province": "安徽",
+    "city": "黄山",
+    "region": "华东",
+    "category": "水产海鲜",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第4集 时间的味道 臭鳜鱼",
+    "mediaSearch": "舌尖上的中国 臭鳜鱼 安徽 地点",
+    "localSearch": "臭鳜鱼 安徽 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 臭鳜鱼 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-4-7",
+    "name": "刀板香火腿",
+    "season": "第一季",
+    "episode": "第4集 时间的味道",
+    "province": "安徽",
+    "city": "黄山",
+    "region": "华东",
+    "category": "发酵腌制",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第4集 时间的味道 刀板香火腿",
+    "mediaSearch": "舌尖上的中国 刀板香火腿 安徽 地点",
+    "localSearch": "刀板香火腿 安徽 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 刀板香火腿 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-4-8",
+    "name": "火腿",
+    "season": "第一季",
+    "episode": "第4集 时间的味道",
+    "province": "浙江",
+    "city": "金华",
+    "region": "华东",
+    "category": "发酵腌制",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第4集 时间的味道 火腿",
+    "mediaSearch": "舌尖上的中国 火腿 浙江 地点",
+    "localSearch": "火腿 浙江 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 火腿 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-4-5",
+    "name": "腊肉",
+    "season": "第一季",
+    "episode": "第4集 时间的味道",
+    "province": "湖南",
+    "city": "靖州",
+    "region": "华中",
+    "category": "发酵腌制",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第4集 时间的味道 腊肉",
+    "mediaSearch": "舌尖上的中国 腊肉 湖南 地点",
+    "localSearch": "腊肉 湖南 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 腊肉 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-4-3",
+    "name": "腊鸭",
+    "season": "第一季",
+    "episode": "第4集 时间的味道",
+    "province": "福建",
+    "city": "南安",
+    "region": "华东",
+    "category": "发酵腌制",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第4集 时间的味道 腊鸭",
+    "mediaSearch": "舌尖上的中国 腊鸭 福建 地点",
+    "localSearch": "腊鸭 福建 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 腊鸭 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-4-10",
+    "name": "乌鱼子",
+    "season": "第一季",
+    "episode": "第4集 时间的味道",
+    "province": "台湾",
+    "city": "云林",
+    "region": "港澳台",
+    "category": "水产海鲜",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第4集 时间的味道 乌鱼子",
+    "mediaSearch": "舌尖上的中国 乌鱼子 台湾 地点",
+    "localSearch": "乌鱼子 台湾 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 乌鱼子 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-4-11",
+    "name": "虾膏",
+    "season": "第一季",
+    "episode": "第4集 时间的味道",
+    "province": "香港",
+    "city": "大澳",
+    "region": "港澳台",
+    "category": "水产海鲜",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第4集 时间的味道 虾膏",
+    "mediaSearch": "舌尖上的中国 虾膏 香港 地点",
+    "localSearch": "虾膏 香港 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 虾膏 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-4-12",
+    "name": "虾酱",
+    "season": "第一季",
+    "episode": "第4集 时间的味道",
+    "province": "香港",
+    "city": "大澳",
+    "region": "港澳台",
+    "category": "水产海鲜",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第4集 时间的味道 虾酱",
+    "mediaSearch": "舌尖上的中国 虾酱 香港 地点",
+    "localSearch": "虾酱 香港 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 虾酱 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-4-4",
+    "name": "腌禾花鱼",
+    "season": "第一季",
+    "episode": "第4集 时间的味道",
+    "province": "湖南",
+    "city": "靖州",
+    "region": "华中",
+    "category": "水产海鲜",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第4集 时间的味道 腌禾花鱼",
+    "mediaSearch": "舌尖上的中国 腌禾花鱼 湖南 地点",
+    "localSearch": "腌禾花鱼 湖南 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 腌禾花鱼 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-4-9",
+    "name": "醉蟹",
+    "season": "第一季",
+    "episode": "第4集 时间的味道",
+    "province": "上海",
+    "city": "上海",
+    "region": "华东",
+    "category": "水产海鲜",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第4集 时间的味道 醉蟹",
+    "mediaSearch": "舌尖上的中国 醉蟹 上海 地点",
+    "localSearch": "醉蟹 上海 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 醉蟹 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-5-5",
+    "name": "包子",
+    "season": "第一季",
+    "episode": "第5集 厨房的秘密",
+    "province": "江苏",
+    "city": "扬州",
+    "region": "华东",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第5集 厨房的秘密 包子",
+    "mediaSearch": "舌尖上的中国 包子 江苏 地点",
+    "localSearch": "包子 江苏 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 包子 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-5-6",
+    "name": "大煮干丝",
+    "season": "第一季",
+    "episode": "第5集 厨房的秘密",
+    "province": "江苏",
+    "city": "扬州",
+    "region": "华东",
+    "category": "小吃与食材",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第5集 厨房的秘密 大煮干丝",
+    "mediaSearch": "舌尖上的中国 大煮干丝 江苏 地点",
+    "localSearch": "大煮干丝 江苏 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 大煮干丝 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-5-9",
+    "name": "仿豹胎",
+    "season": "第一季",
+    "episode": "第5集 厨房的秘密",
+    "province": "江苏",
+    "city": "扬州",
+    "region": "华东",
+    "category": "小吃与食材",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第5集 厨房的秘密 仿豹胎",
+    "mediaSearch": "舌尖上的中国 仿豹胎 江苏 地点",
+    "localSearch": "仿豹胎 江苏 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 仿豹胎 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-5-4",
+    "name": "粉葛蒸肉",
+    "season": "第一季",
+    "episode": "第5集 厨房的秘密",
+    "province": "广东",
+    "city": "佛山顺德",
+    "region": "华南",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第5集 厨房的秘密 粉葛蒸肉",
+    "mediaSearch": "舌尖上的中国 粉葛蒸肉 广东 地点",
+    "localSearch": "粉葛蒸肉 广东 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 粉葛蒸肉 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-5-11",
+    "name": "鉴真素鸭",
+    "season": "第一季",
+    "episode": "第5集 厨房的秘密",
+    "province": "江苏",
+    "city": "扬州",
+    "region": "华东",
+    "category": "肉禽",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第5集 厨房的秘密 鉴真素鸭",
+    "mediaSearch": "舌尖上的中国 鉴真素鸭 江苏 地点",
+    "localSearch": "鉴真素鸭 江苏 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 鉴真素鸭 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-5-3",
+    "name": "均安露天村宴",
+    "season": "第一季",
+    "episode": "第5集 厨房的秘密",
+    "province": "广东",
+    "city": "佛山顺德",
+    "region": "华南",
+    "category": "宴饮",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第5集 厨房的秘密 均安露天村宴",
+    "mediaSearch": "舌尖上的中国 均安露天村宴 广东 地点",
+    "localSearch": "均安露天村宴 广东 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 均安露天村宴 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-5-1",
+    "name": "尼西黑陶煮制食品",
+    "season": "第一季",
+    "episode": "第5集 厨房的秘密",
+    "province": "云南",
+    "city": "香格里拉",
+    "region": "西南",
+    "category": "小吃与食材",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第5集 厨房的秘密 尼西黑陶煮制食品",
+    "mediaSearch": "舌尖上的中国 尼西黑陶煮制食品 云南 地点",
+    "localSearch": "尼西黑陶煮制食品 云南 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 尼西黑陶煮制食品 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-5-2",
+    "name": "汽锅鸡",
+    "season": "第一季",
+    "episode": "第5集 厨房的秘密",
+    "province": "云南",
+    "city": "昆明",
+    "region": "西南",
+    "category": "锅物",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第5集 厨房的秘密 汽锅鸡",
+    "mediaSearch": "舌尖上的中国 汽锅鸡 云南 地点",
+    "localSearch": "汽锅鸡 云南 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 汽锅鸡 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-5-8",
+    "name": "清炖狮子头",
+    "season": "第一季",
+    "episode": "第5集 厨房的秘密",
+    "province": "江苏",
+    "city": "扬州",
+    "region": "华东",
+    "category": "小吃与食材",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第5集 厨房的秘密 清炖狮子头",
+    "mediaSearch": "舌尖上的中国 清炖狮子头 江苏 地点",
+    "localSearch": "清炖狮子头 江苏 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 清炖狮子头 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-5-10",
+    "name": "文思豆腐",
+    "season": "第一季",
+    "episode": "第5集 厨房的秘密",
+    "province": "江苏",
+    "city": "扬州",
+    "region": "华东",
+    "category": "蔬果山珍",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第5集 厨房的秘密 文思豆腐",
+    "mediaSearch": "舌尖上的中国 文思豆腐 江苏 地点",
+    "localSearch": "文思豆腐 江苏 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 文思豆腐 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-5-14",
+    "name": "西湖醋鱼",
+    "season": "第一季",
+    "episode": "第5集 厨房的秘密",
+    "province": "浙江",
+    "city": "杭州",
+    "region": "华东",
+    "category": "水产海鲜",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第5集 厨房的秘密 西湖醋鱼",
+    "mediaSearch": "舌尖上的中国 西湖醋鱼 浙江 地点",
+    "localSearch": "西湖醋鱼 浙江 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 西湖醋鱼 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-5-7",
+    "name": "雪花鲥鱼",
+    "season": "第一季",
+    "episode": "第5集 厨房的秘密",
+    "province": "江苏",
+    "city": "扬州",
+    "region": "华东",
+    "category": "水产海鲜",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第5集 厨房的秘密 雪花鲥鱼",
+    "mediaSearch": "舌尖上的中国 雪花鲥鱼 江苏 地点",
+    "localSearch": "雪花鲥鱼 江苏 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 雪花鲥鱼 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-5-12",
+    "name": "油炸臭豆腐",
+    "season": "第一季",
+    "episode": "第5集 厨房的秘密",
+    "province": "湖南",
+    "city": "长沙",
+    "region": "华中",
+    "category": "蔬果山珍",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第5集 厨房的秘密 油炸臭豆腐",
+    "mediaSearch": "舌尖上的中国 油炸臭豆腐 湖南 地点",
+    "localSearch": "油炸臭豆腐 湖南 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 油炸臭豆腐 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-6-20",
+    "name": "白切鸡",
+    "season": "第一季",
+    "episode": "第6集 五味的调和",
+    "province": "广东",
+    "city": "广州",
+    "region": "华南",
+    "category": "肉禽",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第6集 五味的调和 白切鸡",
+    "mediaSearch": "舌尖上的中国 白切鸡 广东 地点",
+    "localSearch": "白切鸡 广东 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 白切鸡 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-6-7",
+    "name": "陈皮",
+    "season": "第一季",
+    "episode": "第6集 五味的调和",
+    "province": "广东",
+    "city": "江门新会",
+    "region": "华南",
+    "category": "发酵腌制",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第6集 五味的调和 陈皮",
+    "mediaSearch": "舌尖上的中国 陈皮 广东 地点",
+    "localSearch": "陈皮 广东 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 陈皮 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-6-8",
+    "name": "陈皮鸭",
+    "season": "第一季",
+    "episode": "第6集 五味的调和",
+    "province": "澳门",
+    "city": "澳门",
+    "region": "港澳台",
+    "category": "发酵腌制",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第6集 五味的调和 陈皮鸭",
+    "mediaSearch": "舌尖上的中国 陈皮鸭 澳门 地点",
+    "localSearch": "陈皮鸭 澳门 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 陈皮鸭 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-6-11",
+    "name": "醋排",
+    "season": "第一季",
+    "episode": "第6集 五味的调和",
+    "province": "江苏",
+    "city": "镇江",
+    "region": "华东",
+    "category": "发酵腌制",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第6集 五味的调和 醋排",
+    "mediaSearch": "舌尖上的中国 醋排 江苏 地点",
+    "localSearch": "醋排 江苏 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 醋排 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-6-17",
+    "name": "火锅",
+    "season": "第一季",
+    "episode": "第6集 五味的调和",
+    "province": "重庆",
+    "city": "重庆",
+    "region": "西南",
+    "category": "锅物",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第6集 五味的调和 火锅",
+    "mediaSearch": "舌尖上的中国 火锅 重庆 地点",
+    "localSearch": "火锅 重庆 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 火锅 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-6-4",
+    "name": "加蟹小笼馒头",
+    "season": "第一季",
+    "episode": "第6集 五味的调和",
+    "province": "江苏",
+    "city": "无锡",
+    "region": "华东",
+    "category": "水产海鲜",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第6集 五味的调和 加蟹小笼馒头",
+    "mediaSearch": "舌尖上的中国 加蟹小笼馒头 江苏 地点",
+    "localSearch": "加蟹小笼馒头 江苏 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 加蟹小笼馒头 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-6-6",
+    "name": "酱排骨",
+    "season": "第一季",
+    "episode": "第6集 五味的调和",
+    "province": "江苏",
+    "city": "无锡",
+    "region": "华东",
+    "category": "发酵腌制",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第6集 五味的调和 酱排骨",
+    "mediaSearch": "舌尖上的中国 酱排骨 江苏 地点",
+    "localSearch": "酱排骨 江苏 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 酱排骨 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-6-3",
+    "name": "梁溪脆鳝",
+    "season": "第一季",
+    "episode": "第6集 五味的调和",
+    "province": "江苏",
+    "city": "无锡",
+    "region": "华东",
+    "category": "小吃与食材",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第6集 五味的调和 梁溪脆鳝",
+    "mediaSearch": "舌尖上的中国 梁溪脆鳝 江苏 地点",
+    "localSearch": "梁溪脆鳝 江苏 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 梁溪脆鳝 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-6-19",
+    "name": "清蒸鱼",
+    "season": "第一季",
+    "episode": "第6集 五味的调和",
+    "province": "广东",
+    "city": "广州",
+    "region": "华南",
+    "category": "水产海鲜",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第6集 五味的调和 清蒸鱼",
+    "mediaSearch": "舌尖上的中国 清蒸鱼 广东 地点",
+    "localSearch": "清蒸鱼 广东 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 清蒸鱼 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-6-5",
+    "name": "手推馄饨",
+    "season": "第一季",
+    "episode": "第6集 五味的调和",
+    "province": "江苏",
+    "city": "无锡",
+    "region": "华东",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第6集 五味的调和 手推馄饨",
+    "mediaSearch": "舌尖上的中国 手推馄饨 江苏 地点",
+    "localSearch": "手推馄饨 江苏 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 手推馄饨 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-6-1",
+    "name": "糖葱薄饼",
+    "season": "第一季",
+    "episode": "第6集 五味的调和",
+    "province": "广东",
+    "city": "汕头",
+    "region": "华南",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第6集 五味的调和 糖葱薄饼",
+    "mediaSearch": "舌尖上的中国 糖葱薄饼 广东 地点",
+    "localSearch": "糖葱薄饼 广东 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 糖葱薄饼 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-6-10",
+    "name": "香醋",
+    "season": "第一季",
+    "episode": "第6集 五味的调和",
+    "province": "江苏",
+    "city": "镇江",
+    "region": "华东",
+    "category": "发酵腌制",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第6集 五味的调和 香醋",
+    "mediaSearch": "舌尖上的中国 香醋 江苏 地点",
+    "localSearch": "香醋 江苏 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 香醋 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-6-9",
+    "name": "盐焗鸡",
+    "season": "第一季",
+    "episode": "第6集 五味的调和",
+    "province": "广东",
+    "city": "东江流域",
+    "region": "华南",
+    "category": "肉禽",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第6集 五味的调和 盐焗鸡",
+    "mediaSearch": "舌尖上的中国 盐焗鸡 广东 地点",
+    "localSearch": "盐焗鸡 广东 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 盐焗鸡 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-6-18",
+    "name": "鱼丸紫菜煲",
+    "season": "第一季",
+    "episode": "第6集 五味的调和",
+    "province": "广东",
+    "city": "汕头",
+    "region": "华南",
+    "category": "水产海鲜",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第6集 五味的调和 鱼丸紫菜煲",
+    "mediaSearch": "舌尖上的中国 鱼丸紫菜煲 广东 地点",
+    "localSearch": "鱼丸紫菜煲 广东 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 鱼丸紫菜煲 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-6-2",
+    "name": "蔗渣熏鸭脯",
+    "season": "第一季",
+    "episode": "第6集 五味的调和",
+    "province": "广东",
+    "city": "汕头",
+    "region": "华南",
+    "category": "肉禽",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第6集 五味的调和 蔗渣熏鸭脯",
+    "mediaSearch": "舌尖上的中国 蔗渣熏鸭脯 广东 地点",
+    "localSearch": "蔗渣熏鸭脯 广东 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 蔗渣熏鸭脯 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-7-2",
+    "name": "海产品",
+    "season": "第一季",
+    "episode": "第7集 我们的田野",
+    "province": "辽宁",
+    "city": "大连獐子岛",
+    "region": "东北",
+    "category": "水产海鲜",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第7集 我们的田野 海产品",
+    "mediaSearch": "舌尖上的中国 海产品 辽宁 地点",
+    "localSearch": "海产品 辽宁 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 海产品 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-7-3",
+    "name": "河蟹",
+    "season": "第一季",
+    "episode": "第7集 我们的田野",
+    "province": "浙江",
+    "city": "湖州",
+    "region": "华东",
+    "category": "水产海鲜",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第7集 我们的田野 河蟹",
+    "mediaSearch": "舌尖上的中国 河蟹 浙江 地点",
+    "localSearch": "河蟹 浙江 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 河蟹 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-7-4",
+    "name": "蟹黄汤包",
+    "season": "第一季",
+    "episode": "第7集 我们的田野",
+    "province": "江苏",
+    "city": "靖江",
+    "region": "华东",
+    "category": "主食点心",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第7集 我们的田野 蟹黄汤包",
+    "mediaSearch": "舌尖上的中国 蟹黄汤包 江苏 地点",
+    "localSearch": "蟹黄汤包 江苏 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 蟹黄汤包 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-7-1",
+    "name": "新米节",
+    "season": "第一季",
+    "episode": "第7集 我们的田野",
+    "province": "贵州",
+    "city": "从江",
+    "region": "西南",
+    "category": "小吃与食材",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第7集 我们的田野 新米节",
+    "mediaSearch": "舌尖上的中国 新米节 贵州 地点",
+    "localSearch": "新米节 贵州 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 新米节 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  },
+  {
+    "id": "bite-7-6",
+    "name": "芋头",
+    "season": "第一季",
+    "episode": "第7集 我们的田野",
+    "province": "江苏",
+    "city": "兴化",
+    "region": "华东",
+    "category": "蔬果山珍",
+    "confidence": "已核实",
+    "sourceTier": "分集表",
+    "missingFields": [
+      "story",
+      "culturalContext"
+    ],
+    "priority": "P2-补内容",
+    "recommendedAction": "补原创概述，不复制节目解说词或网页长文。",
+    "officialSearch": "site:tv.cctv.com 舌尖上的中国 第一季 第7集 我们的田野 芋头",
+    "mediaSearch": "舌尖上的中国 芋头 江苏 地点",
+    "localSearch": "芋头 江苏 文旅 非遗 地方志",
+    "githubSearch": "site:github.com 芋头 中国菜 数据",
+    "sourceUrls": [
+      "https://zh.wikipedia.org/wiki/%E8%88%8C%E5%B0%96%E4%B8%8A%E7%9A%84%E4%B8%AD%E5%9B%BD"
+    ]
+  }
+]
