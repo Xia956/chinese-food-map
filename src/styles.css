@@ -1108,7 +1108,8 @@ a {
   }
 
   .is-home-page .data-section {
-    margin-bottom: 0;
+    margin-top: -2px;
+    margin-bottom: -2px;
     padding-bottom: 10px;
   }
 
