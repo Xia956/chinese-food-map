@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { RotateCcw, Search, SlidersHorizontal, Volume2, VolumeX } from 'lucide-react';
+import { Check, ChevronDown, RotateCcw, Search, SlidersHorizontal, Volume2, VolumeX } from 'lucide-react';
 import { ChinaMap } from './components/ChinaMap';
 import { FlavorCarousel } from './components/FlavorCarousel';
 import { FoodModal } from './components/FoodModal';
@@ -21,6 +21,81 @@ function createBackgroundAudio() {
   audio.preload = 'auto';
   audio.volume = 0;
   return audio;
+}
+
+interface FilterOption {
+  label: string;
+  value: string;
+}
+
+interface FilterSelectProps {
+  label: string;
+  value: string;
+  options: FilterOption[];
+  onChange: (value: string) => void;
+}
+
+function FilterSelect({ label, value, options, onChange }: FilterSelectProps) {
+  const [open, setOpen] = useState(false);
+  const dropdownRef = useRef<HTMLDivElement | null>(null);
+  const selectedLabel = options.find((option) => option.value === value)?.label ?? value;
+
+  useEffect(() => {
+    if (!open) return;
+
+    const closeOnOutsidePress = (event: PointerEvent) => {
+      if (!dropdownRef.current?.contains(event.target as Node)) setOpen(false);
+    };
+
+    document.addEventListener('pointerdown', closeOnOutsidePress);
+    return () => document.removeEventListener('pointerdown', closeOnOutsidePress);
+  }, [open]);
+
+  return (
+    <div
+      className={`filter-dropdown${open ? ' is-open' : ''}`}
+      ref={dropdownRef}
+      onKeyDown={(event) => {
+        if (event.key === 'Escape') setOpen(false);
+      }}
+    >
+      <span>{label}</span>
+      <button
+        className="filter-select-trigger"
+        type="button"
+        aria-label={`${label}：${selectedLabel}`}
+        aria-haspopup="listbox"
+        aria-expanded={open}
+        onClick={() => setOpen((current) => !current)}
+      >
+        <span className="filter-select-value">{selectedLabel}</span>
+        <ChevronDown size={16} aria-hidden="true" />
+      </button>
+      {open ? (
+        <div className="filter-options" role="listbox" aria-label={`${label}选项`}>
+          {options.map((option) => {
+            const selected = option.value === value;
+            return (
+              <button
+                className="filter-option"
+                type="button"
+                role="option"
+                aria-selected={selected}
+                key={option.value}
+                onClick={() => {
+                  onChange(option.value);
+                  setOpen(false);
+                }}
+              >
+                <span>{option.label}</span>
+                {selected ? <Check size={15} aria-hidden="true" /> : null}
+              </button>
+            );
+          })}
+        </div>
+      ) : null}
+    </div>
+  );
 }
 
 export default function App() {
@@ -86,6 +161,8 @@ export default function App() {
       return matchesProvince && matchesSeason && matchesCategory && (!normalizedTerm || searchable.includes(normalizedTerm));
     });
   }, [categoryFilter, searchTerm, seasonFilter, selectedProvince]);
+  const hasActiveFilters =
+    Boolean(searchTerm.trim()) || Boolean(selectedProvince) || seasonFilter !== ALL_VALUE || categoryFilter !== ALL_VALUE;
 
   const clearFilters = () => {
     setSelectedProvince(undefined);
@@ -195,14 +272,20 @@ export default function App() {
 
       {provinceEntry ? <FlavorCarousel foods={provinceFoods} provinceName={provinceEntry.name} onSelectFood={setSelectedFood} /> : null}
 
-      <section className="data-section" aria-labelledby="food-data-title">
+      <section
+        className={`data-section${!hasActiveFilters ? ' is-awaiting-filter' : ''}`}
+        aria-labelledby="food-data-title"
+      >
         <div className="data-heading">
           <div>
             <span>资料表</span>
             <h2 id="food-data-title">{selectedProvince ? `${selectedProvince}美食条目` : '全部美食条目'}</h2>
           </div>
           <div className="data-summary">
-            <p>{filteredFoods.length} 条结果</p>
+            <p>
+              <span className="result-count">{filteredFoods.length} 条结果</span>
+              <span className="mobile-filter-hint">共收录 {foods.length} 条</span>
+            </p>
             <button
               className="mobile-filter-toggle"
               type="button"
@@ -222,40 +305,27 @@ export default function App() {
             <span>关键词</span>
             <input value={searchTerm} onChange={(event) => setSearchTerm(event.target.value)} placeholder="莲藕 / 云南 / 第1集" />
           </label>
-          <label>
-            <span>省份</span>
-            <select value={selectedProvince ?? ALL_VALUE} onChange={(event) => setSelectedProvince(event.target.value === ALL_VALUE ? undefined : event.target.value)}>
-              <option value={ALL_VALUE}>全部省份</option>
-              {provinces.map((province) => (
-                <option key={province.id} value={province.name}>
-                  {province.name}
-                </option>
-              ))}
-            </select>
-          </label>
-          <label>
-            <span>季数</span>
-            <select value={seasonFilter} onChange={(event) => setSeasonFilter(event.target.value)}>
-              <option value={ALL_VALUE}>全部季数</option>
-              {seasons.map((season) => (
-                <option key={season} value={season}>
-                  {season}
-                </option>
-              ))}
-            </select>
-          </label>
-          <label>
-            <span>类别</span>
-            <select value={categoryFilter} onChange={(event) => setCategoryFilter(event.target.value)}>
-              <option value={ALL_VALUE}>全部类别</option>
-              {categories.map((category) => (
-                <option key={category} value={category}>
-                  {category}
-                </option>
-              ))}
-            </select>
-          </label>
+          <FilterSelect
+            label="省份"
+            value={selectedProvince ?? ALL_VALUE}
+            options={[{ label: '全部省份', value: ALL_VALUE }, ...provinces.map((province) => ({ label: province.name, value: province.name }))]}
+            onChange={(value) => setSelectedProvince(value === ALL_VALUE ? undefined : value)}
+          />
+          <FilterSelect
+            label="季数"
+            value={seasonFilter}
+            options={[{ label: '全部季数', value: ALL_VALUE }, ...seasons.map((season) => ({ label: season, value: season }))]}
+            onChange={setSeasonFilter}
+          />
+          <FilterSelect
+            label="类别"
+            value={categoryFilter}
+            options={[{ label: '全部类别', value: ALL_VALUE }, ...categories.map((category) => ({ label: category, value: category }))]}
+            onChange={setCategoryFilter}
+          />
         </div>
+
+        {!hasActiveFilters ? <p className="mobile-filter-prompt">选择筛选条件后，将显示匹配的美食条目。</p> : null}
 
         {filteredFoods.length ? (
           <div className="food-table-wrap">
@@ -285,7 +355,17 @@ export default function App() {
                       }
                     }}
                   >
-                    <th scope="row">{food.name}</th>
+                    <th scope="row">
+                      <span className="food-result-thumb" aria-hidden="true">
+                        {food.image ? <img src={food.image.url} alt="" loading="lazy" /> : <span>暂无图片</span>}
+                        <span className="food-result-overlay">
+                          <strong>{food.name}</strong>
+                          <span>{formatFoodLocation(food)}</span>
+                          <small>{food.category}</small>
+                        </span>
+                      </span>
+                      <span className="food-result-name">{food.name}</span>
+                    </th>
                     <td data-label="地点">{formatFoodLocation(food)}</td>
                     <td data-label="节目">
                       {food.season} · {food.episode}

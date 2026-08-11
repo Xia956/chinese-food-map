@@ -222,13 +222,14 @@ export function ChinaMap({ selectedProvince, onSelectProvince, mapControl }: Chi
       },
       geo: {
         map: MAP_NAME,
-        roam: selectedProvince ? 'move' : false,
+        roam: selectedProvince ? 'move' : compactMap ? true : false,
         silent: false,
         center: selectedCenter,
         zoom: selectedProvince ? (selectedView?.zoom ?? SELECTED_MAP_ZOOM) : compactMap ? MOBILE_DEFAULT_MAP_ZOOM : DEFAULT_MAP_ZOOM,
         aspectScale: 0.86,
         layoutCenter: [compactMap && !selectedProvince ? '50%' : '49%', compactMap && !selectedProvince ? '58%' : '52%'],
         layoutSize: compactMap && !selectedProvince ? MOBILE_MAP_LAYOUT_SIZE : MAP_LAYOUT_SIZE,
+        scaleLimit: compactMap && !selectedProvince ? { min: 0.9, max: 3.2 } : undefined,
         itemStyle: {
           areaColor: '#2d403a',
           borderColor: 'rgba(218, 190, 137, 0.28)',
@@ -239,7 +240,7 @@ export function ChinaMap({ selectedProvince, onSelectProvince, mapControl }: Chi
         label: {
           show: false,
           color: '#fff6e6',
-          fontFamily: '"Noto Serif SC", "Songti SC", "STSong", "SimSun", serif',
+          fontFamily: '"Noto Serif SC Variable", "Noto Serif SC", "Songti SC", "STSong", "SimSun", serif',
           fontSize: 12,
           fontWeight: 800,
           textBorderColor: 'rgba(12, 9, 7, 0.78)',
@@ -249,7 +250,7 @@ export function ChinaMap({ selectedProvince, onSelectProvince, mapControl }: Chi
           label: {
             show: true,
             color: '#fff1cf',
-            fontFamily: '"Noto Serif SC", "Songti SC", "STSong", "SimSun", serif',
+            fontFamily: '"Noto Serif SC Variable", "Noto Serif SC", "Songti SC", "STSong", "SimSun", serif',
             fontSize: 18,
             fontWeight: 800,
             textBorderColor: 'rgba(12, 9, 7, 0.82)',
@@ -405,6 +406,15 @@ export function ChinaMap({ selectedProvince, onSelectProvince, mapControl }: Chi
 
     resizeChartToNode(chart, node);
     chart.setOption(option, { replaceMerge: ['series'] });
+
+    let active = true;
+    void document.fonts.ready.then(() => {
+      if (active && !chart.isDisposed()) chart.setOption(option, { replaceMerge: ['series'] });
+    });
+
+    return () => {
+      active = false;
+    };
   }, [option]);
 
   return (
