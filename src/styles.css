@@ -1446,6 +1446,10 @@ a {
     display: grid;
   }
 
+  .is-home-page .filter-dropdown.is-open {
+    margin-bottom: 248px;
+  }
+
   .is-home-page .data-section.is-awaiting-filter .food-table-wrap,
   .is-home-page .data-section.is-awaiting-filter .mobile-results-actions {
     display: none;
@@ -1467,6 +1471,10 @@ a {
   .data-controls input,
   .filter-select-trigger {
     min-height: 46px;
+  }
+
+  .data-controls input {
+    font-size: 16px;
   }
 
   .filter-options {

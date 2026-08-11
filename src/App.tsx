@@ -51,6 +51,19 @@ function FilterSelect({ label, value, options, onChange }: FilterSelectProps) {
     return () => document.removeEventListener('pointerdown', closeOnOutsidePress);
   }, [open]);
 
+  useEffect(() => {
+    if (!open || !window.matchMedia('(max-width: 620px)').matches) return;
+
+    const frame = window.requestAnimationFrame(() => {
+      const optionsPanel = dropdownRef.current?.querySelector<HTMLElement>('.filter-options');
+      if (!optionsPanel) return;
+
+      const overflow = optionsPanel.getBoundingClientRect().bottom - (window.innerHeight - 12);
+      if (overflow > 0) window.scrollBy({ top: overflow, behavior: 'smooth' });
+    });
+    return () => window.cancelAnimationFrame(frame);
+  }, [open]);
+
   return (
     <div
       className={`filter-dropdown${open ? ' is-open' : ''}`}

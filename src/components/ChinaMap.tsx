@@ -163,6 +163,8 @@ function resizeChartToNode(chart: ECharts, node: HTMLDivElement) {
 export function ChinaMap({ selectedProvince, onSelectProvince, mapControl }: ChinaMapProps) {
   const chartNodeRef = useRef<HTMLDivElement | null>(null);
   const chartRef = useRef<ECharts | null>(null);
+  const selectedProvinceRef = useRef(selectedProvince);
+  const latestOptionRef = useRef<EChartsOption | null>(null);
   const [compactMap, setCompactMap] = useState(false);
   const [cityReveal, setCityReveal] = useState({ province: selectedProvince, opacity: 1 });
   const selectedEntry = selectedProvince ? provinceByMapName.get(selectedProvince) : undefined;
@@ -338,6 +340,8 @@ export function ChinaMap({ selectedProvince, onSelectProvince, mapControl }: Chi
       ],
     };
   }, [cityOpacity, compactMap, selectedMapPlaces, selectedProvince]);
+  selectedProvinceRef.current = selectedProvince;
+  latestOptionRef.current = option;
 
   useEffect(() => {
     if (!selectedProvince) {
@@ -371,6 +375,13 @@ export function ChinaMap({ selectedProvince, onSelectProvince, mapControl }: Chi
     chartRef.current = chart;
     setCompactMap(node.clientWidth <= 620);
 
+    let lastBlankPress = { time: 0, x: 0, y: 0 };
+    const resetHomeMap = () => {
+      if (selectedProvinceRef.current || !latestOptionRef.current) return;
+      chart.setOption(latestOptionRef.current, { notMerge: true });
+      resizeChartToNode(chart, node);
+    };
+
     chart.on('click', (params) => {
       if (typeof params.name === 'string' && provinceByMapName.has(params.name)) {
         onSelectProvince(params.name);
@@ -381,7 +392,20 @@ export function ChinaMap({ selectedProvince, onSelectProvince, mapControl }: Chi
       const feature = findProvinceAtCoordinate(coordinate);
       if (feature && provinceByMapName.has(feature.properties.name)) {
         onSelectProvince(feature.properties.name);
+        return;
       }
+
+      const now = Date.now();
+      const distance = Math.hypot(event.offsetX - lastBlankPress.x, event.offsetY - lastBlankPress.y);
+      if (now - lastBlankPress.time <= 360 && distance <= 24) {
+        resetHomeMap();
+        lastBlankPress = { time: 0, x: 0, y: 0 };
+      } else {
+        lastBlankPress = { time: now, x: event.offsetX, y: event.offsetY };
+      }
+    });
+    chart.getZr().on('dblclick', (event) => {
+      if (!event.target) resetHomeMap();
     });
     const observer = new ResizeObserver(() => {
       window.requestAnimationFrame(() => {
