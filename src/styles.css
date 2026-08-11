@@ -1103,7 +1103,7 @@ a {
 
   .app-shell.is-home-page {
     min-height: auto;
-    padding-bottom: 0;
+    padding-bottom: max(12px, env(safe-area-inset-bottom));
     overscroll-behavior-y: none;
   }
 
