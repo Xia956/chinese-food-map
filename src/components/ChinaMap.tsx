@@ -31,6 +31,7 @@ const MOBILE_DEFAULT_MAP_ZOOM = 1;
 const SELECTED_MAP_PADDING = 0.96;
 const MAP_MOVE_DURATION = 1400;
 const CITY_REVEAL_DURATION = 760;
+const MAP_FONT_FAMILY = '"Noto Serif SC Variable", "Noto Serif SC", "Songti SC", "STSong", "SimSun", serif';
 const PROVINCE_LABEL_OFFSETS: Partial<Record<string, [number, number]>> = {
   河北: [-18, 10],
   北京: [10, -11],
@@ -240,7 +241,7 @@ export function ChinaMap({ selectedProvince, onSelectProvince, mapControl }: Chi
         label: {
           show: false,
           color: '#fff6e6',
-          fontFamily: '"Noto Serif SC Variable", "Noto Serif SC", "Songti SC", "STSong", "SimSun", serif',
+          fontFamily: MAP_FONT_FAMILY,
           fontSize: 12,
           fontWeight: 800,
           textBorderColor: 'rgba(12, 9, 7, 0.78)',
@@ -250,7 +251,7 @@ export function ChinaMap({ selectedProvince, onSelectProvince, mapControl }: Chi
           label: {
             show: true,
             color: '#fff1cf',
-            fontFamily: '"Noto Serif SC Variable", "Noto Serif SC", "Songti SC", "STSong", "SimSun", serif',
+            fontFamily: MAP_FONT_FAMILY,
             fontSize: 18,
             fontWeight: 800,
             textBorderColor: 'rgba(12, 9, 7, 0.82)',
@@ -284,9 +285,9 @@ export function ChinaMap({ selectedProvince, onSelectProvince, mapControl }: Chi
               show: true,
               offset: selectedProvince ? [0, 0] : PROVINCE_LABEL_OFFSETS[name],
               color: isDimmed ? 'rgba(255, 239, 204, 0.66)' : '#fff0cf',
-              fontFamily: '"Noto Serif SC", "Songti SC", "STSong", "SimSun", serif',
-              fontSize: isSelected ? 18 : isDimmed ? 10 : 12,
-              fontWeight: isSelected ? 800 : 700,
+              fontFamily: MAP_FONT_FAMILY,
+              fontSize: isSelected ? 18 : isDimmed ? 10 : compactMap ? 9 : 12,
+              fontWeight: isSelected ? 800 : compactMap ? 600 : 700,
               textBorderColor: 'rgba(12, 9, 7, 0.78)',
               textBorderWidth: isSelected ? 1.9 : 1.4,
             },
@@ -312,6 +313,7 @@ export function ChinaMap({ selectedProvince, onSelectProvince, mapControl }: Chi
             position: 'right',
             distance: selectedMapPlaces.length > 8 ? 4 : selectedMapPlaces.length > 4 ? 5 : 8,
             color: '#f9ebc8',
+            fontFamily: MAP_FONT_FAMILY,
             fontSize: cityLabelSize,
             fontWeight: 700,
             textBorderColor: 'rgba(16, 13, 11, 0.72)',

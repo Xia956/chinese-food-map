@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { Check, ChevronDown, RotateCcw, Search, SlidersHorizontal, Volume2, VolumeX } from 'lucide-react';
+import { Check, ChevronDown, RotateCcw, Search, SlidersHorizontal, Volume2 } from 'lucide-react';
 import { ChinaMap } from './components/ChinaMap';
 import { FlavorCarousel } from './components/FlavorCarousel';
 import { FoodModal } from './components/FoodModal';
@@ -265,7 +265,7 @@ export default function App() {
             aria-pressed={musicPlaying}
             onClick={() => void toggleMusic()}
           >
-            {musicPlaying ? <Volume2 size={20} aria-hidden="true" /> : <VolumeX size={20} aria-hidden="true" />}
+            <Volume2 size={20} aria-hidden="true" />
           </button>
         }
       />
