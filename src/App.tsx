@@ -232,6 +232,63 @@ export default function App() {
     setMobileVisibleCount(MOBILE_INITIAL_COUNT);
   }, [categoryFilter, searchTerm, seasonFilter, selectedProvince]);
 
+  useEffect(() => {
+    if (hasActiveFilters) return;
+
+    let lastTouchY = 0;
+    const rememberTouchPosition = (event: TouchEvent) => {
+      if (event.touches.length === 1) lastTouchY = event.touches[0].clientY;
+    };
+    const stopBottomOverscroll = (event: TouchEvent) => {
+      if (event.touches.length !== 1) return;
+
+      const currentTouchY = event.touches[0].clientY;
+      const movingTowardPageBottom = currentTouchY < lastTouchY;
+      lastTouchY = currentTouchY;
+      if ((event.target as Element | null)?.closest('.echarts-map')) return;
+
+      const root = document.documentElement;
+      const atPageBottom = window.scrollY + window.innerHeight >= root.scrollHeight - 1;
+      if (atPageBottom && movingTowardPageBottom) event.preventDefault();
+    };
+
+    document.addEventListener('touchstart', rememberTouchPosition, { passive: true });
+    document.addEventListener('touchmove', stopBottomOverscroll, { passive: false });
+    return () => {
+      document.removeEventListener('touchstart', rememberTouchPosition);
+      document.removeEventListener('touchmove', stopBottomOverscroll);
+    };
+  }, [hasActiveFilters]);
+
+  useEffect(() => {
+    const pauseWhenHidden = () => {
+      const audio = musicRef.current;
+      if (!audio) return;
+
+      if (document.hidden) {
+        audio.pause();
+        return;
+      }
+
+      if (musicPlaying && audio.paused) {
+        void audio
+          .play()
+          .then(() => fadeInMusic(audio))
+          .catch(() => setAudioMessage('点击页面后即可播放背景音乐'));
+      }
+    };
+    const pauseWhenLeaving = () => musicRef.current?.pause();
+
+    document.addEventListener('visibilitychange', pauseWhenHidden);
+    window.addEventListener('pagehide', pauseWhenLeaving);
+    window.addEventListener('pageshow', pauseWhenHidden);
+    return () => {
+      document.removeEventListener('visibilitychange', pauseWhenHidden);
+      window.removeEventListener('pagehide', pauseWhenLeaving);
+      window.removeEventListener('pageshow', pauseWhenHidden);
+    };
+  }, [musicPlaying]);
+
   return (
     <main className={selectedProvince ? 'app-shell is-province-page' : 'app-shell is-home-page'}>
       <header className="topbar">

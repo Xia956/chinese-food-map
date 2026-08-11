@@ -175,28 +175,34 @@ a {
   color: #f7e5c2;
   box-shadow: none;
   backdrop-filter: none;
+  contain: layout paint;
+  isolation: isolate;
   transform: none;
   transition: none;
 }
 
 .ambient-audio-button svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
   display: block;
-  flex: none;
   width: 20px;
   height: 20px;
   pointer-events: none;
-  transform: none;
+  transform: translate(-50%, -50%);
 }
 
 .ambient-audio-button[aria-pressed="false"]::after {
   position: absolute;
+  top: 50%;
+  left: 50%;
   width: 2px;
   height: 22px;
   border-radius: 999px;
   content: "";
   background: currentColor;
   pointer-events: none;
-  transform: rotate(-43deg);
+  transform: translate(-50%, -50%) rotate(-43deg);
   transform-origin: center;
 }
 
@@ -1099,6 +1105,11 @@ a {
     min-height: auto;
     padding-bottom: 0;
     overscroll-behavior-y: none;
+  }
+
+  .is-home-page .data-section {
+    margin-bottom: 0;
+    padding-bottom: 10px;
   }
 
   .topbar,
