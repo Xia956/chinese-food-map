@@ -21,7 +21,8 @@ export function FlavorCarousel({ foods, provinceName, onSelectFood }: FlavorCaro
   const offsetRef = useRef(0);
   const velocityRef = useRef(AUTO_SPEED);
   const draggingRef = useRef(false);
-  const pointerRef = useRef<{ x: number; time: number; moved: number; foodId?: string }>({ x: 0, time: 0, moved: 0 });
+  const suppressClickRef = useRef(false);
+  const pointerRef = useRef<{ x: number; time: number; moved: number }>({ x: 0, time: 0, moved: 0 });
   const isScrollable = contentWidth > viewportWidth + 1;
   const minOffset = isScrollable ? viewportWidth - contentWidth : 0;
 
@@ -77,11 +78,10 @@ export function FlavorCarousel({ foods, provinceName, onSelectFood }: FlavorCaro
 
   const beginDrag = (event: React.PointerEvent<HTMLDivElement>) => {
     if (!foods.length) return;
-    const foodCard = (event.target as HTMLElement).closest<HTMLElement>('.food-card');
     draggingRef.current = true;
-    pointerRef.current = { x: event.clientX, time: performance.now(), moved: 0, foodId: foodCard?.dataset.foodId };
+    suppressClickRef.current = false;
+    pointerRef.current = { x: event.clientX, time: performance.now(), moved: 0 };
     velocityRef.current = 0;
-    event.currentTarget.setPointerCapture(event.pointerId);
   };
 
   const moveDrag = (event: React.PointerEvent<HTMLDivElement>) => {
@@ -94,6 +94,11 @@ export function FlavorCarousel({ foods, provinceName, onSelectFood }: FlavorCaro
     pointerRef.current.time = now;
     if (!isScrollable) return;
 
+    if (pointerRef.current.moved >= 8 && !event.currentTarget.hasPointerCapture(event.pointerId)) {
+      suppressClickRef.current = true;
+      event.currentTarget.setPointerCapture(event.pointerId);
+    }
+
     offsetRef.current = clamp(offsetRef.current + dx, minOffset, 0);
     velocityRef.current = (dx / dt) * 16.67;
     setOffset(offsetRef.current);
@@ -102,14 +107,8 @@ export function FlavorCarousel({ foods, provinceName, onSelectFood }: FlavorCaro
   const endDrag = (event: React.PointerEvent<HTMLDivElement>) => {
     if (!draggingRef.current) return;
     draggingRef.current = false;
-    event.currentTarget.releasePointerCapture(event.pointerId);
-    const clickedFoodId = pointerRef.current.foodId;
-    const clickedFood = clickedFoodId ? foods.find((food) => food.id === clickedFoodId) : undefined;
-    if (clickedFood && pointerRef.current.moved < 10) {
-      velocityRef.current = AUTO_SPEED;
-      onSelectFood(clickedFood);
-      pointerRef.current = { x: 0, time: 0, moved: 0 };
-      return;
+    if (event.currentTarget.hasPointerCapture(event.pointerId)) {
+      event.currentTarget.releasePointerCapture(event.pointerId);
     }
     const capped = Math.max(-24, Math.min(24, velocityRef.current));
     if ((offsetRef.current <= minOffset && capped < 0) || (offsetRef.current >= 0 && capped > 0)) {
@@ -159,10 +158,16 @@ export function FlavorCarousel({ foods, provinceName, onSelectFood }: FlavorCaro
       >
         <div ref={trackRef} className="film-track" style={{ transform: `translate3d(${offset}px, 0, 0)` }}>
           {foods.map((food) => (
-            <article
+            <button
+              type="button"
               className="food-card"
               key={food.id}
               data-food-id={food.id}
+              aria-label={`查看${food.name}详情`}
+              onClick={(event) => {
+                if (event.detail === 0 || !suppressClickRef.current) onSelectFood(food);
+                pointerRef.current = { x: 0, time: 0, moved: 0 };
+              }}
             >
               <div className="food-image">
                 {food.image ? <img src={food.image.url} alt={food.image.alt} draggable={false} /> : <span>暂无图片</span>}
@@ -172,7 +177,7 @@ export function FlavorCarousel({ foods, provinceName, onSelectFood }: FlavorCaro
                 <h3>{food.name}</h3>
                 <p>{food.flavorProfile}</p>
               </div>
-            </article>
+            </button>
           ))}
         </div>
       </div>

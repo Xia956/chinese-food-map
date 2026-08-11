@@ -6,6 +6,7 @@ import { CanvasRenderer } from 'echarts/renderers';
 import type { ECharts, EChartsOption } from 'echarts';
 import { ChinaData } from 'china-map-geojson';
 import { MapPin } from 'lucide-react';
+import type { ReactNode } from 'react';
 import type { Geometry, Position } from 'geojson';
 import { foodById } from '../data/foods';
 import { cityById, provinceByMapName } from '../data/provinces';
@@ -14,16 +15,19 @@ import type { CityEntry } from '../types';
 interface ChinaMapProps {
   selectedProvince?: string;
   onSelectProvince: (provinceName: string) => void;
+  mapControl?: ReactNode;
 }
 
 type MapLabelPoint = Pick<CityEntry, 'id' | 'name' | 'longitude' | 'latitude'>;
 
 const MAP_NAME = 'delicious-china';
 const MAP_LAYOUT_SIZE = '102%';
+const MOBILE_MAP_LAYOUT_SIZE = '96%';
 const SELECTED_VIEW_SCALE = 124 / 102;
 const SELECTED_MAP_ZOOM = 3.18 * SELECTED_VIEW_SCALE;
 const MIN_SELECTED_MAP_ZOOM = 1.82 * SELECTED_VIEW_SCALE;
 const DEFAULT_MAP_ZOOM = 1.34;
+const MOBILE_DEFAULT_MAP_ZOOM = 1;
 const SELECTED_MAP_PADDING = 0.96;
 const MAP_MOVE_DURATION = 1400;
 const CITY_REVEAL_DURATION = 760;
@@ -155,9 +159,10 @@ function resizeChartToNode(chart: ECharts, node: HTMLDivElement) {
   chart.resize({ width, height });
 }
 
-export function ChinaMap({ selectedProvince, onSelectProvince }: ChinaMapProps) {
+export function ChinaMap({ selectedProvince, onSelectProvince, mapControl }: ChinaMapProps) {
   const chartNodeRef = useRef<HTMLDivElement | null>(null);
   const chartRef = useRef<ECharts | null>(null);
+  const [compactMap, setCompactMap] = useState(false);
   const [cityReveal, setCityReveal] = useState({ province: selectedProvince, opacity: 1 });
   const selectedEntry = selectedProvince ? provinceByMapName.get(selectedProvince) : undefined;
   const cityOpacity = selectedProvince && cityReveal.province === selectedProvince ? cityReveal.opacity : 0;
@@ -220,10 +225,10 @@ export function ChinaMap({ selectedProvince, onSelectProvince }: ChinaMapProps) 
         roam: selectedProvince ? 'move' : false,
         silent: false,
         center: selectedCenter,
-        zoom: selectedProvince ? (selectedView?.zoom ?? SELECTED_MAP_ZOOM) : DEFAULT_MAP_ZOOM,
+        zoom: selectedProvince ? (selectedView?.zoom ?? SELECTED_MAP_ZOOM) : compactMap ? MOBILE_DEFAULT_MAP_ZOOM : DEFAULT_MAP_ZOOM,
         aspectScale: 0.86,
-        layoutCenter: ['49%', '52%'],
-        layoutSize: MAP_LAYOUT_SIZE,
+        layoutCenter: [compactMap && !selectedProvince ? '50%' : '49%', compactMap && !selectedProvince ? '58%' : '52%'],
+        layoutSize: compactMap && !selectedProvince ? MOBILE_MAP_LAYOUT_SIZE : MAP_LAYOUT_SIZE,
         itemStyle: {
           areaColor: '#2d403a',
           borderColor: 'rgba(218, 190, 137, 0.28)',
@@ -329,7 +334,7 @@ export function ChinaMap({ selectedProvince, onSelectProvince }: ChinaMapProps) 
         },
       ],
     };
-  }, [cityOpacity, selectedMapPlaces, selectedProvince]);
+  }, [cityOpacity, compactMap, selectedMapPlaces, selectedProvince]);
 
   useEffect(() => {
     if (!selectedProvince) {
@@ -361,6 +366,7 @@ export function ChinaMap({ selectedProvince, onSelectProvince }: ChinaMapProps) 
 
     const chart = echarts.init(node, null, { renderer: 'canvas' });
     chartRef.current = chart;
+    setCompactMap(node.clientWidth <= 620);
 
     chart.on('click', (params) => {
       if (typeof params.name === 'string' && provinceByMapName.has(params.name)) {
@@ -376,6 +382,10 @@ export function ChinaMap({ selectedProvince, onSelectProvince }: ChinaMapProps) 
     });
     const observer = new ResizeObserver(() => {
       window.requestAnimationFrame(() => {
+        setCompactMap((current) => {
+          const next = node.clientWidth <= 620;
+          return current === next ? current : next;
+        });
         if (!chart.isDisposed()) resizeChartToNode(chart, node);
       });
     });
@@ -402,6 +412,13 @@ export function ChinaMap({ selectedProvince, onSelectProvince }: ChinaMapProps) 
       <div className="map-panel">
         <div ref={chartNodeRef} className="echarts-map" role="img" aria-label="ECharts 和 GeoJSON 渲染的中国省份地图" />
         <div className="map-vignette" aria-hidden="true" />
+        {mapControl}
+        {selectedEntry ? (
+          <div className="mobile-province-overlay" aria-live="polite">
+            <h1>{selectedEntry.name}</h1>
+            <p>{selectedEntry.intro}</p>
+          </div>
+        ) : null}
         <div className="map-accessibility-list" aria-label="省份快捷选择">
           {ChinaData.features.map((feature) => (
             <button key={feature.properties.name} type="button" onClick={() => onSelectProvince(feature.properties.name)}>
