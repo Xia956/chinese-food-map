@@ -61,6 +61,7 @@ a {
 }
 
 .topbar {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -113,6 +114,19 @@ a {
   align-items: center;
   gap: 10px;
   flex-shrink: 0;
+}
+
+.language-switch {
+  min-height: 34px;
+  padding-inline: 11px;
+  border-color: rgba(241, 202, 132, 0.14);
+  color: rgba(247, 229, 194, 0.82);
+  font-size: 12px;
+  letter-spacing: 0.02em;
+}
+
+.lang-en .site-mark {
+  letter-spacing: -0.025em;
 }
 
 .audio-status {
@@ -1015,11 +1029,15 @@ a {
     padding-top: 12px;
   }
 
-  .topbar,
   .film-heading,
   .data-heading {
     align-items: flex-start;
     flex-direction: column;
+  }
+
+  .topbar {
+    align-items: center;
+    flex-direction: row;
   }
 
   .site-mark {
@@ -1158,11 +1176,24 @@ a {
     padding-inline: 12px;
   }
 
+  .language-switch,
+  .is-province-page .language-switch {
+    min-height: 32px;
+    padding-inline: 9px;
+    font-size: 11px;
+  }
+
   .is-province-page .text-button {
     gap: 5px;
     min-height: 36px;
     padding-inline: 10px;
     font-size: 13px;
+  }
+
+  .is-province-page .language-switch {
+    min-height: 32px;
+    padding-inline: 9px;
+    font-size: 11px;
   }
 
   .is-province-page .text-button svg {

@@ -6,6 +6,17 @@ import { FoodModal } from './components/FoodModal';
 import { foodById, foods } from './data/foods';
 import { provinceByMapName, provinces } from './data/provinces';
 import { formatFoodLocation } from './foodDisplay';
+import {
+  getLocaleFromPath,
+  localePath,
+  localizeCategory,
+  localizeEpisode,
+  localizeFood,
+  localizeProvince,
+  localizeSeason,
+  ui,
+  type Locale,
+} from './i18n';
 import type { FoodItem } from './types';
 
 const ALL_VALUE = '全部';
@@ -33,9 +44,10 @@ interface FilterSelectProps {
   value: string;
   options: FilterOption[];
   onChange: (value: string) => void;
+  locale: Locale;
 }
 
-function FilterSelect({ label, value, options, onChange }: FilterSelectProps) {
+function FilterSelect({ label, value, options, onChange, locale }: FilterSelectProps) {
   const [open, setOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement | null>(null);
   const selectedLabel = options.find((option) => option.value === value)?.label ?? value;
@@ -85,7 +97,7 @@ function FilterSelect({ label, value, options, onChange }: FilterSelectProps) {
         <ChevronDown size={16} aria-hidden="true" />
       </button>
       {open ? (
-        <div className="filter-options" role="listbox" aria-label={`${label}选项`}>
+        <div className="filter-options" role="listbox" aria-label={ui[locale].optionLabel(label)}>
           {options.map((option) => {
             const selected = option.value === value;
             return (
@@ -112,17 +124,42 @@ function FilterSelect({ label, value, options, onChange }: FilterSelectProps) {
 }
 
 export default function App() {
+  const [locale, setLocale] = useState<Locale>(() => getLocaleFromPath(window.location.pathname));
   const [selectedProvince, setSelectedProvince] = useState<string>();
   const [searchTerm, setSearchTerm] = useState('');
   const [seasonFilter, setSeasonFilter] = useState(ALL_VALUE);
   const [categoryFilter, setCategoryFilter] = useState(ALL_VALUE);
   const [musicPlaying, setMusicPlaying] = useState(true);
-  const [audioMessage, setAudioMessage] = useState('正在播放琵琶风格配乐《中式餐叙背景曲 5》');
+  const [audioMessage, setAudioMessage] = useState<string>(() => ui[getLocaleFromPath(window.location.pathname)].playingMusic);
   const [selectedFood, setSelectedFood] = useState<FoodItem>();
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
   const [mobileVisibleCount, setMobileVisibleCount] = useState(MOBILE_INITIAL_COUNT);
   const musicRef = useRef<HTMLAudioElement | null>(null);
   const musicFadeTimerRef = useRef<number | undefined>(undefined);
+  const musicPlayingRef = useRef(musicPlaying);
+  const copy = ui[locale];
+  musicPlayingRef.current = musicPlaying;
+
+  useEffect(() => {
+    if (window.location.pathname !== '/zh' && window.location.pathname !== '/en') {
+      window.history.replaceState({}, '', `${localePath(locale)}${window.location.search}${window.location.hash}`);
+    }
+    const handleHistory = () => setLocale(getLocaleFromPath(window.location.pathname));
+    window.addEventListener('popstate', handleHistory);
+    return () => window.removeEventListener('popstate', handleHistory);
+  }, [locale]);
+
+  useEffect(() => {
+    document.documentElement.lang = locale === 'zh' ? 'zh-CN' : 'en';
+    document.title = locale === 'zh' ? '《舌尖上的中国》美食地图' : 'A Bite of China Food Map';
+    setAudioMessage(musicPlaying ? copy.playingMusic : copy.musicMuted);
+  }, [copy.musicMuted, copy.playingMusic, locale, musicPlaying]);
+
+  const switchLocale = () => {
+    const nextLocale: Locale = locale === 'zh' ? 'en' : 'zh';
+    window.history.pushState({}, '', `${localePath(nextLocale)}${window.location.search}${window.location.hash}`);
+    setLocale(nextLocale);
+  };
 
   const fadeInMusic = (audio: HTMLAudioElement) => {
     window.clearInterval(musicFadeTimerRef.current);
@@ -153,6 +190,7 @@ export default function App() {
     const normalizedTerm = searchTerm.trim().toLowerCase();
 
     return foods.filter((food) => {
+      const displayFood = localizeFood(food, locale);
       const matchesProvince = selectedProvince ? food.province === selectedProvince : true;
       const matchesSeason = seasonFilter === ALL_VALUE ? true : food.season === seasonFilter;
       const matchesCategory = categoryFilter === ALL_VALUE ? true : food.category === categoryFilter;
@@ -166,6 +204,15 @@ export default function App() {
         food.episode,
         food.flavorProfile,
         ...food.ingredients,
+        displayFood.name,
+        displayFood.province,
+        displayFood.city,
+        displayFood.region,
+        displayFood.category,
+        displayFood.season,
+        displayFood.episode,
+        displayFood.flavorProfile,
+        ...displayFood.ingredients,
       ]
         .filter(Boolean)
         .join(' ')
@@ -173,7 +220,7 @@ export default function App() {
 
       return matchesProvince && matchesSeason && matchesCategory && (!normalizedTerm || searchable.includes(normalizedTerm));
     });
-  }, [categoryFilter, searchTerm, seasonFilter, selectedProvince]);
+  }, [categoryFilter, locale, searchTerm, seasonFilter, selectedProvince]);
   const hasActiveFilters =
     Boolean(searchTerm.trim()) || Boolean(selectedProvince) || seasonFilter !== ALL_VALUE || categoryFilter !== ALL_VALUE;
 
@@ -187,18 +234,25 @@ export default function App() {
   useEffect(() => {
     const audio = createBackgroundAudio();
     musicRef.current = audio;
+    const initialCopy = ui[getLocaleFromPath(window.location.pathname)];
 
     const startMusic = () => {
+      if (!musicPlayingRef.current) return;
       void audio
         .play()
         .then(() => {
+          if (!musicPlayingRef.current) {
+            audio.pause();
+            audio.volume = 0;
+            return;
+          }
           fadeInMusic(audio);
-          setAudioMessage('正在播放琵琶风格配乐《中式餐叙背景曲 5》');
+          setAudioMessage(initialCopy.playingMusic);
         })
-        .catch(() => setAudioMessage('点击页面后即可播放背景音乐'));
+        .catch(() => setAudioMessage(initialCopy.clickForMusic));
     };
     const unlockMusic = () => {
-      startMusic();
+      if (musicPlayingRef.current) startMusic();
       document.removeEventListener('pointerdown', unlockMusic, true);
       document.removeEventListener('keydown', unlockMusic, true);
     };
@@ -212,6 +266,8 @@ export default function App() {
       document.removeEventListener('keydown', unlockMusic, true);
       window.clearInterval(musicFadeTimerRef.current);
       audio.pause();
+      audio.muted = true;
+      audio.volume = 0;
       audio.removeAttribute('src');
       musicRef.current = null;
     };
@@ -219,21 +275,30 @@ export default function App() {
 
   const toggleMusic = async () => {
     if (musicPlaying) {
+      musicPlayingRef.current = false;
       window.clearInterval(musicFadeTimerRef.current);
-      musicRef.current?.pause();
+      if (musicRef.current) {
+        musicRef.current.muted = true;
+        musicRef.current.volume = 0;
+        musicRef.current.pause();
+      }
       setMusicPlaying(false);
-      setAudioMessage('背景音乐已静音');
+      setAudioMessage(copy.musicMuted);
       return;
     }
 
     try {
       if (!musicRef.current) musicRef.current = createBackgroundAudio();
+      musicPlayingRef.current = true;
+      musicRef.current.muted = false;
       await musicRef.current.play();
       fadeInMusic(musicRef.current);
       setMusicPlaying(true);
-      setAudioMessage('正在播放琵琶风格配乐《中式餐叙背景曲 5》');
+      setAudioMessage(copy.playingMusic);
     } catch {
-      setAudioMessage('浏览器暂时无法播放背景音乐，请稍后重试');
+      musicPlayingRef.current = false;
+      setMusicPlaying(false);
+      setAudioMessage(copy.musicUnavailable);
     }
   };
 
@@ -283,11 +348,11 @@ export default function App() {
         return;
       }
 
-      if (musicPlaying && audio.paused) {
+      if (musicPlayingRef.current && audio.paused) {
         void audio
           .play()
           .then(() => fadeInMusic(audio))
-          .catch(() => setAudioMessage('点击页面后即可播放背景音乐'));
+          .catch(() => setAudioMessage(copy.clickForMusic));
       }
     };
     const pauseWhenLeaving = () => musicRef.current?.pause();
@@ -300,38 +365,43 @@ export default function App() {
       window.removeEventListener('pagehide', pauseWhenLeaving);
       window.removeEventListener('pageshow', pauseWhenHidden);
     };
-  }, [musicPlaying]);
+  }, [copy.clickForMusic]);
 
   return (
-    <main className={selectedProvince ? 'app-shell is-province-page' : 'app-shell is-home-page'}>
+    <main className={`${selectedProvince ? 'app-shell is-province-page' : 'app-shell is-home-page'} lang-${locale}`}>
       <header className="topbar">
         <div>
           <span className="site-mark">
-            <span className="site-mark-program">《舌尖上的中国》</span>
-            <span className="site-mark-suffix">美食地图</span>
+            <span className="site-mark-program">{copy.siteProgram}</span>
+            {locale === 'en' ? ' ' : null}
+            <span className="site-mark-suffix">{copy.siteSuffix}</span>
           </span>
         </div>
-        {selectedProvince ? (
-          <div className="toolbar">
+        <div className="toolbar">
+          {selectedProvince ? (
             <button className="text-button" type="button" onClick={clearFilters}>
               <RotateCcw size={17} aria-hidden="true" />
-              返回全国
+              {copy.returnNational}
             </button>
-          </div>
-        ) : null}
+          ) : null}
+          <button className="text-button language-switch" type="button" aria-label={`${copy.languageLabel}: ${copy.languageName}`} onClick={switchLocale}>
+            {copy.languageName}
+          </button>
+        </div>
         <span className="audio-status" aria-live="polite">
           {audioMessage}
         </span>
       </header>
 
       <ChinaMap
+        locale={locale}
         selectedProvince={selectedProvince}
         onSelectProvince={setSelectedProvince}
         mapControl={
           <button
             className="icon-button ambient-audio-button"
             type="button"
-            aria-label={musicPlaying ? '静音背景音乐' : '播放背景音乐'}
+            aria-label={musicPlaying ? copy.muteMusic : copy.playMusic}
             aria-pressed={musicPlaying}
             onClick={() => void toggleMusic()}
           >
@@ -340,7 +410,7 @@ export default function App() {
         }
       />
 
-      {provinceEntry ? <FlavorCarousel foods={provinceFoods} provinceName={provinceEntry.name} onSelectFood={setSelectedFood} /> : null}
+      {provinceEntry ? <FlavorCarousel locale={locale} foods={provinceFoods} provinceName={provinceEntry.name} onSelectFood={setSelectedFood} /> : null}
 
       <section
         className={`data-section${!hasActiveFilters ? ' is-awaiting-filter' : ''}`}
@@ -348,13 +418,13 @@ export default function App() {
       >
         <div className="data-heading">
           <div>
-            <span>资料表</span>
-            <h2 id="food-data-title">{selectedProvince ? `${selectedProvince}美食条目` : '全部美食条目'}</h2>
+            <span>{copy.dataSheet}</span>
+            <h2 id="food-data-title">{selectedProvince ? copy.provinceEntries(localizeProvince(selectedProvince, locale)) : copy.allEntries}</h2>
           </div>
           <div className="data-summary">
             <p>
-              <span className="result-count">{filteredFoods.length} 条结果</span>
-              <span className="mobile-filter-hint">共收录 {foods.length} 条</span>
+              <span className="result-count">{copy.results(filteredFoods.length)}</span>
+              <span className="mobile-filter-hint">{copy.collected(foods.length)}</span>
             </p>
             <button
               className="mobile-filter-toggle"
@@ -364,59 +434,64 @@ export default function App() {
               onClick={() => setMobileFiltersOpen((value) => !value)}
             >
               <SlidersHorizontal size={16} aria-hidden="true" />
-              {mobileFiltersOpen ? '收起筛选' : '筛选'}
+              {mobileFiltersOpen ? copy.hideFilters : copy.filters}
             </button>
           </div>
         </div>
 
-        <div id="food-filter-controls" className={`data-controls${mobileFiltersOpen ? ' is-open' : ''}`} aria-label="美食资料筛选">
+        <div id="food-filter-controls" className={`data-controls${mobileFiltersOpen ? ' is-open' : ''}`} aria-label={copy.filterLabel}>
           <label className="search-field">
             <Search size={18} aria-hidden="true" />
-            <span>关键词</span>
-            <input value={searchTerm} onChange={(event) => setSearchTerm(event.target.value)} placeholder="莲藕 / 云南 / 第1集" />
+            <span>{copy.keyword}</span>
+            <input value={searchTerm} onChange={(event) => setSearchTerm(event.target.value)} placeholder={copy.searchPlaceholder} />
           </label>
           <FilterSelect
-            label="省份"
+            label={copy.province}
             value={selectedProvince ?? ALL_VALUE}
-            options={[{ label: '全部省份', value: ALL_VALUE }, ...provinces.map((province) => ({ label: province.name, value: province.name }))]}
+            options={[{ label: copy.allProvinces, value: ALL_VALUE }, ...provinces.map((province) => ({ label: localizeProvince(province.name, locale), value: province.name }))]}
             onChange={(value) => setSelectedProvince(value === ALL_VALUE ? undefined : value)}
+            locale={locale}
           />
           <FilterSelect
-            label="季数"
+            label={copy.season}
             value={seasonFilter}
-            options={[{ label: '全部季数', value: ALL_VALUE }, ...seasons.map((season) => ({ label: season, value: season }))]}
+            options={[{ label: copy.allSeasons, value: ALL_VALUE }, ...seasons.map((season) => ({ label: localizeSeason(season, locale) ?? season, value: season }))]}
             onChange={setSeasonFilter}
+            locale={locale}
           />
           <FilterSelect
-            label="类别"
+            label={copy.category}
             value={categoryFilter}
-            options={[{ label: '全部类别', value: ALL_VALUE }, ...categories.map((category) => ({ label: category, value: category }))]}
+            options={[{ label: copy.allCategories, value: ALL_VALUE }, ...categories.map((category) => ({ label: localizeCategory(category, locale), value: category }))]}
             onChange={setCategoryFilter}
+            locale={locale}
           />
         </div>
 
-        {!hasActiveFilters ? <p className="mobile-filter-prompt">选择筛选条件后，将显示匹配的美食条目。</p> : null}
+        {!hasActiveFilters ? <p className="mobile-filter-prompt">{copy.selectFilters}</p> : null}
 
         {filteredFoods.length ? (
           <div className="food-table-wrap">
             <table className="food-table">
               <thead>
                 <tr>
-                  <th scope="col">名称</th>
-                  <th scope="col">地点</th>
-                  <th scope="col">节目</th>
-                  <th scope="col">类别</th>
-                  <th scope="col">主要食材</th>
+                  <th scope="col">{copy.name}</th>
+                  <th scope="col">{copy.location}</th>
+                  <th scope="col">{copy.program}</th>
+                  <th scope="col">{copy.category}</th>
+                  <th scope="col">{copy.ingredients}</th>
                 </tr>
               </thead>
               <tbody>
-                {filteredFoods.map((food, index) => (
+                {filteredFoods.map((food, index) => {
+                  const displayFood = localizeFood(food, locale);
+                  return (
                   <tr
                     className={`is-interactive${index >= mobileVisibleCount ? ' is-mobile-hidden' : ''}`}
                     key={food.id}
                     role="button"
                     tabIndex={0}
-                    aria-label={`查看${food.name}详情`}
+                    aria-label={copy.viewDetails(displayFood.name)}
                     onClick={() => setSelectedFood(food)}
                     onKeyDown={(event) => {
                       if (event.key === 'Enter' || event.key === ' ') {
@@ -427,37 +502,38 @@ export default function App() {
                   >
                     <th scope="row">
                       <span className="food-result-thumb" aria-hidden="true">
-                        {food.image ? <img src={food.image.url} alt="" loading="lazy" /> : <span>暂无图片</span>}
+                        {displayFood.image ? <img src={displayFood.image.url} alt="" loading="lazy" /> : <span>{copy.noImage}</span>}
                         <span className="food-result-overlay">
-                          <strong>{food.name}</strong>
-                          <span>{formatFoodLocation(food)}</span>
-                          <small>{food.category}</small>
+                          <strong>{displayFood.name}</strong>
+                          <span>{formatFoodLocation(food, locale)}</span>
+                          <small>{displayFood.category}</small>
                         </span>
                       </span>
-                      <span className="food-result-name">{food.name}</span>
+                      <span className="food-result-name">{displayFood.name}</span>
                     </th>
-                    <td data-label="地点">{formatFoodLocation(food)}</td>
-                    <td data-label="节目">
-                      {food.season} · {food.episode}
+                    <td data-label={copy.location}>{formatFoodLocation(food, locale)}</td>
+                    <td data-label={copy.program}>
+                      {localizeSeason(food.season, locale)} · {localizeEpisode(food.episode, locale)}
                     </td>
-                    <td data-label="类别">{food.category}</td>
-                    <td data-label="主要食材">{food.ingredients.join('、')}</td>
+                    <td data-label={copy.category}>{displayFood.category}</td>
+                    <td data-label={copy.ingredients}>{displayFood.ingredients.join(locale === 'zh' ? '、' : ', ')}</td>
                   </tr>
-                ))}
+                  );
+                })}
               </tbody>
             </table>
           </div>
         ) : (
           <div className="data-empty">
-            <span>未找到匹配条目</span>
-            <p>可以清空关键词，或切换省份、季数和类别。</p>
+            <span>{copy.noMatches}</span>
+            <p>{copy.emptyHint}</p>
           </div>
         )}
 
         {!selectedProvince && filteredFoods.length > MOBILE_INITIAL_COUNT ? (
           <div className="mobile-results-actions">
             <span>
-              已展示 {Math.min(mobileVisibleCount, filteredFoods.length)} / {filteredFoods.length} 条
+              {copy.shown(Math.min(mobileVisibleCount, filteredFoods.length), filteredFoods.length)}
             </span>
             <button
               type="button"
@@ -467,13 +543,13 @@ export default function App() {
                 )
               }
             >
-              {mobileVisibleCount >= filteredFoods.length ? '收起条目' : '加载更多'}
+              {mobileVisibleCount >= filteredFoods.length ? copy.collapseEntries : copy.loadMore}
             </button>
           </div>
         ) : null}
       </section>
 
-      <FoodModal food={selectedFood} onClose={() => setSelectedFood(undefined)} />
+      <FoodModal locale={locale} food={selectedFood} onClose={() => setSelectedFood(undefined)} />
     </main>
   );
 }

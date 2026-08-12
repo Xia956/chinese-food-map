@@ -10,12 +10,14 @@ import type { ReactNode } from 'react';
 import type { Geometry, Position } from 'geojson';
 import { foodById } from '../data/foods';
 import { cityById, provinceByMapName } from '../data/provinces';
+import { localizeCity, localizeProvince, localizeProvinceIntro, type Locale } from '../i18n';
 import type { CityEntry } from '../types';
 
 interface ChinaMapProps {
   selectedProvince?: string;
   onSelectProvince: (provinceName: string) => void;
   mapControl?: ReactNode;
+  locale: Locale;
 }
 
 type MapLabelPoint = Pick<CityEntry, 'id' | 'name' | 'longitude' | 'latitude'>;
@@ -160,7 +162,7 @@ function resizeChartToNode(chart: ECharts, node: HTMLDivElement) {
   chart.resize({ width, height });
 }
 
-export function ChinaMap({ selectedProvince, onSelectProvince, mapControl }: ChinaMapProps) {
+export function ChinaMap({ selectedProvince, onSelectProvince, mapControl, locale }: ChinaMapProps) {
   const chartNodeRef = useRef<HTMLDivElement | null>(null);
   const chartRef = useRef<ECharts | null>(null);
   const selectedProvinceRef = useRef(selectedProvince);
@@ -205,6 +207,10 @@ export function ChinaMap({ selectedProvince, onSelectProvince, mapControl }: Chi
     },
     [selectedEntry],
   );
+  const displayedMapPlaces = useMemo(
+    () => (locale === 'en' ? selectedMapPlaces.slice(0, 3) : selectedMapPlaces),
+    [locale, selectedMapPlaces],
+  );
 
   const option = useMemo<EChartsOption>(() => {
     const selectedFeature = ChinaData.features.find((feature) => feature.properties.name === selectedProvince);
@@ -212,8 +218,8 @@ export function ChinaMap({ selectedProvince, onSelectProvince, mapControl }: Chi
     const selectedCenter =
       selectedView?.center ??
       selectedFeature?.properties.cp ??
-      (selectedMapPlaces[0] ? ([selectedMapPlaces[0].longitude, selectedMapPlaces[0].latitude] as [number, number]) : undefined);
-    const cityLabelSize = selectedMapPlaces.length > 8 ? 10 : selectedMapPlaces.length > 4 ? 11 : 12;
+      (displayedMapPlaces[0] ? ([displayedMapPlaces[0].longitude, displayedMapPlaces[0].latitude] as [number, number]) : undefined);
+    const cityLabelSize = displayedMapPlaces.length > 8 ? 10 : displayedMapPlaces.length > 4 ? 11 : 12;
 
     return {
       backgroundColor: 'transparent',
@@ -242,6 +248,7 @@ export function ChinaMap({ selectedProvince, onSelectProvince, mapControl }: Chi
         },
         label: {
           show: false,
+          formatter: (params: { name?: string }) => localizeProvince(params.name ?? '', locale),
           color: '#fff6e6',
           fontFamily: MAP_FONT_FAMILY,
           fontSize: 12,
@@ -252,6 +259,7 @@ export function ChinaMap({ selectedProvince, onSelectProvince, mapControl }: Chi
         emphasis: {
           label: {
             show: true,
+            formatter: (params: { name?: string }) => localizeProvince(params.name ?? '', locale),
             color: '#fff1cf',
             fontFamily: MAP_FONT_FAMILY,
             fontSize: 18,
@@ -285,6 +293,7 @@ export function ChinaMap({ selectedProvince, onSelectProvince, mapControl }: Chi
             },
             label: {
               show: true,
+              formatter: () => localizeProvince(name, locale),
               offset: selectedProvince ? [0, 0] : PROVINCE_LABEL_OFFSETS[name],
               color: isDimmed ? 'rgba(255, 239, 204, 0.66)' : '#fff0cf',
               fontFamily: MAP_FONT_FAMILY,
@@ -303,17 +312,17 @@ export function ChinaMap({ selectedProvince, onSelectProvince, mapControl }: Chi
           coordinateSystem: 'geo',
           animation: false,
           symbol: 'circle',
-          symbolSize: selectedMapPlaces.length > 8 ? 5 : selectedMapPlaces.length > 4 ? 6 : 8,
+          symbolSize: displayedMapPlaces.length > 8 ? 5 : displayedMapPlaces.length > 4 ? 6 : 8,
           zlevel: 2,
-          data: selectedMapPlaces.map((city) => ({
-            name: city.name,
+          data: displayedMapPlaces.map((city) => ({
+            name: localizeCity(city.name, locale),
             value: [city.longitude, city.latitude, 1],
           })),
           label: {
             show: true,
             formatter: '{b}',
             position: 'right',
-            distance: selectedMapPlaces.length > 8 ? 4 : selectedMapPlaces.length > 4 ? 5 : 8,
+            distance: displayedMapPlaces.length > 8 ? 4 : displayedMapPlaces.length > 4 ? 5 : 8,
             color: '#f9ebc8',
             fontFamily: MAP_FONT_FAMILY,
             fontSize: cityLabelSize,
@@ -339,7 +348,7 @@ export function ChinaMap({ selectedProvince, onSelectProvince, mapControl }: Chi
         },
       ],
     };
-  }, [cityOpacity, compactMap, selectedMapPlaces, selectedProvince]);
+  }, [cityOpacity, compactMap, displayedMapPlaces, locale, selectedProvince]);
   selectedProvinceRef.current = selectedProvince;
   latestOptionRef.current = option;
 
@@ -444,29 +453,29 @@ export function ChinaMap({ selectedProvince, onSelectProvince, mapControl }: Chi
   }, [option]);
 
   return (
-    <section className="map-stage" aria-label="中国美食地图">
+    <section className="map-stage" aria-label={locale === 'zh' ? '中国美食地图' : 'Food map of China'}>
       <div className="map-panel">
-        <div ref={chartNodeRef} className="echarts-map" role="img" aria-label="ECharts 和 GeoJSON 渲染的中国省份地图" />
+        <div ref={chartNodeRef} className="echarts-map" role="img" aria-label={locale === 'zh' ? 'ECharts 和 GeoJSON 渲染的中国省份地图' : 'Map of Chinese provinces rendered with ECharts and GeoJSON'} />
         <div className="map-vignette" aria-hidden="true" />
         {mapControl}
         {selectedEntry ? (
           <div className="mobile-province-overlay" aria-live="polite">
-            <h1>{selectedEntry.name}</h1>
-            <p>{selectedEntry.intro}</p>
+            <h1>{localizeProvince(selectedEntry.name, locale)}</h1>
+            <p>{localizeProvinceIntro(selectedEntry, locale)}</p>
           </div>
         ) : null}
-        <div className="map-accessibility-list" aria-label="省份快捷选择">
+        <div className="map-accessibility-list" aria-label={locale === 'zh' ? '省份快捷选择' : 'Province shortcuts'}>
           {ChinaData.features.map((feature) => (
             <button key={feature.properties.name} type="button" onClick={() => onSelectProvince(feature.properties.name)}>
-              查看{feature.properties.name}美食
+              {locale === 'zh' ? `查看${feature.properties.name}美食` : `View food from ${localizeProvince(feature.properties.name, locale)}`}
             </button>
           ))}
         </div>
         {!selectedEntry ? (
           <div className="map-prompt">
-            <span>一省一味</span>
-            <h1>循着山河，去看人间风味</h1>
-            <p>选择一处省份，展开当地的节目美食。</p>
+            <span>{locale === 'zh' ? '一省一味' : 'One place, many flavors'}</span>
+            <h1>{locale === 'zh' ? '循着山河，去看人间风味' : "Follow the landscape through China's food stories"}</h1>
+            <p>{locale === 'zh' ? '选择一处省份，展开当地的节目美食。' : 'Choose a province to explore foods documented by the program.'}</p>
           </div>
         ) : null}
       </div>
@@ -475,13 +484,13 @@ export function ChinaMap({ selectedProvince, onSelectProvince, mapControl }: Chi
         <aside className="province-readout" aria-live="polite">
           <span className="readout-kicker">
             <MapPin size={15} aria-hidden="true" />
-            当前省份
+            {locale === 'zh' ? '当前省份' : 'Current province'}
           </span>
-          <h1>{selectedEntry.name}</h1>
-          <p>{selectedEntry.intro}</p>
+          <h1>{localizeProvince(selectedEntry.name, locale)}</h1>
+          <p>{localizeProvinceIntro(selectedEntry, locale)}</p>
           <div className="city-chip-row">
-            {selectedMapPlaces.map((city) => (
-              <span key={city.id}>{city.name}</span>
+            {displayedMapPlaces.map((city) => (
+              <span key={city.id}>{localizeCity(city.name, locale)}</span>
             ))}
           </div>
         </aside>

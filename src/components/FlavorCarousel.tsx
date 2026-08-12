@@ -1,18 +1,20 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { formatFoodPlaceLabel } from '../foodDisplay';
+import { localizeFood, localizeProvince, type Locale } from '../i18n';
 import type { FoodItem } from '../types';
 
 interface FlavorCarouselProps {
   foods: FoodItem[];
   provinceName?: string;
   onSelectFood: (food: FoodItem) => void;
+  locale: Locale;
 }
 
 const AUTO_SPEED = -0.34;
 
 const clamp = (value: number, min: number, max: number) => Math.min(max, Math.max(min, value));
 
-export function FlavorCarousel({ foods, provinceName, onSelectFood }: FlavorCarouselProps) {
+export function FlavorCarousel({ foods, provinceName, onSelectFood, locale }: FlavorCarouselProps) {
   const [offset, setOffset] = useState(0);
   const [viewportWidth, setViewportWidth] = useState(0);
   const [contentWidth, setContentWidth] = useState(0);
@@ -120,32 +122,33 @@ export function FlavorCarousel({ foods, provinceName, onSelectFood }: FlavorCaro
 
   if (!provinceName) {
     return (
-      <section className="film-shell is-empty" aria-label="味觉胶片">
+      <section className="film-shell is-empty" aria-label={locale === 'zh' ? '味觉胶片' : 'Flavor reel'}>
         <div>
-          <span>味觉胶片</span>
-          <p>选择一个省份后，这里会出现对应美食轮播。</p>
+          <span>{locale === 'zh' ? '味觉胶片' : 'Flavor reel'}</span>
+          <p>{locale === 'zh' ? '选择一个省份后，这里会出现对应美食轮播。' : 'Choose a province to browse its food entries.'}</p>
         </div>
       </section>
     );
   }
 
   if (!foods.length) {
+    const displayProvince = localizeProvince(provinceName, locale);
     return (
-      <section className="film-shell is-empty" aria-label="味觉胶片">
+      <section className="film-shell is-empty" aria-label={locale === 'zh' ? '味觉胶片' : 'Flavor reel'}>
         <div>
-          <span>{provinceName}暂无节目条目</span>
-          <p>当前节目资料中未收录该省份的美食条目。</p>
+          <span>{locale === 'zh' ? `${provinceName}暂无节目条目` : `No program entries for ${displayProvince}`}</span>
+          <p>{locale === 'zh' ? '当前节目资料中未收录该省份的美食条目。' : 'The current program archive does not include food entries for this province.'}</p>
         </div>
       </section>
     );
   }
 
   return (
-    <section className="film-shell" aria-label={`${provinceName}味觉胶片`}>
+    <section className="film-shell" aria-label={locale === 'zh' ? `${provinceName}味觉胶片` : `${localizeProvince(provinceName, locale)} flavor reel`}>
       <div className="film-heading">
         <div>
-          <span>味觉胶片</span>
-          <h2>{provinceName}的风味片段</h2>
+          <span>{locale === 'zh' ? '味觉胶片' : 'Flavor reel'}</span>
+          <h2>{locale === 'zh' ? `${provinceName}的风味片段` : `Flavors of ${localizeProvince(provinceName, locale)}`}</h2>
         </div>
       </div>
       <div
@@ -157,28 +160,31 @@ export function FlavorCarousel({ foods, provinceName, onSelectFood }: FlavorCaro
         onPointerCancel={endDrag}
       >
         <div ref={trackRef} className="film-track" style={{ transform: `translate3d(${offset}px, 0, 0)` }}>
-          {foods.map((food) => (
+          {foods.map((food) => {
+            const displayFood = localizeFood(food, locale);
+            return (
             <button
               type="button"
               className="food-card"
               key={food.id}
               data-food-id={food.id}
-              aria-label={`查看${food.name}详情`}
+              aria-label={locale === 'zh' ? `查看${food.name}详情` : `View details for ${displayFood.name}`}
               onClick={(event) => {
                 if (event.detail === 0 || !suppressClickRef.current) onSelectFood(food);
                 pointerRef.current = { x: 0, time: 0, moved: 0 };
               }}
             >
               <div className="food-image">
-                {food.image ? <img src={food.image.url} alt={food.image.alt} draggable={false} /> : <span>暂无图片</span>}
+                {displayFood.image ? <img src={displayFood.image.url} alt={displayFood.image.alt} draggable={false} /> : <span>{locale === 'zh' ? '暂无图片' : 'Image unavailable'}</span>}
               </div>
               <div className="food-card-copy">
-                <span>{formatFoodPlaceLabel(food)}</span>
-                <h3>{food.name}</h3>
-                <p>{food.flavorProfile}</p>
+                <span>{formatFoodPlaceLabel(food, locale)}</span>
+                <h3>{displayFood.name}</h3>
+                <p>{displayFood.flavorProfile}</p>
               </div>
             </button>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>

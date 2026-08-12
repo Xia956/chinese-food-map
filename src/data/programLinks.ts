@@ -1,4 +1,5 @@
 import type { FoodItem } from '../types';
+import { localizeEpisode, localizeSeason, type Locale } from '../i18n';
 
 export interface ProgramLink {
   url: string;
@@ -37,15 +38,51 @@ const episodePages: Record<string, string> = {
   '第四季|7': 'https://tv.cctv.com/2025/07/22/VIDEl9ee0jmAj3ccbJTKTE0C250722.shtml',
 };
 
-export function getProgramLink(food: FoodItem): ProgramLink | undefined {
+// English-facing links prefer official or CCTV-affiliated uploads with English
+// subtitles or an English audio track. Every URL is verified against its
+// channel, season, and episode title before being added here.
+const youtubeEpisodePages: Record<string, string> = {
+  '第一季|1': 'https://www.youtube.com/watch?v=uMwrHiNtbmg',
+  '第一季|2': 'https://www.youtube.com/watch?v=zHuecEXqXq0',
+  '第一季|3': 'https://www.youtube.com/watch?v=jeLDqxIcfk0',
+  '第一季|4': 'https://www.youtube.com/watch?v=YtrUsRZ6mp0',
+  '第一季|5': 'https://www.youtube.com/watch?v=PreQN1KBYAw',
+  '第一季|6': 'https://www.youtube.com/watch?v=XkhaqdLsdYQ',
+  '第一季|7': 'https://www.youtube.com/watch?v=gPuO9isKHj4',
+  '第二季|1': 'https://www.youtube.com/watch?v=mech5uaDfLE',
+  '第二季|2': 'https://www.youtube.com/watch?v=2jdTfdttwx4',
+  '第二季|3': 'https://www.youtube.com/watch?v=KQ3Yfh3NtvA',
+  '第二季|4': 'https://www.youtube.com/watch?v=2GUSMJYvkVI',
+  '第二季|5': 'https://www.youtube.com/watch?v=ZG54i-KevnQ',
+  '第二季|6': 'https://www.youtube.com/watch?v=oyvjGa3nIgE',
+  '第二季|7': 'https://www.youtube.com/watch?v=FymWj8Ue3SA',
+  '第三季|1': 'https://www.youtube.com/watch?v=8LaZZfU3M5E',
+  '第三季|2': 'https://www.youtube.com/watch?v=niOD9DIpopo',
+  '第三季|3': 'https://www.youtube.com/watch?v=pjNy-ruUUYw',
+  '第三季|4': 'https://www.youtube.com/watch?v=XHtat2dgYxY',
+  '第三季|5': 'https://www.youtube.com/watch?v=t4NDdCtiXLo',
+  '第三季|6': 'https://www.youtube.com/watch?v=nmaSpi1ea4g',
+  '第三季|7': 'https://www.youtube.com/watch?v=AaYXOIFnOI4',
+  '第三季|8': 'https://www.youtube.com/watch?v=NQAbUi-0mC0',
+  '第四季|1': 'https://www.youtube.com/watch?v=ENIcXc8HH7Y',
+  '第四季|2': 'https://www.youtube.com/watch?v=sVFPo833HoU',
+  '第四季|3': 'https://www.youtube.com/watch?v=9PillIvA3vs',
+  '第四季|4': 'https://www.youtube.com/watch?v=IdaPsExLQAs',
+  '第四季|5': 'https://www.youtube.com/watch?v=wp-_K6TRnIw',
+  '第四季|6': 'https://www.youtube.com/watch?v=a4WNcPzuLMc',
+  '第四季|7': 'https://www.youtube.com/watch?v=a9USDnhvNSE',
+};
+
+export function getProgramLink(food: FoodItem, locale: Locale = 'zh'): ProgramLink | undefined {
   if (!food.season || !food.episode) return undefined;
 
   const episodeNumber = food.episode.match(/第(\d+)集/)?.[1];
-  const episodeUrl = episodeNumber ? episodePages[`${food.season}|${episodeNumber}`] : undefined;
+  const pages = locale === 'en' ? youtubeEpisodePages : episodePages;
+  const episodeUrl = episodeNumber ? pages[`${food.season}|${episodeNumber}`] : undefined;
   if (!episodeUrl) return undefined;
 
   return {
     url: episodeUrl,
-    programTitle: `${food.season} · ${food.episode}`,
+    programTitle: `${localizeSeason(food.season, locale)} · ${localizeEpisode(food.episode, locale)}`,
   };
 }
