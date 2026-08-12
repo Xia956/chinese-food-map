@@ -5,3 +5,4 @@ worker
 build
 *.tsbuildinfo
 .DS_Store
+public/food-images/*.png

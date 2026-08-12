@@ -104,919 +104,919 @@ const provinceOnly = (province: string, region: string, longitude: number, latit
 
 const generatedFoodImages: Record<string, { url: string; alt: string }> = {
   腌禾花鱼: {
-    url: '/food-images/hunan-yan-hehua-fish.png?v=2',
+    url: '/food-images/hunan-yan-hehua-fish.webp?v=2',
     alt: '靖州腌禾花鱼摄影级生成图',
   },
   腊肉: {
-    url: '/food-images/hunan-jingzhou-larou.png?v=2',
+    url: '/food-images/hunan-jingzhou-larou.webp?v=2',
     alt: '靖州腊肉摄影级生成图',
   },
   油炸臭豆腐: {
-    url: '/food-images/hunan-fried-stinky-tofu.png?v=2',
+    url: '/food-images/hunan-fried-stinky-tofu.webp?v=2',
     alt: '长沙油炸臭豆腐摄影级生成图',
   },
   咸鸭蛋: {
-    url: '/food-images/hunan-salted-duck-egg.png?v=2',
+    url: '/food-images/hunan-salted-duck-egg.webp?v=2',
     alt: '湘乡咸鸭蛋摄影级生成图',
   },
   红霉豆腐渣: {
-    url: '/food-images/hunan-red-mold-tofu-residue.png?v=2',
+    url: '/food-images/hunan-red-mold-tofu-residue.webp?v=2',
     alt: '临湘红霉豆腐渣摄影级生成图',
   },
   '湖南|蕨根糍粑': {
-    url: '/food-images/hunan-fern-root-ciba.png?v=1',
+    url: '/food-images/hunan-fern-root-ciba.webp?v=1',
     alt: '湖南郴州蕨根糍粑摄影级生成图',
   },
   '湖南|酸肉': {
-    url: '/food-images/hunan-sour-pork.png?v=1',
+    url: '/food-images/hunan-sour-pork.webp?v=1',
     alt: '湖南酸肉摄影级生成图',
   },
   '湖南|蒸腊鱼': {
-    url: '/food-images/hunan-steamed-cured-fish.png?v=1',
+    url: '/food-images/hunan-steamed-cured-fish.webp?v=1',
     alt: '湖南蒸腊鱼摄影级生成图',
   },
   '湖南|平江十大碗': {
-    url: '/food-images/hunan-pingjiang-ten-bowl-banquet.png?v=1',
+    url: '/food-images/hunan-pingjiang-ten-bowl-banquet.webp?v=1',
     alt: '湖南平江十大碗摄影级生成图',
   },
   '湖南|左宗棠鸡': {
-    url: '/food-images/hunan-general-tsos-chicken.png?v=1',
+    url: '/food-images/hunan-general-tsos-chicken.webp?v=1',
     alt: '湖南左宗棠鸡摄影级生成图',
   },
   '云南|松茸': {
-    url: '/food-images/yunnan-songrong.png?v=1',
+    url: '/food-images/yunnan-songrong.webp?v=1',
     alt: '云南香格里拉松茸摄影级生成图',
   },
   '云南|诺邓火腿': {
-    url: '/food-images/yunnan-nuodeng-ham.png?v=1',
+    url: '/food-images/yunnan-nuodeng-ham.webp?v=1',
     alt: '云南大理诺邓火腿摄影级生成图',
   },
   '云南|烧豆腐': {
-    url: '/food-images/yunnan-jianshui-roasted-tofu.png?v=1',
+    url: '/food-images/yunnan-jianshui-roasted-tofu.webp?v=1',
     alt: '云南建水烧豆腐摄影级生成图',
   },
   '云南|豆腐': {
-    url: '/food-images/yunnan-shiping-tofu.png?v=1',
+    url: '/food-images/yunnan-shiping-tofu.webp?v=1',
     alt: '云南石屏豆腐摄影级生成图',
   },
   '云南|尼西黑陶煮制食品': {
-    url: '/food-images/yunnan-nixi-black-pottery-food.png?v=1',
+    url: '/food-images/yunnan-nixi-black-pottery-food.webp?v=1',
     alt: '云南香格里拉尼西黑陶煮制食品摄影级生成图',
   },
   '云南|汽锅鸡': {
-    url: '/food-images/yunnan-qiguo-chicken.png?v=1',
+    url: '/food-images/yunnan-qiguo-chicken.webp?v=1',
     alt: '云南昆明汽锅鸡摄影级生成图',
   },
   '云南|菌子火锅': {
-    url: '/food-images/yunnan-mushroom-hotpot.png?v=1',
+    url: '/food-images/yunnan-mushroom-hotpot.webp?v=1',
     alt: '云南菌子火锅摄影级生成图',
   },
   '云南|石锅松茸': {
-    url: '/food-images/yunnan-stone-pot-matsutake.png?v=1',
+    url: '/food-images/yunnan-stone-pot-matsutake.webp?v=1',
     alt: '云南石锅松茸摄影级生成图',
   },
   '云南|稀豆粉': {
-    url: '/food-images/yunnan-tengchong-pea-flour-porridge.png?v=1',
+    url: '/food-images/yunnan-tengchong-pea-flour-porridge.webp?v=1',
     alt: '云南腾冲稀豆粉摄影级生成图',
   },
   '云南|香橼蜜制梨': {
-    url: '/food-images/yunnan-lijiang-citron-honey-pear.png?v=1',
+    url: '/food-images/yunnan-lijiang-citron-honey-pear.webp?v=1',
     alt: '云南丽江香橼蜜制梨摄影级生成图',
   },
   '云南|扣茄花': {
-    url: '/food-images/yunnan-buckled-eggplant-flower.png?v=1',
+    url: '/food-images/yunnan-buckled-eggplant-flower.webp?v=1',
     alt: '云南扣茄花摄影级生成图',
   },
   '云南|江边辣': {
-    url: '/food-images/yunnan-riverside-spicy-dish.png?v=1',
+    url: '/food-images/yunnan-riverside-spicy-dish.webp?v=1',
     alt: '云南江边辣摄影级生成图',
   },
   '云南|西双版纳绿叶宴': {
-    url: '/food-images/yunnan-xishuangbanna-green-leaf-feast.png?v=1',
+    url: '/food-images/yunnan-xishuangbanna-green-leaf-feast.webp?v=1',
     alt: '云南西双版纳绿叶宴摄影级生成图',
   },
   '云南|喃咪酱': {
-    url: '/food-images/yunnan-nammi-sauce.png?v=1',
+    url: '/food-images/yunnan-nammi-sauce.webp?v=1',
     alt: '云南喃咪酱摄影级生成图',
   },
   '浙江|冬笋': {
-    url: '/food-images/zhejiang-winter-bamboo-shoot.png?v=1',
+    url: '/food-images/zhejiang-winter-bamboo-shoot.webp?v=1',
     alt: '浙江遂昌冬笋摄影级生成图',
   },
   '浙江|粽子': {
-    url: '/food-images/zhejiang-jiaxing-zongzi.png?v=1',
+    url: '/food-images/zhejiang-jiaxing-zongzi.webp?v=1',
     alt: '浙江嘉兴粽子摄影级生成图',
   },
   '浙江|年糕': {
-    url: '/food-images/zhejiang-ningbo-niangao.png?v=1',
+    url: '/food-images/zhejiang-ningbo-niangao.webp?v=1',
     alt: '浙江宁波年糕摄影级生成图',
   },
   '浙江|黄酒': {
-    url: '/food-images/zhejiang-shaoxing-huangjiu.png?v=1',
+    url: '/food-images/zhejiang-shaoxing-huangjiu.webp?v=1',
     alt: '浙江绍兴黄酒摄影级生成图',
   },
   '浙江|酱油': {
-    url: '/food-images/zhejiang-shaoxing-soy-sauce.png?v=1',
+    url: '/food-images/zhejiang-shaoxing-soy-sauce.webp?v=1',
     alt: '浙江绍兴酱油摄影级生成图',
   },
   '浙江|火腿': {
-    url: '/food-images/zhejiang-jinhua-ham.png?v=1',
+    url: '/food-images/zhejiang-jinhua-ham.webp?v=1',
     alt: '浙江金华火腿摄影级生成图',
   },
   '浙江|西湖醋鱼': {
-    url: '/food-images/zhejiang-west-lake-vinegar-fish.png?v=1',
+    url: '/food-images/zhejiang-west-lake-vinegar-fish.webp?v=1',
     alt: '浙江杭州西湖醋鱼摄影级生成图',
   },
   '浙江|河蟹': {
-    url: '/food-images/zhejiang-huzhou-river-crab.png?v=1',
+    url: '/food-images/zhejiang-huzhou-river-crab.webp?v=1',
     alt: '浙江湖州河蟹摄影级生成图',
   },
   '江西|九层皮': {
-    url: '/food-images/jiangxi-jiucengpi.png?v=1',
+    url: '/food-images/jiangxi-jiucengpi.webp?v=1',
     alt: '江西赣州九层皮摄影级生成图',
   },
   '江西|早酒': {
-    url: '/food-images/jiangxi-taihe-zaojiu.png?v=1',
+    url: '/food-images/jiangxi-taihe-zaojiu.webp?v=1',
     alt: '江西泰和早酒摄影级生成图',
   },
   '江西|茶香饭': {
-    url: '/food-images/jiangxi-lushan-tea-rice.png?v=1',
+    url: '/food-images/jiangxi-lushan-tea-rice.webp?v=1',
     alt: '江西庐山茶香饭摄影级生成图',
   },
   '江西|茶鱼饺': {
-    url: '/food-images/jiangxi-lushan-tea-fish-dumplings.png?v=1',
+    url: '/food-images/jiangxi-lushan-tea-fish-dumplings.webp?v=1',
     alt: '江西庐山茶鱼饺摄影级生成图',
   },
   '江西|钻林欢喜丸': {
-    url: '/food-images/jiangxi-lushan-zuanlin-huanxi-balls.png?v=1',
+    url: '/food-images/jiangxi-lushan-zuanlin-huanxi-balls.webp?v=1',
     alt: '江西庐山钻林欢喜丸摄影级生成图',
   },
   '江西|茶聊鸡': {
-    url: '/food-images/jiangxi-lushan-tea-chicken.png?v=1',
+    url: '/food-images/jiangxi-lushan-tea-chicken.webp?v=1',
     alt: '江西庐山茶聊鸡摄影级生成图',
   },
   '河北|鲜花椒红烧肉': {
-    url: '/food-images/hebei-shexian-peppercorn-braised-pork.png?v=1',
+    url: '/food-images/hebei-shexian-peppercorn-braised-pork.webp?v=1',
     alt: '河北涉县鲜花椒红烧肉摄影级生成图',
   },
   '广西|黄豆酸笋小黄鱼': {
-    url: '/food-images/guangxi-sour-bamboo-yellow-croaker.png?v=1',
+    url: '/food-images/guangxi-sour-bamboo-yellow-croaker.webp?v=1',
     alt: '广西黄豆酸笋小黄鱼摄影级生成图',
   },
   '广西|螺蛳粉': {
-    url: '/food-images/guangxi-liuzhou-luosifen.png?v=1',
+    url: '/food-images/guangxi-liuzhou-luosifen.webp?v=1',
     alt: '广西柳州螺蛳粉摄影级生成图',
   },
   '湖北|莲藕': {
-    url: '/food-images/hubei-jiayu-lotus-root.png?v=1',
+    url: '/food-images/hubei-jiayu-lotus-root.webp?v=1',
     alt: '湖北嘉鱼莲藕摄影级生成图',
   },
   '湖北|热干面': {
-    url: '/food-images/hubei-wuhan-hot-dry-noodles.png?v=1',
+    url: '/food-images/hubei-wuhan-hot-dry-noodles.webp?v=1',
     alt: '武汉热干面摄影级生成图',
   },
   '湖北|蒸菜': {
-    url: '/food-images/hubei-tianmen-steamed-dishes.png?v=1',
+    url: '/food-images/hubei-tianmen-steamed-dishes.webp?v=1',
     alt: '湖北天门蒸菜摄影级生成图',
   },
   '湖北|全藕宴': {
-    url: '/food-images/hubei-lotus-root-banquet.png?v=1',
+    url: '/food-images/hubei-lotus-root-banquet.webp?v=1',
     alt: '湖北全藕宴摄影级生成图',
   },
   '湖北|酱香饼': {
-    url: '/food-images/hubei-sauce-pancake.png?v=1',
+    url: '/food-images/hubei-sauce-pancake.webp?v=1',
     alt: '湖北酱香饼摄影级生成图',
   },
   '湖北|潜江全荷宴': {
-    url: '/food-images/hubei-qianjiang-lotus-banquet.png?v=1',
+    url: '/food-images/hubei-qianjiang-lotus-banquet.webp?v=1',
     alt: '湖北潜江全荷宴摄影级生成图',
   },
   '湖北|粉蒸芋头': {
-    url: '/food-images/hubei-xiantao-steamed-taro.png?v=1',
+    url: '/food-images/hubei-xiantao-steamed-taro.webp?v=1',
     alt: '湖北仙桃粉蒸芋头摄影级生成图',
   },
   '吉林|冬季捕鱼': {
-    url: '/food-images/jilin-chagan-lake-winter-fish.png?v=1',
+    url: '/food-images/jilin-chagan-lake-winter-fish.webp?v=1',
     alt: '吉林查干湖冬季捕鱼摄影级生成图',
   },
   '吉林|炭烤帝王蟹': {
-    url: '/food-images/jilin-hunchun-charcoal-king-crab.png?v=1',
+    url: '/food-images/jilin-hunchun-charcoal-king-crab.webp?v=1',
     alt: '吉林珲春炭烤帝王蟹摄影级生成图',
   },
   '海南|远洋打渔': {
-    url: '/food-images/hainan-south-sea-fishing.png?v=1',
+    url: '/food-images/hainan-south-sea-fishing.webp?v=1',
     alt: '海南南海远洋打渔摄影级生成图',
   },
   '山西|面食': {
-    url: '/food-images/shanxi-xiangfen-noodles.png?v=1',
+    url: '/food-images/shanxi-xiangfen-noodles.webp?v=1',
     alt: '山西襄汾面食摄影级生成图',
   },
   '山西|饸饹': {
-    url: '/food-images/shanxi-hele-noodles.png?v=1',
+    url: '/food-images/shanxi-hele-noodles.webp?v=1',
     alt: '山西饸饹摄影级生成图',
   },
   '山西|枣花馍': {
-    url: '/food-images/shanxi-zaohua-mo.png?v=1',
+    url: '/food-images/shanxi-zaohua-mo.webp?v=1',
     alt: '山西枣花馍摄影级生成图',
   },
   '山西|火锅': {
-    url: '/food-images/shanxi-hotpot.png?v=1',
+    url: '/food-images/shanxi-hotpot.webp?v=1',
     alt: '山西火锅摄影级生成图',
   },
   '山西|刀削面': {
-    url: '/food-images/shanxi-datong-knife-cut-noodles.png?v=1',
+    url: '/food-images/shanxi-datong-knife-cut-noodles.webp?v=1',
     alt: '山西大同刀削面摄影级生成图',
   },
   '陕西|黄馍馍': {
-    url: '/food-images/shaanxi-huangmomo.png?v=1',
+    url: '/food-images/shaanxi-huangmomo.webp?v=1',
     alt: '陕西绥德黄馍馍摄影级生成图',
   },
   '陕西|肉夹馍': {
-    url: '/food-images/shaanxi-roujiamo.png?v=1',
+    url: '/food-images/shaanxi-roujiamo.webp?v=1',
     alt: '陕西西安肉夹馍摄影级生成图',
   },
   '陕西|泡馍': {
-    url: '/food-images/shaanxi-paomo.png?v=1',
+    url: '/food-images/shaanxi-paomo.webp?v=1',
     alt: '陕西西安泡馍摄影级生成图',
   },
   '陕西|臊子面': {
-    url: '/food-images/shaanxi-saozi-noodles.png?v=1',
+    url: '/food-images/shaanxi-saozi-noodles.webp?v=1',
     alt: '陕西岐山臊子面摄影级生成图',
   },
   '陕西|裤带面': {
-    url: '/food-images/shaanxi-belt-noodles.png?v=1',
+    url: '/food-images/shaanxi-belt-noodles.webp?v=1',
     alt: '陕西蓝田裤带面摄影级生成图',
   },
   '陕西|面皮': {
-    url: '/food-images/shaanxi-hanzhong-mianpi.png?v=1',
+    url: '/food-images/shaanxi-hanzhong-mianpi.webp?v=1',
     alt: '陕西汉中面皮摄影级生成图',
   },
   '陕西|柿饼': {
-    url: '/food-images/shaanxi-fuping-persimmon.png?v=1',
+    url: '/food-images/shaanxi-fuping-persimmon.webp?v=1',
     alt: '陕西富平柿饼摄影级生成图',
   },
   '陕西|空心挂面': {
-    url: '/food-images/shaanxi-hollow-dried-noodles.png?v=1',
+    url: '/food-images/shaanxi-hollow-dried-noodles.webp?v=1',
     alt: '陕西空心挂面摄影级生成图',
   },
   '陕西|金边白菜': {
-    url: '/food-images/shaanxi-golden-edge-cabbage.png?v=1',
+    url: '/food-images/shaanxi-golden-edge-cabbage.webp?v=1',
     alt: '陕西金边白菜摄影级生成图',
   },
   '陕西|水盆羊肉': {
-    url: '/food-images/shaanxi-xian-lamb-soup.png?v=1',
+    url: '/food-images/shaanxi-xian-lamb-soup.webp?v=1',
     alt: '陕西西安水盆羊肉摄影级生成图',
   },
   '陕西|玲珑牡丹鲊': {
-    url: '/food-images/shaanxi-xian-linglong-peony-zha.png?v=1',
+    url: '/food-images/shaanxi-xian-linglong-peony-zha.webp?v=1',
     alt: '陕西西安玲珑牡丹鲊摄影级生成图',
   },
   '陕西|金齑玉脍': {
-    url: '/food-images/shaanxi-xian-jinji-yukuai.png?v=1',
+    url: '/food-images/shaanxi-xian-jinji-yukuai.webp?v=1',
     alt: '陕西西安金齑玉脍摄影级生成图',
   },
   '陕西|柿子糊塌': {
-    url: '/food-images/shaanxi-fuping-persimmon-pancakes.png?v=1',
+    url: '/food-images/shaanxi-fuping-persimmon-pancakes.webp?v=1',
     alt: '陕西富平柿子糊塌摄影级生成图',
   },
   '新疆|新疆库车馕': {
-    url: '/food-images/xinjiang-kuqa-nang.png?v=1',
+    url: '/food-images/xinjiang-kuqa-nang.webp?v=1',
     alt: '新疆库车馕摄影级生成图',
   },
   '新疆|纳仁': {
-    url: '/food-images/xinjiang-naren.png?v=1',
+    url: '/food-images/xinjiang-naren.webp?v=1',
     alt: '新疆纳仁摄影级生成图',
   },
   '新疆|玛仁糖': {
-    url: '/food-images/xinjiang-hetian-maren-tang.png?v=1',
+    url: '/food-images/xinjiang-hetian-maren-tang.webp?v=1',
     alt: '新疆和田玛仁糖摄影级生成图',
   },
   '新疆|切糕': {
-    url: '/food-images/xinjiang-hetian-qiegao.png?v=2',
+    url: '/food-images/xinjiang-hetian-qiegao.webp?v=2',
     alt: '新疆和田切糕摄影级生成图',
   },
   '新疆|抓饭': {
-    url: '/food-images/xinjiang-turpan-pilaf.png?v=1',
+    url: '/food-images/xinjiang-turpan-pilaf.webp?v=1',
     alt: '新疆吐鲁番抓饭摄影级生成图',
   },
   '新疆|大盘鸡': {
-    url: '/food-images/xinjiang-dapanji.png?v=1',
+    url: '/food-images/xinjiang-dapanji.webp?v=1',
     alt: '新疆大盘鸡摄影级生成图',
   },
   '新疆|烤包子': {
-    url: '/food-images/xinjiang-baked-buns.png?v=1',
+    url: '/food-images/xinjiang-baked-buns.webp?v=1',
     alt: '新疆烤包子摄影级生成图',
   },
   '新疆|拉条子': {
-    url: '/food-images/xinjiang-latiaozi.png?v=1',
+    url: '/food-images/xinjiang-latiaozi.webp?v=1',
     alt: '新疆拉条子摄影级生成图',
   },
   '贵州|米粉': {
-    url: '/food-images/guizhou-liping-rice-noodles.png?v=1',
+    url: '/food-images/guizhou-liping-rice-noodles.webp?v=1',
     alt: '贵州黎平米粉摄影级生成图',
   },
   '贵州|新米节': {
-    url: '/food-images/guizhou-congjiang-new-rice-festival.png?v=1',
+    url: '/food-images/guizhou-congjiang-new-rice-festival.webp?v=1',
     alt: '贵州从江新米节摄影级生成图',
   },
   '贵州|鱼酱': {
-    url: '/food-images/guizhou-leishan-fish-sauce.png?v=1',
+    url: '/food-images/guizhou-leishan-fish-sauce.webp?v=1',
     alt: '贵州雷山鱼酱摄影级生成图',
   },
   '贵州|丝娃娃': {
-    url: '/food-images/guizhou-guiyang-siwawa.png?v=1',
+    url: '/food-images/guizhou-guiyang-siwawa.webp?v=1',
     alt: '贵州贵阳丝娃娃摄影级生成图',
   },
   '贵州|牛冻春': {
-    url: '/food-images/guizhou-qiandongnan-niudongchun.png?v=1',
+    url: '/food-images/guizhou-qiandongnan-niudongchun.webp?v=1',
     alt: '贵州黔东南牛冻春摄影级生成图',
   },
   '贵州|鱼酱炖稻花鱼': {
-    url: '/food-images/guizhou-leishan-fish-sauce-rice-fish.png?v=1',
+    url: '/food-images/guizhou-leishan-fish-sauce-rice-fish.webp?v=1',
     alt: '贵州雷山鱼酱炖稻花鱼摄影级生成图',
   },
   '贵州|腌鱼': {
-    url: '/food-images/guizhou-pickled-fish.png?v=1',
+    url: '/food-images/guizhou-pickled-fish.webp?v=1',
     alt: '贵州腌鱼摄影级生成图',
   },
   '贵州|腌肉': {
-    url: '/food-images/guizhou-pickled-pork.png?v=1',
+    url: '/food-images/guizhou-pickled-pork.webp?v=1',
     alt: '贵州腌肉摄影级生成图',
   },
   '贵州|腌菜': {
-    url: '/food-images/guizhou-pickled-vegetables.png?v=1',
+    url: '/food-images/guizhou-pickled-vegetables.webp?v=1',
     alt: '贵州腌菜摄影级生成图',
   },
   '贵州|侗族大歌宴': {
-    url: '/food-images/guizhou-dong-grand-song-feast.png?v=1',
+    url: '/food-images/guizhou-dong-grand-song-feast.webp?v=1',
     alt: '贵州侗族大歌宴摄影级生成图',
   },
   '贵州|酸汤鱼': {
-    url: '/food-images/guizhou-sour-soup-fish.png?v=1',
+    url: '/food-images/guizhou-sour-soup-fish.webp?v=1',
     alt: '贵州黔东南酸汤鱼摄影级生成图',
   },
   '贵州|羊肉粉': {
-    url: '/food-images/guizhou-lamb-rice-noodles.png?v=1',
+    url: '/food-images/guizhou-lamb-rice-noodles.webp?v=1',
     alt: '贵州羊肉粉摄影级生成图',
   },
   '甘肃|牛肉面': {
-    url: '/food-images/gansu-lanzhou-beef-noodles.png?v=1',
+    url: '/food-images/gansu-lanzhou-beef-noodles.webp?v=1',
     alt: '甘肃兰州牛肉面摄影级生成图',
   },
   '广东|沙河粉': {
-    url: '/food-images/guangdong-shahe-rice-noodles.png?v=1',
+    url: '/food-images/guangdong-shahe-rice-noodles.webp?v=1',
     alt: '广东广州沙河粉摄影级生成图',
   },
   '广东|竹升面': {
-    url: '/food-images/guangdong-jook-sing-noodles.png?v=1',
+    url: '/food-images/guangdong-jook-sing-noodles.webp?v=1',
     alt: '广东广州竹升面摄影级生成图',
   },
   '广东|云吞捞面': {
-    url: '/food-images/guangdong-wonton-lo-mein.png?v=1',
+    url: '/food-images/guangdong-wonton-lo-mein.webp?v=1',
     alt: '广东广州云吞捞面摄影级生成图',
   },
   '广东|煲仔饭': {
-    url: '/food-images/guangdong-claypot-rice.png?v=1',
+    url: '/food-images/guangdong-claypot-rice.webp?v=1',
     alt: '广东煲仔饭摄影级生成图',
   },
   '广东|均安露天村宴': {
-    url: '/food-images/guangdong-junan-village-banquet.png?v=1',
+    url: '/food-images/guangdong-junan-village-banquet.webp?v=1',
     alt: '广东顺德均安露天村宴摄影级生成图',
   },
   '广东|粉葛蒸肉': {
-    url: '/food-images/guangdong-fenge-steamed-pork.png?v=1',
+    url: '/food-images/guangdong-fenge-steamed-pork.webp?v=1',
     alt: '广东顺德粉葛蒸肉摄影级生成图',
   },
   '广东|糖葱薄饼': {
-    url: '/food-images/guangdong-sugar-scallion-pancake.png?v=1',
+    url: '/food-images/guangdong-sugar-scallion-pancake.webp?v=1',
     alt: '广东汕头糖葱薄饼摄影级生成图',
   },
   '广东|蔗渣熏鸭脯': {
-    url: '/food-images/guangdong-smoked-duck-breast.png?v=1',
+    url: '/food-images/guangdong-smoked-duck-breast.webp?v=1',
     alt: '广东汕头蔗渣熏鸭脯摄影级生成图',
   },
   '广东|陈皮': {
-    url: '/food-images/guangdong-xinhui-chenpi.png?v=1',
+    url: '/food-images/guangdong-xinhui-chenpi.webp?v=1',
     alt: '广东新会陈皮摄影级生成图',
   },
   '广东|盐焗鸡': {
-    url: '/food-images/guangdong-salt-baked-chicken.png?v=1',
+    url: '/food-images/guangdong-salt-baked-chicken.webp?v=1',
     alt: '广东东江盐焗鸡摄影级生成图',
   },
   '广东|鱼丸紫菜煲': {
-    url: '/food-images/guangdong-fish-ball-seaweed-pot.png?v=1',
+    url: '/food-images/guangdong-fish-ball-seaweed-pot.webp?v=1',
     alt: '广东汕头鱼丸紫菜煲摄影级生成图',
   },
   '广东|清蒸鱼': {
-    url: '/food-images/guangdong-steamed-fish.png?v=1',
+    url: '/food-images/guangdong-steamed-fish.webp?v=1',
     alt: '广东广州清蒸鱼摄影级生成图',
   },
   '广东|白切鸡': {
-    url: '/food-images/guangdong-white-cut-chicken.png?v=1',
+    url: '/food-images/guangdong-white-cut-chicken.webp?v=1',
     alt: '广东广州白切鸡摄影级生成图',
   },
   '广东|蚝烙': {
-    url: '/food-images/guangdong-oyster-omelette.png?v=1',
+    url: '/food-images/guangdong-oyster-omelette.webp?v=1',
     alt: '广东汕头澄海蚝烙摄影级生成图',
   },
   '广东|牛肉火锅': {
-    url: '/food-images/guangdong-beef-hotpot.png?v=1',
+    url: '/food-images/guangdong-beef-hotpot.webp?v=1',
     alt: '广东潮汕牛肉火锅摄影级生成图',
   },
   '广东|早茶': {
-    url: '/food-images/guangdong-morning-tea.png?v=1',
+    url: '/food-images/guangdong-morning-tea.webp?v=1',
     alt: '广东广州早茶摄影级生成图',
   },
   '广东|手打鱼丸': {
-    url: '/food-images/guangdong-handmade-fish-balls.png?v=1',
+    url: '/food-images/guangdong-handmade-fish-balls.webp?v=1',
     alt: '广东汕头手打鱼丸摄影级生成图',
   },
   '广东|盆菜': {
-    url: '/food-images/guangdong-hakka-poon-choi.png?v=1',
+    url: '/food-images/guangdong-hakka-poon-choi.webp?v=1',
     alt: '广东客家盆菜摄影级生成图',
   },
   '安徽|嫩豆腐': {
-    url: '/food-images/anhui-shouxian-soft-tofu.png?v=1',
+    url: '/food-images/anhui-shouxian-soft-tofu.webp?v=1',
     alt: '安徽寿县嫩豆腐摄影级生成图',
   },
   '安徽|毛豆腐': {
-    url: '/food-images/anhui-xiuning-hairy-tofu.png?v=1',
+    url: '/food-images/anhui-xiuning-hairy-tofu.webp?v=1',
     alt: '安徽休宁毛豆腐摄影级生成图',
   },
   '安徽|米酒': {
-    url: '/food-images/anhui-xiuning-rice-wine.png?v=1',
+    url: '/food-images/anhui-xiuning-rice-wine.webp?v=1',
     alt: '安徽休宁米酒摄影级生成图',
   },
   '安徽|臭鳜鱼': {
-    url: '/food-images/anhui-stinky-mandarin-fish.png?v=1',
+    url: '/food-images/anhui-stinky-mandarin-fish.webp?v=1',
     alt: '安徽徽州臭鳜鱼摄影级生成图',
   },
   '安徽|刀板香火腿': {
-    url: '/food-images/anhui-daobanxiang-ham.png?v=1',
+    url: '/food-images/anhui-daobanxiang-ham.webp?v=1',
     alt: '安徽徽州刀板香火腿摄影级生成图',
   },
   '安徽|咸肉': {
-    url: '/food-images/anhui-huangshan-salted-pork.png?v=1',
+    url: '/food-images/anhui-huangshan-salted-pork.webp?v=1',
     alt: '安徽黄山咸肉摄影级生成图',
   },
   '安徽|蟹黄汪豆腐': {
-    url: '/food-images/anhui-crab-roe-wang-tofu.png?v=1',
+    url: '/food-images/anhui-crab-roe-wang-tofu.webp?v=1',
     alt: '安徽蟹黄汪豆腐摄影级生成图',
   },
   '安徽|虾子小刀面': {
-    url: '/food-images/anhui-wuhu-shrimp-knife-noodles.png?v=1',
+    url: '/food-images/anhui-wuhu-shrimp-knife-noodles.webp?v=1',
     alt: '安徽芜湖虾子小刀面摄影级生成图',
   },
   '安徽|徽州臭豆腐': {
-    url: '/food-images/anhui-huizhou-stinky-tofu.png?v=1',
+    url: '/food-images/anhui-huizhou-stinky-tofu.webp?v=1',
     alt: '安徽徽州臭豆腐摄影级生成图',
   },
   '安徽|油炸锅巴': {
-    url: '/food-images/anhui-huangshan-fried-rice-crust.png?v=1',
+    url: '/food-images/anhui-huangshan-fried-rice-crust.webp?v=1',
     alt: '安徽黄山油炸锅巴摄影级生成图',
   },
   '安徽|水八仙': {
-    url: '/food-images/anhui-wuhu-water-eight-immortals.png?v=1',
+    url: '/food-images/anhui-wuhu-water-eight-immortals.webp?v=1',
     alt: '安徽芜湖水八仙摄影级生成图',
   },
   '安徽|嵌字豆糖': {
-    url: '/food-images/anhui-huizhou-character-bean-candy.png?v=1',
+    url: '/food-images/anhui-huizhou-character-bean-candy.webp?v=1',
     alt: '安徽徽州嵌字豆糖摄影级生成图',
   },
   '安徽|渔亭糕': {
-    url: '/food-images/anhui-huizhou-yuting-cake.png?v=1',
+    url: '/food-images/anhui-huizhou-yuting-cake.webp?v=1',
     alt: '安徽徽州渔亭糕摄影级生成图',
   },
   '内蒙古|奶豆腐': {
-    url: '/food-images/inner-mongolia-milk-tofu.png?v=1',
+    url: '/food-images/inner-mongolia-milk-tofu.webp?v=1',
     alt: '内蒙古锡林郭勒奶豆腐摄影级生成图',
   },
   '内蒙古|奶茶': {
-    url: '/food-images/inner-mongolia-milk-tea.png?v=1',
+    url: '/food-images/inner-mongolia-milk-tea.webp?v=1',
     alt: '内蒙古锡林郭勒奶茶摄影级生成图',
   },
   '黑龙江|大酱': {
-    url: '/food-images/heilongjiang-soybean-paste.png?v=1',
+    url: '/food-images/heilongjiang-soybean-paste.webp?v=1',
     alt: '黑龙江依兰大酱摄影级生成图',
   },
   '黑龙江|酸菜': {
-    url: '/food-images/heilongjiang-sauerkraut.png?v=1',
+    url: '/food-images/heilongjiang-sauerkraut.webp?v=1',
     alt: '黑龙江酸菜摄影级生成图',
   },
   '黑龙江|铁锅炖鱼': {
-    url: '/food-images/heilongjiang-iron-pot-fish-stew.png?v=1',
+    url: '/food-images/heilongjiang-iron-pot-fish-stew.webp?v=1',
     alt: '东北铁锅炖鱼摄影级生成图',
   },
   '黑龙江|小鸡炖蘑菇': {
-    url: '/food-images/heilongjiang-chicken-mushroom-stew.png?v=1',
+    url: '/food-images/heilongjiang-chicken-mushroom-stew.webp?v=1',
     alt: '东北小鸡炖蘑菇摄影级生成图',
   },
   '黑龙江|鲑鱼': {
-    url: '/food-images/heilongjiang-salmon.png?v=1',
+    url: '/food-images/heilongjiang-salmon.webp?v=1',
     alt: '东北鲑鱼摄影级生成图',
   },
   '福建|腊鸭': {
-    url: '/food-images/fujian-nanan-cured-duck.png?v=1',
+    url: '/food-images/fujian-nanan-cured-duck.webp?v=1',
     alt: '福建南安腊鸭摄影级生成图',
   },
   '福建|石花膏': {
-    url: '/food-images/fujian-quanzhou-shihua-jelly.png?v=1',
+    url: '/food-images/fujian-quanzhou-shihua-jelly.webp?v=1',
     alt: '福建泉州石花膏摄影级生成图',
   },
   '福建|萝卜饭': {
-    url: '/food-images/fujian-quanzhou-radish-rice.png?v=1',
+    url: '/food-images/fujian-quanzhou-radish-rice.webp?v=1',
     alt: '福建泉州萝卜饭摄影级生成图',
   },
   '福建|面线糊': {
-    url: '/food-images/fujian-quanzhou-mianxianhu.png?v=1',
+    url: '/food-images/fujian-quanzhou-mianxianhu.webp?v=1',
     alt: '福建泉州面线糊摄影级生成图',
   },
   '福建|沙茶焖牛肉': {
-    url: '/food-images/fujian-xiamen-shacha-braised-beef.png?v=1',
+    url: '/food-images/fujian-xiamen-shacha-braised-beef.webp?v=1',
     alt: '福建厦门沙茶焖牛肉摄影级生成图',
   },
   '福建|封肉': {
-    url: '/food-images/fujian-xiamen-fengrou.png?v=1',
+    url: '/food-images/fujian-xiamen-fengrou.webp?v=1',
     alt: '福建厦门封肉摄影级生成图',
   },
   '福建|酒糟芋头面': {
-    url: '/food-images/fujian-wine-lees-taro-noodles.png?v=1',
+    url: '/food-images/fujian-wine-lees-taro-noodles.webp?v=1',
     alt: '福建酒糟芋头面摄影级生成图',
   },
   '福建|牡蒿蒸嫩鸭': {
-    url: '/food-images/fujian-ningde-mugwort-steamed-duck.png?v=1',
+    url: '/food-images/fujian-ningde-mugwort-steamed-duck.webp?v=1',
     alt: '福建宁德牡蒿蒸嫩鸭摄影级生成图',
   },
   '福建|烧麦': {
-    url: '/food-images/fujian-shaxian-shaomai.png?v=1',
+    url: '/food-images/fujian-shaxian-shaomai.webp?v=1',
     alt: '福建沙县烧麦摄影级生成图',
   },
   '福建|蒸饺': {
-    url: '/food-images/fujian-shaxian-steamed-dumplings.png?v=1',
+    url: '/food-images/fujian-shaxian-steamed-dumplings.webp?v=1',
     alt: '福建沙县蒸饺摄影级生成图',
   },
   '福建|拌面': {
-    url: '/food-images/fujian-shaxian-mixed-noodles.png?v=1',
+    url: '/food-images/fujian-shaxian-mixed-noodles.webp?v=1',
     alt: '福建沙县拌面摄影级生成图',
   },
   '福建|炖罐': {
-    url: '/food-images/fujian-shaxian-stew-pot.png?v=1',
+    url: '/food-images/fujian-shaxian-stew-pot.webp?v=1',
     alt: '福建沙县炖罐摄影级生成图',
   },
   '上海|醉蟹': {
-    url: '/food-images/shanghai-drunken-crab.png?v=1',
+    url: '/food-images/shanghai-drunken-crab.webp?v=1',
     alt: '上海醉蟹摄影级生成图',
   },
   '上海|西餐': {
-    url: '/food-images/shanghai-western-food.png?v=1',
+    url: '/food-images/shanghai-western-food.webp?v=1',
     alt: '上海西餐摄影级生成图',
   },
   '上海|素食': {
-    url: '/food-images/shanghai-vegetarian-food.png?v=1',
+    url: '/food-images/shanghai-vegetarian-food.webp?v=1',
     alt: '上海素食摄影级生成图',
   },
   '上海|扣三丝': {
-    url: '/food-images/shanghai-kou-san-si.png?v=1',
+    url: '/food-images/shanghai-kou-san-si.webp?v=1',
     alt: '上海扣三丝摄影级生成图',
   },
   '上海|油爆河虾': {
-    url: '/food-images/shanghai-stir-fried-river-shrimp.png?v=1',
+    url: '/food-images/shanghai-stir-fried-river-shrimp.webp?v=1',
     alt: '上海油爆河虾摄影级生成图',
   },
   '上海|红烧肉': {
-    url: '/food-images/shanghai-red-braised-pork.png?v=1',
+    url: '/food-images/shanghai-red-braised-pork.webp?v=1',
     alt: '上海红烧肉摄影级生成图',
   },
   '上海|冰皮月饼': {
-    url: '/food-images/shanghai-snow-skin-mooncakes.png?v=1',
+    url: '/food-images/shanghai-snow-skin-mooncakes.webp?v=1',
     alt: '上海冰皮月饼摄影级生成图',
   },
   '上海|蟹粉豆腐': {
-    url: '/food-images/shanghai-crab-roe-tofu.png?v=1',
+    url: '/food-images/shanghai-crab-roe-tofu.webp?v=1',
     alt: '上海蟹粉豆腐摄影级生成图',
   },
   '上海|刺猬包': {
-    url: '/food-images/shanghai-hedgehog-buns.png?v=1',
+    url: '/food-images/shanghai-hedgehog-buns.webp?v=1',
     alt: '上海刺猬包摄影级生成图',
   },
   '上海|春卷': {
-    url: '/food-images/shanghai-spring-rolls.png?v=1',
+    url: '/food-images/shanghai-spring-rolls.webp?v=1',
     alt: '上海春卷摄影级生成图',
   },
   '上海|凉拌海蜇': {
-    url: '/food-images/shanghai-cold-jellyfish.png?v=1',
+    url: '/food-images/shanghai-cold-jellyfish.webp?v=1',
     alt: '上海凉拌海蜇摄影级生成图',
   },
   '台湾|乌鱼子': {
-    url: '/food-images/taiwan-yunlin-bottarga.png?v=1',
+    url: '/food-images/taiwan-yunlin-bottarga.webp?v=1',
     alt: '台湾云林乌鱼子摄影级生成图',
   },
   '台湾|柿饼': {
-    url: '/food-images/taiwan-hsinchu-dried-persimmon.png?v=1',
+    url: '/food-images/taiwan-hsinchu-dried-persimmon.webp?v=1',
     alt: '台湾新竹柿饼摄影级生成图',
   },
   '台湾|卤肉饭': {
-    url: '/food-images/taiwan-lu-rou-rice.png?v=1',
+    url: '/food-images/taiwan-lu-rou-rice.webp?v=1',
     alt: '台湾卤肉饭摄影级生成图',
   },
   '台湾|虱目鱼腹粥': {
-    url: '/food-images/taiwan-tainan-milkfish-belly-congee.png?v=1',
+    url: '/food-images/taiwan-tainan-milkfish-belly-congee.webp?v=1',
     alt: '台湾台南虱目鱼腹粥摄影级生成图',
   },
   '香港|虾膏': {
-    url: '/food-images/hongkong-tai-o-shrimp-paste.png?v=1',
+    url: '/food-images/hongkong-tai-o-shrimp-paste.webp?v=1',
     alt: '香港大澳虾膏摄影级生成图',
   },
   '香港|虾酱': {
-    url: '/food-images/hongkong-tai-o-shrimp-sauce.png?v=1',
+    url: '/food-images/hongkong-tai-o-shrimp-sauce.webp?v=1',
     alt: '香港大澳虾酱摄影级生成图',
   },
   '澳门|陈皮鸭': {
-    url: '/food-images/macau-chenpi-duck.png?v=1',
+    url: '/food-images/macau-chenpi-duck.webp?v=1',
     alt: '澳门陈皮鸭摄影级生成图',
   },
   '澳门|陈皮红豆沙': {
-    url: '/food-images/macau-chenpi-red-bean-soup.png?v=1',
+    url: '/food-images/macau-chenpi-red-bean-soup.webp?v=1',
     alt: '澳门陈皮红豆沙摄影级生成图',
   },
   '澳门|姜撞奶': {
-    url: '/food-images/macau-ginger-milk-pudding.png?v=1',
+    url: '/food-images/macau-ginger-milk-pudding.webp?v=1',
     alt: '澳门姜撞奶摄影级生成图',
   },
   '辽宁|海产品': {
-    url: '/food-images/liaoning-zhangzidao-seafood.png?v=1',
+    url: '/food-images/liaoning-zhangzidao-seafood.webp?v=1',
     alt: '辽宁獐子岛海产品摄影级生成图',
   },
   '辽宁|虾子焖茭白': {
-    url: '/food-images/liaoning-shrimp-roe-water-bamboo.png?v=1',
+    url: '/food-images/liaoning-shrimp-roe-water-bamboo.webp?v=1',
     alt: '辽宁盘锦大洼虾子焖茭白摄影级生成图',
   },
   '西藏|青稞': {
-    url: '/food-images/tibet-highland-barley.png?v=1',
+    url: '/food-images/tibet-highland-barley.webp?v=1',
     alt: '西藏青稞摄影级生成图',
   },
   '西藏|酥油蜂蜜': {
-    url: '/food-images/tibet-bomi-butter-honey.png?v=1',
+    url: '/food-images/tibet-bomi-butter-honey.webp?v=1',
     alt: '西藏林芝波密酥油蜂蜜摄影级生成图',
   },
   '宁夏|手擀面': {
-    url: '/food-images/ningxia-hand-rolled-noodles.png?v=1',
+    url: '/food-images/ningxia-hand-rolled-noodles.webp?v=1',
     alt: '宁夏手擀面摄影级生成图',
   },
   '宁夏|手抓羊肉': {
-    url: '/food-images/ningxia-hand-grabbed-lamb.png?v=1',
+    url: '/food-images/ningxia-hand-grabbed-lamb.webp?v=1',
     alt: '宁夏手抓羊肉摄影级生成图',
   },
   '宁夏|枸杞羊肉': {
-    url: '/food-images/ningxia-goji-lamb.png?v=1',
+    url: '/food-images/ningxia-goji-lamb.webp?v=1',
     alt: '宁夏枸杞羊肉摄影级生成图',
   },
   '河南|抻面': {
-    url: '/food-images/henan-stretched-noodles.png?v=1',
+    url: '/food-images/henan-stretched-noodles.webp?v=1',
     alt: '河南抻面摄影级生成图',
   },
   '河南|灌汤包': {
-    url: '/food-images/henan-kaifeng-soup-dumplings.png?v=1',
+    url: '/food-images/henan-kaifeng-soup-dumplings.webp?v=1',
     alt: '河南开封灌汤包摄影级生成图',
   },
   '河南|烧牛肉': {
-    url: '/food-images/henan-braised-beef.png?v=1',
+    url: '/food-images/henan-braised-beef.webp?v=1',
     alt: '河南烧牛肉摄影级生成图',
   },
   '河南|陕州十碗席': {
-    url: '/food-images/henan-shanzhou-ten-bowl-banquet.png?v=1',
+    url: '/food-images/henan-shanzhou-ten-bowl-banquet.webp?v=1',
     alt: '河南三门峡陕州十碗席摄影级生成图',
   },
   '河南|胡辣汤': {
-    url: '/food-images/henan-hulatang.png?v=1',
+    url: '/food-images/henan-hulatang.webp?v=1',
     alt: '河南胡辣汤摄影级生成图',
   },
   '河南|柿子醋': {
-    url: '/food-images/henan-shanzhou-persimmon-vinegar.png?v=1',
+    url: '/food-images/henan-shanzhou-persimmon-vinegar.webp?v=1',
     alt: '河南三门峡陕州柿子醋摄影级生成图',
   },
   '北京|涮肉火锅': {
-    url: '/food-images/beijing-lamb-hotpot.png?v=1',
+    url: '/food-images/beijing-lamb-hotpot.webp?v=1',
     alt: '北京涮肉火锅摄影级生成图',
   },
   '北京|烤鸭卷饼': {
-    url: '/food-images/beijing-roast-duck-wrap.png?v=1',
+    url: '/food-images/beijing-roast-duck-wrap.webp?v=1',
     alt: '北京烤鸭卷饼摄影级生成图',
   },
   '北京|萨其马': {
-    url: '/food-images/beijing-sachima.png?v=1',
+    url: '/food-images/beijing-sachima.webp?v=1',
     alt: '北京萨其马摄影级生成图',
   },
   '北京|春饼': {
-    url: '/food-images/beijing-spring-pancakes.png?v=1',
+    url: '/food-images/beijing-spring-pancakes.webp?v=1',
     alt: '北京春饼摄影级生成图',
   },
   '天津|煎饼果子': {
-    url: '/food-images/tianjin-jianbing-guozi.png?v=1',
+    url: '/food-images/tianjin-jianbing-guozi.webp?v=1',
     alt: '天津煎饼果子摄影级生成图',
   },
   '天津|津味豆腐脑': {
-    url: '/food-images/tianjin-savory-tofu-pudding.png?v=1',
+    url: '/food-images/tianjin-savory-tofu-pudding.webp?v=1',
     alt: '天津津味豆腐脑摄影级生成图',
   },
   '天津|贵妃饼': {
-    url: '/food-images/tianjin-guifei-pastry.png?v=1',
+    url: '/food-images/tianjin-guifei-pastry.webp?v=1',
     alt: '天津贵妃饼摄影级生成图',
   },
   '天津|油酥烧饼': {
-    url: '/food-images/tianjin-flaky-shaobing.png?v=1',
+    url: '/food-images/tianjin-flaky-shaobing.webp?v=1',
     alt: '天津油酥烧饼摄影级生成图',
   },
   '江苏|包子': {
-    url: '/food-images/jiangsu-yangzhou-baozi.png?v=1',
+    url: '/food-images/jiangsu-yangzhou-baozi.webp?v=1',
     alt: '江苏扬州包子摄影级生成图',
   },
   '江苏|大煮干丝': {
-    url: '/food-images/jiangsu-yangzhou-dazhu-gansi.png?v=1',
+    url: '/food-images/jiangsu-yangzhou-dazhu-gansi.webp?v=1',
     alt: '江苏扬州大煮干丝摄影级生成图',
   },
   '江苏|雪花鲥鱼': {
-    url: '/food-images/jiangsu-yangzhou-shad-fish.png?v=1',
+    url: '/food-images/jiangsu-yangzhou-shad-fish.webp?v=1',
     alt: '江苏扬州雪花鲥鱼摄影级生成图',
   },
   '江苏|清炖狮子头': {
-    url: '/food-images/jiangsu-yangzhou-lion-head.png?v=1',
+    url: '/food-images/jiangsu-yangzhou-lion-head.webp?v=1',
     alt: '江苏扬州清炖狮子头摄影级生成图',
   },
   '江苏|仿豹胎': {
-    url: '/food-images/jiangsu-yangzhou-fangbaotai.png?v=1',
+    url: '/food-images/jiangsu-yangzhou-fangbaotai.webp?v=1',
     alt: '江苏扬州仿豹胎摄影级生成图',
   },
   '江苏|文思豆腐': {
-    url: '/food-images/jiangsu-yangzhou-wensi-tofu.png?v=1',
+    url: '/food-images/jiangsu-yangzhou-wensi-tofu.webp?v=1',
     alt: '江苏扬州文思豆腐摄影级生成图',
   },
   '江苏|鉴真素鸭': {
-    url: '/food-images/jiangsu-yangzhou-jianzhen-vegetarian-duck.png?v=1',
+    url: '/food-images/jiangsu-yangzhou-jianzhen-vegetarian-duck.webp?v=1',
     alt: '江苏扬州鉴真素鸭摄影级生成图',
   },
   '江苏|梁溪脆鳝': {
-    url: '/food-images/jiangsu-wuxi-crispy-eel.png?v=1',
+    url: '/food-images/jiangsu-wuxi-crispy-eel.webp?v=1',
     alt: '江苏无锡梁溪脆鳝摄影级生成图',
   },
   '江苏|加蟹小笼馒头': {
-    url: '/food-images/jiangsu-wuxi-crab-xiaolongbao.png?v=1',
+    url: '/food-images/jiangsu-wuxi-crab-xiaolongbao.webp?v=1',
     alt: '江苏无锡加蟹小笼馒头摄影级生成图',
   },
   '江苏|手推馄饨': {
-    url: '/food-images/jiangsu-wuxi-wontons.png?v=1',
+    url: '/food-images/jiangsu-wuxi-wontons.webp?v=1',
     alt: '江苏无锡手推馄饨摄影级生成图',
   },
   '江苏|酱排骨': {
-    url: '/food-images/jiangsu-wuxi-sauced-ribs.png?v=1',
+    url: '/food-images/jiangsu-wuxi-sauced-ribs.webp?v=1',
     alt: '江苏无锡酱排骨摄影级生成图',
   },
   '江苏|香醋': {
-    url: '/food-images/jiangsu-zhenjiang-vinegar.png?v=1',
+    url: '/food-images/jiangsu-zhenjiang-vinegar.webp?v=1',
     alt: '江苏镇江香醋摄影级生成图',
   },
   '江苏|醋排': {
-    url: '/food-images/jiangsu-zhenjiang-vinegar-ribs.png?v=1',
+    url: '/food-images/jiangsu-zhenjiang-vinegar-ribs.webp?v=1',
     alt: '江苏镇江醋排摄影级生成图',
   },
   '江苏|蟹黄汤包': {
-    url: '/food-images/jiangsu-jingjiang-crab-roe-soup-dumpling.png?v=1',
+    url: '/food-images/jiangsu-jingjiang-crab-roe-soup-dumpling.webp?v=1',
     alt: '江苏靖江蟹黄汤包摄影级生成图',
   },
   '江苏|芋头': {
-    url: '/food-images/jiangsu-xinghua-taro.png?v=1',
+    url: '/food-images/jiangsu-xinghua-taro.webp?v=1',
     alt: '江苏兴化芋头摄影级生成图',
   },
   '江苏|头汤面': {
-    url: '/food-images/jiangsu-suzhou-first-broth-noodles.png?v=1',
+    url: '/food-images/jiangsu-suzhou-first-broth-noodles.webp?v=1',
     alt: '江苏苏州头汤面摄影级生成图',
   },
   '江苏|蒲菜水饺': {
-    url: '/food-images/jiangsu-huaian-pucai-dumplings.png?v=1',
+    url: '/food-images/jiangsu-huaian-pucai-dumplings.webp?v=1',
     alt: '江苏淮安蒲菜水饺摄影级生成图',
   },
   '江苏|蒸点': {
-    url: '/food-images/jiangsu-yangzhou-steamed-dim-sum.png?v=1',
+    url: '/food-images/jiangsu-yangzhou-steamed-dim-sum.webp?v=1',
     alt: '江苏扬州蒸点摄影级生成图',
   },
   '江苏|瓜雕': {
-    url: '/food-images/jiangsu-yangzhou-melon-carving.png?v=1',
+    url: '/food-images/jiangsu-yangzhou-melon-carving.webp?v=1',
     alt: '江苏扬州瓜雕摄影级生成图',
   },
   '山东|葱烧海参': {
-    url: '/food-images/shandong-braised-sea-cucumber.png?v=1',
+    url: '/food-images/shandong-braised-sea-cucumber.webp?v=1',
     alt: '山东葱烧海参摄影级生成图',
   },
   '山东|煎饼卷大葱': {
-    url: '/food-images/shandong-pancake-scallion.png?v=1',
+    url: '/food-images/shandong-pancake-scallion.webp?v=1',
     alt: '山东沂蒙山煎饼卷大葱摄影级生成图',
   },
   '山东|西瓜酱': {
-    url: '/food-images/shandong-yuncheng-watermelon-sauce.png?v=1',
+    url: '/food-images/shandong-yuncheng-watermelon-sauce.webp?v=1',
     alt: '山东郓城西瓜酱摄影级生成图',
   },
   '山东|奶汤蒲菜': {
-    url: '/food-images/shandong-jinan-milk-soup-pucai.png?v=1',
+    url: '/food-images/shandong-jinan-milk-soup-pucai.webp?v=1',
     alt: '山东济南奶汤蒲菜摄影级生成图',
   },
   '山东|清水炒蛋': {
-    url: '/food-images/shandong-clear-water-eggs.png?v=2',
+    url: '/food-images/shandong-clear-water-eggs.webp?v=2',
     alt: '山东济南章丘清水炒蛋摄影级生成图',
   },
   '山东|九转大肠': {
-    url: '/food-images/shandong-jiuzhuan-intestine.png?v=1',
+    url: '/food-images/shandong-jiuzhuan-intestine.webp?v=1',
     alt: '山东济南章丘九转大肠摄影级生成图',
   },
   '山东|摔面': {
-    url: '/food-images/shandong-jiaozhou-thrown-noodles.png?v=1',
+    url: '/food-images/shandong-jiaozhou-thrown-noodles.webp?v=1',
     alt: '山东胶州摔面摄影级生成图',
   },
   '山东|爆炒腰花': {
-    url: '/food-images/shandong-stir-fried-kidney.png?v=1',
+    url: '/food-images/shandong-stir-fried-kidney.webp?v=1',
     alt: '山东爆炒腰花摄影级生成图',
   },
   '山东|七彩饺子': {
-    url: '/food-images/shandong-colorful-dumplings.png?v=1',
+    url: '/food-images/shandong-colorful-dumplings.webp?v=1',
     alt: '山东胶东七彩饺子摄影级生成图',
   },
   '山东|甜晒鱼': {
-    url: '/food-images/shandong-sweet-sun-dried-fish.png?v=1',
+    url: '/food-images/shandong-sweet-sun-dried-fish.webp?v=1',
     alt: '山东甜晒鱼摄影级生成图',
   },
   '山东|鲅鱼饺子': {
-    url: '/food-images/shandong-mackerel-dumplings.png?v=1',
+    url: '/food-images/shandong-mackerel-dumplings.webp?v=1',
     alt: '山东胶东鲅鱼饺子摄影级生成图',
   },
   '四川|泡椒': {
-    url: '/food-images/sichuan-pickled-peppers.png?v=1',
+    url: '/food-images/sichuan-pickled-peppers.webp?v=1',
     alt: '四川泡椒摄影级生成图',
   },
   '四川|鱼香肉丝': {
-    url: '/food-images/sichuan-yuxiang-shredded-pork.png?v=1',
+    url: '/food-images/sichuan-yuxiang-shredded-pork.webp?v=1',
     alt: '四川鱼香肉丝摄影级生成图',
   },
   '四川|豆瓣酱': {
-    url: '/food-images/sichuan-doubanjiang.png?v=1',
+    url: '/food-images/sichuan-doubanjiang.webp?v=1',
     alt: '四川豆瓣酱摄影级生成图',
   },
   '四川|麻婆豆腐': {
-    url: '/food-images/sichuan-mapo-tofu.png?v=1',
+    url: '/food-images/sichuan-mapo-tofu.webp?v=1',
     alt: '四川麻婆豆腐摄影级生成图',
   },
   '四川|藤椒鱼': {
-    url: '/food-images/sichuan-green-peppercorn-fish.png?v=1',
+    url: '/food-images/sichuan-green-peppercorn-fish.webp?v=1',
     alt: '四川藤椒鱼摄影级生成图',
   },
   '四川|嫩豆花': {
-    url: '/food-images/sichuan-leshan-douhua.png?v=1',
+    url: '/food-images/sichuan-leshan-douhua.webp?v=1',
     alt: '四川乐山嫩豆花摄影级生成图',
   },
   '四川|甜水面': {
-    url: '/food-images/sichuan-sweet-water-noodles.png?v=1',
+    url: '/food-images/sichuan-sweet-water-noodles.webp?v=1',
     alt: '四川甜水面摄影级生成图',
   },
   '四川|燃面': {
-    url: '/food-images/sichuan-yibin-ranmian.png?v=1',
+    url: '/food-images/sichuan-yibin-ranmian.webp?v=1',
     alt: '四川宜宾燃面摄影级生成图',
   },
   '四川|宜宾腌菜': {
-    url: '/food-images/sichuan-yibin-pickles.png?v=1',
+    url: '/food-images/sichuan-yibin-pickles.webp?v=1',
     alt: '四川宜宾腌菜摄影级生成图',
   },
   '四川|泡菜鱼': {
-    url: '/food-images/sichuan-pickled-fish.png?v=1',
+    url: '/food-images/sichuan-pickled-fish.webp?v=1',
     alt: '四川泡菜鱼摄影级生成图',
   },
   '四川|泡菜': {
-    url: '/food-images/sichuan-paocai.png?v=1',
+    url: '/food-images/sichuan-paocai.webp?v=1',
     alt: '四川泡菜摄影级生成图',
   },
   '四川|洋芋': {
-    url: '/food-images/sichuan-liangshan-potatoes.png?v=1',
+    url: '/food-images/sichuan-liangshan-potatoes.webp?v=1',
     alt: '四川凉山洋芋摄影级生成图',
   },
   '四川|彝族坨坨肉': {
-    url: '/food-images/sichuan-tuotuorou.png?v=1',
+    url: '/food-images/sichuan-tuotuorou.webp?v=1',
     alt: '四川凉山彝族坨坨肉摄影级生成图',
   },
   '四川|凉糕': {
-    url: '/food-images/sichuan-leshan-lianggao.png?v=1',
+    url: '/food-images/sichuan-leshan-lianggao.webp?v=1',
     alt: '四川乐山凉糕摄影级生成图',
   },
   '重庆|火锅': {
-    url: '/food-images/chongqing-hotpot.png?v=1',
+    url: '/food-images/chongqing-hotpot.webp?v=1',
     alt: '重庆火锅摄影级生成图',
   },
   '重庆|小面': {
-    url: '/food-images/chongqing-xiaomian.png?v=1',
+    url: '/food-images/chongqing-xiaomian.webp?v=1',
     alt: '重庆小面摄影级生成图',
   },
   '重庆|涮黄喉': {
-    url: '/food-images/chongqing-huanghou.png?v=1',
+    url: '/food-images/chongqing-huanghou.webp?v=1',
     alt: '重庆涮黄喉摄影级生成图',
   },
   '重庆|鸭肠': {
-    url: '/food-images/chongqing-duck-intestines.png?v=1',
+    url: '/food-images/chongqing-duck-intestines.webp?v=1',
     alt: '重庆鸭肠摄影级生成图',
   },
 };
