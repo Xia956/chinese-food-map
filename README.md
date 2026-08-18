@@ -70,4 +70,8 @@ Before adding or editing a record, verify its location, documentary reference, c
 
 This repository records source and license metadata for external facts and media. Verification status describes the project's review state, not ownership or permission to redistribute third-party material. Review each linked source and license before reusing the dataset or media.
 
+## Image disclosure
+
+All food images in this repository were generated with OpenAI image generation models, primarily image2. They are illustrative assets, not documentary stills or photographs of actual dishes.
+
 The project currently uses no environment variables. If that changes, add an `.env.example` containing variable names and safe example values only.
