@@ -537,7 +537,8 @@ a {
 
 .food-card {
   position: relative;
-  display: block;
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
   width: 274px;
   flex: 0 0 274px;
@@ -591,6 +592,7 @@ a {
 }
 
 .food-card-copy {
+  flex: 1;
   padding: 13px 14px 15px;
   background: rgba(248, 231, 197, 0.9);
 }
