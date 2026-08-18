@@ -7,6 +7,52 @@
 
 两个语言入口共用地图、图片和核实后的事实数据；英文版使用独立的英文显示层和带英文字幕或英文音轨的 YouTube 分集链接。
 
+## English overview
+
+**A Bite of China Food Map** is a bilingual, map-first data product for exploring regional Chinese food, ingredients, and cultural context. It uses one shared structured dataset with separate Chinese and English presentation layers.
+
+The project explores how AI can support research, translation, and product development without treating generated output as ground truth. Documentary references, locations, and cultural claims retain source metadata and a visible verification status.
+
+### Highlights
+
+- Interactive province-level map with food search and filters.
+- 232 structured food records in the latest committed data audit.
+- Source attribution and confidence labels at record level.
+- 174 verified records and 58 records explicitly marked for further review in the latest audit snapshot.
+- Chinese and English routes backed by the same facts and media.
+- Reproducible audit outputs for missing fields, location review, and removal candidates.
+- Responsive interface built for desktop and mobile exploration.
+
+### Data model and quality workflow
+
+Food records are maintained in [`src/data/foods.ts`](src/data/foods.ts) and include location, coordinates, category, ingredients, flavor profile, story, cultural context, media sources, documentary season/episode references, and confidence status.
+
+Run `npm run audit:data` to regenerate the review files in [`data/`](data/). The workflow keeps uncertain information visible as pending verification instead of silently presenting it as fact. Official documentary and institutional sources are preferred; supplementary datasets are treated as leads until independently verified.
+
+### Tech stack
+
+- React, TypeScript, and Vite
+- Apache ECharts with `china-map-geojson`
+- Structured TypeScript data and a Node.js audit script
+- Responsive CSS with bilingual routing at `/zh` and `/en`
+
+### Run locally
+
+```bash
+npm install
+npm run dev
+```
+
+Useful commands:
+
+- `npm run build` — type-check and build the production site.
+- `npm run audit:data` — regenerate data-quality audit files.
+- `npm run preview` — preview the production build locally.
+
+### Data and media note
+
+This repository records source and license metadata for external facts and media. Verification status describes the project's review state, not ownership or permission to redistribute third-party material. Review each linked source and license before reusing the dataset or media.
+
 ## 本地开发
 
 需要 Node.js 与 npm。
