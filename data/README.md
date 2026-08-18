@@ -1,13 +1,15 @@
 # 数据补齐工作流
 
-本目录保存《舌尖上的中国》美食地图的数据审计产物。审计表由 `npm run audit:data` 生成，来源数据为 `src/data/foods.ts`。
+本目录保存《舌尖上的中国》美食地图的数据审计产物。JSON 文件由 `npm run audit:data` 生成，来源数据为 `src/data/foods.ts`；Excel 文件是供人工复核的快照，不会由该命令自动更新。
 
 ## 文件
 
-- `food-audit.xlsx` / `food-audit.json`：所有仍有缺失字段的条目，包括地点、食材、故事、文化背景、图片和核实状态。
+- `food-audit.json`：所有仍有缺失字段的条目，包括地点、食材、故事、文化背景、图片和核实状态。
+- `food-audit.xlsx`：供人工复核的审计快照，需要人工确认后更新。
 - `food-location-audit.xlsx`：地点人工审核归档。`审核结论` 区分“地点已人工审核”“节目未提供地点（保留）”和“移出正式地图”。
 - `food-location-audit.json`：自动生成的剩余地点缺口，只包含仍需外部来源核实、且尚未完成人工地点审核的条目。
-- `food-removal-candidates.xlsx` / `food-removal-candidates.json`：人工决定移出正式地图的条目，以及缺少可靠外部证据的候选条目。
+- `food-removal-candidates.json`：人工决定移出正式地图的条目，以及缺少可靠外部证据的候选条目。
+- `food-removal-candidates.xlsx`：对应的人工复核快照，需要人工确认后更新。
 - `food-audit-summary.json`：当前缺口统计。
 
 ## 补齐优先级

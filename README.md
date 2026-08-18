@@ -63,7 +63,6 @@ Open the local URL shown by Vite and visit either `/en` or `/zh`.
 - `public/food-images/` — local food images used by the site.
 - `data/` — generated audits and manual review materials.
 - `scripts/` — data maintenance scripts.
-- `CLEANUP_REPORT.md` — repository cleanup and sensitive-data scan report.
 
 ## Content maintenance
 

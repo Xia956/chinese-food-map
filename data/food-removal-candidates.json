@@ -228,13 +228,13 @@
     "story": "公开分集资料将该条目列入《舌尖上的中国》第二季第2集 脚步。地点信息已补充对应的央视网节目页或片段页来源。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
     "culturalContext": "按公开条目中的地名、菜名或官方节目页线索归入贵州 · 雷山，用于地图浏览；更细的地域背景仍待人工校订。",
     "image": {
-      "url": "/food-images/guizhou-leishan-fish-sauce-rice-fish.png?v=1",
+      "url": "/food-images/guizhou-leishan-fish-sauce-rice-fish.webp?v=1",
       "alt": "贵州雷山鱼酱炖稻花鱼摄影级生成图",
       "source": {
         "title": "项目生成摄影图",
         "author": "OpenAI 图像生成",
         "license": "项目内生成素材",
-        "url": "/food-images/guizhou-leishan-fish-sauce-rice-fish.png?v=1"
+        "url": "/food-images/guizhou-leishan-fish-sauce-rice-fish.webp?v=1"
       }
     },
     "season": "第二季",
@@ -418,13 +418,13 @@
     "story": "公开分集资料将该条目列入《舌尖上的中国》第二季第4集 秘境。地点信息已补充对应的央视网节目页或片段页来源。当前数据先保留名称、分集关系、地理归档和来源，后续可继续补入人物与制作过程。",
     "culturalContext": "按公开条目中的地名、菜名或官方节目页线索归入贵州，用于地图浏览；更细的地域背景仍待人工校订。",
     "image": {
-      "url": "/food-images/guizhou-pickled-fish.png?v=1",
+      "url": "/food-images/guizhou-pickled-fish.webp?v=1",
       "alt": "贵州腌鱼摄影级生成图",
       "source": {
         "title": "项目生成摄影图",
         "author": "OpenAI 图像生成",
         "license": "项目内生成素材",
-        "url": "/food-images/guizhou-pickled-fish.png?v=1"
+        "url": "/food-images/guizhou-pickled-fish.webp?v=1"
       }
     },
     "season": "第二季",
