@@ -2,6 +2,8 @@
 
 A bilingual, map-first data product for exploring regional Chinese food, ingredients, and cultural context. The Chinese and English experiences share one structured dataset while using separate presentation layers.
 
+**Live site:** [delicious-china-two.vercel.app](https://delicious-china-two.vercel.app/)
+
 - Chinese route: `/zh`
 - English route: `/en`
 
